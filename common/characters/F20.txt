@@ -1,0 +1,15 @@
+characters={
+	F20_franz_stangl={
+		name="Franz Stangl"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Franz_Stangl
+			}
+		}
+		country_leader={
+			ideology=rosenberg_tought
+			expire="1982.1.1.1"
+			id=-1
+		}
+	}
+}

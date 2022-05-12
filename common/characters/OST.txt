@@ -1,0 +1,15 @@
+characters={
+	OST_adolf_eichmann={
+		name="Adolf Eichmann"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Adolf_Eichmann
+			}
+		}
+		country_leader={
+			ideology=rosenberg_tought
+			expire="1990.1.1.1"
+			id=-1
+		}
+	}
+}

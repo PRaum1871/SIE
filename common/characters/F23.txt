@@ -1,0 +1,15 @@
+characters={
+	F23_joseph_menguele={
+		name="Josef Mengele"
+		portraits={
+			civilian={
+				large=Portrait_Joseph_Menguele
+			}
+		}
+		country_leader={
+			ideology=esotericism
+			expire="1980.1.1.1"
+			id=-1
+		}
+	}
+}

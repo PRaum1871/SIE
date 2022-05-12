@@ -1,0 +1,15 @@
+characters={
+	F19_baymirza_hayit={
+		name="Baymirza Hayit"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Baymirza_Hayit
+			}
+		}
+		country_leader={
+			ideology=rosenberg_tought
+			expire="2015.1.1.1"
+			id=-1
+		}
+	}
+}

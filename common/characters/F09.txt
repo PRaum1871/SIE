@@ -1,0 +1,15 @@
+characters={
+	F09_friedhelm_busse={
+		name="Friedhelm Busse"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Friedhelm_Busse
+			}
+		}
+		country_leader={
+			ideology=rosenberg_tought
+			expire="2008.1.1.1"
+			id=-1
+		}
+	}
+}

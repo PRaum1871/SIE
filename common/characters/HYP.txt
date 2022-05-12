@@ -1,0 +1,15 @@
+characters={
+	HYP_søren_kam={
+		name="Søren Kam"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Søren_Kam
+			}
+		}
+		country_leader={
+			ideology=rosenberg_tought
+			expire="2015.1.1.1"
+			id=-1
+		}
+	}
+}

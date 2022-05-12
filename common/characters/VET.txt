@@ -1,0 +1,15 @@
+characters={
+	VET_grober_chungus={
+		name="Hermann Göring"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Portrait_Grober_Chungus
+			}
+		}
+		country_leader={
+			ideology=rosenberg_tought
+			expire="1990.1.1.1"
+			id=-1
+		}
+	}
+}

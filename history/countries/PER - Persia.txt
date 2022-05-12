@@ -26,7 +26,6 @@ recruit_character = PER_ahmad_mira_khosravani
 recruit_character = PER_ahmad_khan_nakhjaavan
 recruit_character = PER_mohammed_nakhjavani
 recruit_character = PER_abdolreza_afkhami
-recruit_character = PER_fazlollah_zahedi
 recruit_character = PER_mohammed_reza_pahlavi
 recruit_character = PER_ali_akbar_deiva
 recruit_character = PER_hossein_afkhami

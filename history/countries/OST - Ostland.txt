@@ -14,9 +14,11 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	ultranationalism = 35
-	fascism = 25
-	communism = 50
+	ultranationalism = 30
+	fascism = 20
+	communism = 20
+	liberalism = 15
+	conservatism = 15
 }
 
 recruit_character = OST_adolf_eichmann

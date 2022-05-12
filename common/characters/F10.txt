@@ -1,0 +1,15 @@
+characters={
+	F10_hans_rudel={
+		name="Hans-Ulrich Rudel"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Hans-Ulrich_Rudel
+			}
+		}
+		country_leader={
+			ideology=rosenberg_tought
+			expire="1982.1.1.1"
+			id=-1
+		}
+	}
+}

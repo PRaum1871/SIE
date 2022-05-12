@@ -1,0 +1,15 @@
+characters={
+	F14_otto_remer={
+		name="Otto Remer"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Otto_Remer
+			}
+		}
+		country_leader={
+			ideology=rosenberg_tought
+			expire="1997.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,15 @@
+characters={
+	F08_friedrich_thielen={
+		name="Friedrich Thielen"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Friedrich_Thielen
+			}
+		}
+		country_leader={
+			ideology=rosenberg_tought
+			expire="1993.1.1.1"
+			id=-1
+		}
+	}
+}
