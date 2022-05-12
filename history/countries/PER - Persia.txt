@@ -11,6 +11,7 @@ set_technology = {
 	CAS1 = 1
 }
 
+recruit_character = PER_fazlollah_zahedi
 recruit_character = PER_reza_shah_pahlavi
 recruit_character = PER_soleyman_mirza_eskandari
 recruit_character = PER_hasan_arfa
@@ -40,7 +41,7 @@ if = {
 	}
 	set_autonomy = {
 		target = TMS
-		autonomous_state = autonomy_dominion
+		autonomous_state = autonomy_colony
 	}
 	else = {
 		puppet = TMS
