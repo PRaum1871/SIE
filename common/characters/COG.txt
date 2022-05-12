@@ -1,0 +1,16 @@
+characters={
+	COG_kasa_vobu ={
+		name= "Joseph Kasa-Vubu"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Kaza_Vobu
+			}
+			
+		}
+		country_leader={
+			ideology=progressivism 
+			expire="1969.1.1.1"
+			id=-1
+		}
+	}
+}

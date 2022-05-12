@@ -1,0 +1,16 @@
+characters={
+	TZN_julius_nyerere={
+		name= "Julius Nyerere"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Julius_Nyerere
+			}
+			
+		}
+		country_leader={
+			ideology=agrarian_socialism 
+			expire="1989.1.1.1"
+			id=-1
+		}
+	}
+}

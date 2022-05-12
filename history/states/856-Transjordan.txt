@@ -1,0 +1,25 @@
+state={
+	id=856
+	name="STATE_856"
+	provinces={
+		4017 4115 7151 7170 10089 
+	}
+	history={
+		owner = PAL
+		buildings = {
+			infrastructure = 3
+			
+
+		}
+		victory_points = {
+			7151 1 
+		}
+		add_core_of = JOR
+		add_core_of = SAU
+
+	}
+	manpower=387300
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=2.000
+}

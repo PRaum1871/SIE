@@ -1,0 +1,25 @@
+state={
+	id=859
+	name="STATE_859"
+	provinces={
+		11014 12941 
+	}
+	history={
+		owner = UGA
+		add_core_of = SOM
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			12941 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+	manpower=365290
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=pastoral
+}

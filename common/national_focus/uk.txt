@@ -1,0 +1,3784 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = british_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ENG
+		}
+	}
+	default = no
+
+	continuous_focus_position = { x = 500	y = 5000 }
+	
+	focus = {
+		id = ENG_resolving_the_mediterranean_crisis
+		icon = GFX_ENG_resolving_the_mediterranean_crisis
+		x = 12
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_onto_important_matters
+		icon = GFX_ENG_onto_important_matters
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = ENG_resolving_the_mediterranean_crisis
+		}
+		relative_position_id = ENG_resolving_the_mediterranean_crisis
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_looking_westward
+		icon = GFX_ENG_looking_westwards
+		x = -15
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = ENG_onto_important_matters
+		}
+		relative_position_id = ENG_onto_important_matters
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_call_turing
+		icon = GFX_ENG_call_turing
+		x = -2
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = ENG_looking_westward
+		}
+		relative_position_id = ENG_looking_westward
+
+		mutually_exclusive = {
+		focus = ENG_dial_mordell
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_detente_with_the_LFW
+		icon = GFX_ENG_detente_with_the_LFW
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = ENG_call_turing
+		}
+		relative_position_id = ENG_call_turing
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_a_visit_to_london
+		icon = GFX_ENG_a_visit_to_london
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = ENG_detente_with_the_LFW
+		}
+		relative_position_id = ENG_detente_with_the_LFW
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_a_visit_to_washington
+		icon = GFX_ENG_a_visit_to_washington
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = ENG_a_visit_to_london
+		}
+		relative_position_id = ENG_a_visit_to_london
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_offer_immigration_from_the_usa
+		icon = GFX_ENG_offer_immigration
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = ENG_call_turing
+		}
+		relative_position_id = ENG_call_turing
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_invite_american_businesses
+		icon = GFX_ENG_invest_in_american_business
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = ENG_offer_immigration_from_the_usa
+		}
+		relative_position_id = ENG_offer_immigration_from_the_usa
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_quietly_support_civil_rights_movement
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = ENG_invite_american_businesses
+		}
+		relative_position_id = ENG_invite_american_businesses
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_dial_mordell
+		icon = GFX_goal_generic_build_tank
+		x = 2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = ENG_looking_westward
+		}
+		relative_position_id = ENG_looking_westward
+
+		mutually_exclusive = {
+		focus = ENG_call_turing
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_guarantee_newfoundland_sovereignty
+		icon = GFX_goal_generic_build_tank
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = ENG_dial_mordell
+		}
+		relative_position_id = ENG_dial_mordell
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_condemn_canadian_agression
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = ENG_guarantee_newfoundland_sovereignty
+		}
+		relative_position_id = ENG_guarantee_newfoundland_sovereignty
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_aid_the_newfoundland_army
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = ENG_condemn_canadian_agression
+		}
+		relative_position_id = ENG_condemn_canadian_agression
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_infiltrate_the_civil_rights_movement
+		icon = GFX_goal_generic_build_tank
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = ENG_dial_mordell
+		}
+		relative_position_id = ENG_dial_mordell
+		
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_pay_lip_service_for_america
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = ENG_infiltrate_the_civil_rights_movement
+		}
+		relative_position_id = ENG_infiltrate_the_civil_rights_movement
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_support_the_ALSR
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = ENG_pay_lip_service_for_america
+		}
+		relative_position_id = ENG_pay_lip_service_for_america
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_shipment_to_st_johns
+		icon = GFX_goal_generic_build_tank
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = ENG_aid_the_newfoundland_army
+		focus = ENG_support_the_ALSR
+		}
+		relative_position_id = ENG_support_the_ALSR
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_the_embassy_in_dc
+		icon = GFX_goal_generic_build_tank
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = ENG_a_visit_to_washington
+		focus = ENG_quietly_support_civil_rights_movement
+		}
+		relative_position_id = ENG_a_visit_to_washington
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_why_cant_we_be_friends
+		icon = GFX_goal_generic_build_tank
+		x = -2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_shipment_to_st_johns
+		focus = ENG_the_embassy_in_dc
+		}
+		
+		relative_position_id = ENG_shipment_to_st_johns
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_looking_within
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_onto_important_matters
+		}
+		
+		relative_position_id = ENG_onto_important_matters
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_the_1960_party_congress
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_looking_within
+		}
+		
+		relative_position_id = ENG_looking_within
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_state_of_the_government
+		icon = GFX_goal_generic_build_tank
+		x = -7
+		y = 5
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_the_1960_party_congress
+		}
+		
+		relative_position_id = ENG_the_1960_party_congress
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_draft_a_new_contitution
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_state_of_the_government
+		}
+		
+		relative_position_id = ENG_state_of_the_government
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_ffsr_supremacy
+		icon = GFX_goal_generic_build_tank
+		x = -2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_draft_a_new_contitution
+		}
+		
+		relative_position_id = ENG_draft_a_new_contitution
+
+		mutually_exclusive = {
+		focus = ENG_council_of_trusted_supremacy
+		focus = ENG_same_commitee_supremacy
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_incorporate_the_bronze_guard
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_ffsr_supremacy
+		}
+		
+		relative_position_id = ENG_ffsr_supremacy
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_the_vanguard_party
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_incorporate_the_bronze_guard
+		}
+		
+		relative_position_id = ENG_incorporate_the_bronze_guard
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_allow_one_party_elections
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_the_vanguard_party
+		}
+		
+		relative_position_id = ENG_the_vanguard_party
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_council_of_trusted_supremacy
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_draft_a_new_contitution
+		}
+		
+		relative_position_id = ENG_draft_a_new_contitution
+
+		mutually_exclusive = {
+		focus = ENG_ffsr_supremacy
+		focus = ENG_same_commitee_supremacy
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_who_will_be_trusted
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_council_of_trusted_supremacy
+		}
+		
+		relative_position_id = ENG_council_of_trusted_supremacy
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_council_first_commitee_second
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_who_will_be_trusted
+		}
+		
+		relative_position_id = ENG_who_will_be_trusted
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_centralize_political_power
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_council_first_commitee_second
+		}
+		
+		relative_position_id = ENG_council_first_commitee_second
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_same_commitee_supremacy
+		icon = GFX_goal_generic_build_tank
+		x = 2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_draft_a_new_contitution
+		}
+		
+		relative_position_id = ENG_draft_a_new_contitution
+
+		mutually_exclusive = {
+		focus = ENG_ffsr_supremacy
+		focus = ENG_council_of_trusted_supremacy
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_reestablish_the_prime_minister
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_same_commitee_supremacy
+		}
+		
+		relative_position_id = ENG_same_commitee_supremacy
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_allow_commitee_elections
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_reestablish_the_prime_minister
+		}
+		
+		relative_position_id = ENG_reestablish_the_prime_minister
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_control_the_opposition
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_allow_commitee_elections
+		}
+		
+		relative_position_id = ENG_allow_commitee_elections
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_constitution_ratified
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_control_the_opposition
+		focus = ENG_centralize_political_power
+		focus = ENG_allow_one_party_elections
+		}
+		
+		relative_position_id = ENG_centralize_political_power
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_state_of_the_economy
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_the_1960_party_congress
+		}
+		
+		relative_position_id = ENG_the_1960_party_congress
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_who_cares_about_the_opposites
+		icon = GFX_goal_generic_build_tank
+		x = -2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_state_of_the_economy
+		}
+		
+		relative_position_id = ENG_state_of_the_economy
+
+		mutually_exclusive = {
+		focus = ENG_fix_the_opposites_economy
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ENG_appease_the_lucky_few
+		icon = GFX_goal_generic_build_tank
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_who_cares_about_the_opposites
+		}
+		
+		relative_position_id = ENG_who_cares_about_the_opposites
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_allow_slight_wage_reforms
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_appease_the_lucky_few
+		}
+		
+		relative_position_id = ENG_appease_the_lucky_few
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_let_the_masters_deal_with_it
+		icon = GFX_goal_generic_build_tank
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_who_cares_about_the_opposites
+		}
+		
+		relative_position_id = ENG_who_cares_about_the_opposites
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_lessen_the_lashings
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_let_the_masters_deal_with_it
+		}
+		
+		relative_position_id = ENG_let_the_masters_deal_with_it
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_fix_the_opposites_economy
+		icon = GFX_goal_generic_build_tank
+		x = 2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_state_of_the_economy
+		}
+		
+		relative_position_id = ENG_state_of_the_economy
+
+		mutually_exclusive = {
+		focus = ENG_who_cares_about_the_opposites
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_unify_the_currencies
+		icon = GFX_goal_generic_build_tank
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_fix_the_opposites_economy
+		}
+		
+		relative_position_id = ENG_fix_the_opposites_economy
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_reform_the_wages
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_unify_the_currencies
+		}
+		
+		relative_position_id = ENG_unify_the_currencies
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_keep_the_peasants_fed
+		icon = GFX_goal_generic_build_tank
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_fix_the_opposites_economy
+		}
+		
+		relative_position_id = ENG_fix_the_opposites_economy
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_increase_rations
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_keep_the_peasants_fed
+		}
+		
+		relative_position_id = ENG_keep_the_peasants_fed
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_out_of_sight_out_of_mind
+		icon = GFX_goal_generic_build_tank
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_lessen_the_lashings
+		focus = ENG_allow_slight_wage_reforms
+		}
+		
+		relative_position_id = ENG_lessen_the_lashings
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_reform_pays_off
+		icon = GFX_goal_generic_build_tank
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_reform_the_wages
+		focus = ENG_increase_rations
+		}
+		
+		relative_position_id = ENG_increase_rations
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	
+	focus = {
+		id = ENG_for_the_civilians
+		icon = GFX_goal_generic_build_tank
+		x = 2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_out_of_sight_out_of_mind
+		focus = ENG_reform_pays_off
+		}
+		
+		relative_position_id = ENG_out_of_sight_out_of_mind
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_allow_free_markets
+		icon = GFX_goal_generic_build_tank
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_for_the_civilians
+		}
+		
+		relative_position_id = ENG_for_the_civilians
+
+		mutually_exclusive = {
+			focus = ENG_control_the_market
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_allow_worker_votes
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_allow_free_markets
+		}
+		
+		relative_position_id = ENG_allow_free_markets
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_break_up_monopolies
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_allow_worker_votes
+		}
+		
+		relative_position_id = ENG_allow_worker_votes
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_keep_vital_companies_safe
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_break_up_monopolies
+		}
+		
+		relative_position_id = ENG_break_up_monopolies
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_control_the_market
+		icon = GFX_goal_generic_build_tank
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_for_the_civilians
+		}
+		
+		relative_position_id = ENG_for_the_civilians
+
+		mutually_exclusive = {
+		focus = ENG_allow_free_markets
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_pay_lip_service_for_market_reform
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_control_the_market
+		}
+		
+		relative_position_id = ENG_control_the_market
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_manage_state_corporations
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_pay_lip_service_for_market_reform
+		}
+		
+		relative_position_id = ENG_pay_lip_service_for_market_reform
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_technocratic_socialism
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_manage_state_corporations
+		}
+		
+		relative_position_id = ENG_manage_state_corporations
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_refreshed_economy
+		icon = GFX_goal_generic_build_tank
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_technocratic_socialism
+		focus = ENG_keep_vital_companies_safe
+		}
+		
+		
+		
+		relative_position_id = ENG_technocratic_socialism
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_state_of_the_army
+		icon = GFX_goal_generic_build_tank
+		x = 7
+		y = 4
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_the_1960_party_congress
+		}
+		
+		
+		
+		relative_position_id = ENG_the_1960_party_congress
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_retire_old_officers
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_state_of_the_army
+		}
+		
+		
+		
+		relative_position_id = ENG_state_of_the_army
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_the_bronze_guard_question
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_retire_old_officers
+		}
+		
+		
+		
+		relative_position_id = ENG_retire_old_officers
+
+		mutually_exclusive = {
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_the_goverment_controls_the_army
+		icon = GFX_goal_generic_build_tank
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_the_bronze_guard_question
+		}
+		
+		
+		
+		relative_position_id = ENG_the_bronze_guard_question
+
+		mutually_exclusive = {
+		focus = ENG_bronze_guard_controls_the_army
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_bronze_guard_controls_the_army
+		icon = GFX_goal_generic_build_tank
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_the_bronze_guard_question
+		}
+		
+		
+		
+		relative_position_id = ENG_the_bronze_guard_question
+
+		mutually_exclusive = {
+		focus = ENG_the_goverment_controls_the_army
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_reform_the_brittanic_military_academies
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_the_goverment_controls_the_army
+		}
+		
+		
+		
+		relative_position_id = ENG_the_goverment_controls_the_army
+
+		mutually_exclusive = {
+	
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_peoples_right_to_defend
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_reform_the_brittanic_military_academies
+		}
+		
+		
+		
+		relative_position_id = ENG_reform_the_brittanic_military_academies
+
+		mutually_exclusive = {
+	
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_allow_conscription
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_peoples_right_to_defend
+		}
+		
+		
+		
+		relative_position_id = ENG_peoples_right_to_defend
+
+		mutually_exclusive = {
+	
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_meritocracy_on_the_army
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_bronze_guard_controls_the_army
+		}
+		
+		
+		
+		relative_position_id = ENG_bronze_guard_controls_the_army
+
+		mutually_exclusive = {
+	
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_only_the_best_of_the_best
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_meritocracy_on_the_army
+		}
+		
+		
+		
+		relative_position_id = ENG_meritocracy_on_the_army
+
+		mutually_exclusive = {
+	
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_test_our_conscripts
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_only_the_best_of_the_best
+		}
+		
+		
+		
+		relative_position_id = ENG_only_the_best_of_the_best
+
+		mutually_exclusive = {
+	
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_a_new_model_army
+		icon = GFX_goal_generic_build_tank
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_test_our_conscripts
+		}
+		prerequisite = {
+		focus = ENG_allow_conscription
+		}
+		
+		
+		
+		relative_position_id = ENG_test_our_conscripts
+
+		mutually_exclusive = {
+	
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_looking_eastwards
+		icon = GFX_goal_generic_build_tank
+		x = 15
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_onto_important_matters
+		}
+		
+		
+		
+		relative_position_id = ENG_onto_important_matters
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_contact_yezhov_clique
+		icon = GFX_goal_generic_build_tank
+		x = -2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_looking_eastwards
+		}
+		
+		relative_position_id = ENG_looking_eastwards
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_renew_the_german_brittanic_pact
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_looking_eastwards
+		}
+		
+		relative_position_id = ENG_looking_eastwards
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ENG_pressure_the_swedes_and_finns
+		icon = GFX_goal_generic_build_tank
+		x = 2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_looking_eastwards
+		}
+		
+		relative_position_id = ENG_looking_eastwards
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_smuggle_weapons_into_siberia
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_contact_yezhov_clique
+		}
+		
+		relative_position_id = ENG_contact_yezhov_clique
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_secure_the_seas
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_renew_the_german_brittanic_pact
+		}
+		
+		relative_position_id = ENG_renew_the_german_brittanic_pact
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_support_nordic_sameists
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_pressure_the_swedes_and_finns
+		}
+		
+		relative_position_id = ENG_pressure_the_swedes_and_finns
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ENG_support_yukio
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_smuggle_weapons_into_siberia
+		}
+		
+		prerequisite = {
+		focus = ENG_secure_the_seas
+		}
+		
+		prerequisite = {
+		focus = ENG_support_nordic_sameists
+		}
+		
+		relative_position_id = ENG_secure_the_seas
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_desestabilize_sweden
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_support_yukio
+		}
+		
+		relative_position_id = ENG_support_yukio
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_mordell_doctrine
+		icon = GFX_goal_generic_build_tank
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_desestabilize_sweden
+		}
+		
+		relative_position_id = ENG_desestabilize_sweden
+
+		mutually_exclusive = {
+		focus = ENG_greyson_doctrine
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_allow_norwegian_threats
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_mordell_doctrine
+		}
+		
+		relative_position_id = ENG_mordell_doctrine
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_let_the_old_guard_destroy_sweden
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_allow_norwegian_threats
+		}
+		
+		relative_position_id = ENG_allow_norwegian_threats
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_under_the_table_arrangements
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_let_the_old_guard_destroy_sweden
+		}
+		
+		relative_position_id = ENG_let_the_old_guard_destroy_sweden
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_greyson_doctrine
+		icon = GFX_goal_generic_build_tank
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_desestabilize_sweden
+		}
+		
+		relative_position_id = ENG_desestabilize_sweden
+
+		mutually_exclusive = {
+		focus = ENG_mordell_doctrine
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_send_agents_to_sweden
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_greyson_doctrine
+		}
+		
+		relative_position_id = ENG_greyson_doctrine
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_infilltrate_their_society
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_send_agents_to_sweden
+		}
+		
+		relative_position_id = ENG_send_agents_to_sweden
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_assasinate_the_junta_leader
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_infilltrate_their_society
+		}
+		
+		relative_position_id = ENG_infilltrate_their_society
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_watch_the_fireworks
+		icon = GFX_goal_generic_build_tank
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_assasinate_the_junta_leader focus = ENG_under_the_table_arrangements
+		}
+		
+		relative_position_id = ENG_assasinate_the_junta_leader
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_invite_yukio
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		prerequisite = {
+		focus = ENG_watch_the_fireworks
+		}
+		
+		relative_position_id = ENG_watch_the_fireworks
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_talks_of_the_new_succesor
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		
+		
+		prerequisite = {
+		focus = ENG_why_cant_we_be_friends
+		}
+		
+		prerequisite = {
+		focus = ENG_refreshed_economy
+		}
+		
+		prerequisite = {
+		focus = ENG_constitution_ratified
+		}
+		
+		prerequisite = {
+		focus = ENG_a_new_model_army
+		}
+		
+		prerequisite = {
+		focus = ENG_invite_yukio
+		}
+		
+		relative_position_id = ENG_refreshed_economy
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_turingists_has_the_floor
+		icon = GFX_goal_generic_build_tank
+		x =-10
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_talks_of_the_new_succesor
+		}
+		
+		relative_position_id = ENG_talks_of_the_new_succesor
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_let_the_cries_be_heard
+		icon = GFX_goal_generic_build_tank
+		x =-2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_turingists_has_the_floor
+		}
+		
+		relative_position_id = ENG_turingists_has_the_floor
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_understand_the_new_generations
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_let_the_cries_be_heard
+		}
+		
+		relative_position_id = ENG_let_the_cries_be_heard
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_open_the_shining_city_on_the_hill
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_understand_the_new_generations
+		}
+		
+		relative_position_id = ENG_understand_the_new_generations
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_be_part_of_the_world
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_open_the_shining_city_on_the_hill
+		}
+		
+		relative_position_id = ENG_open_the_shining_city_on_the_hill
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_secure_the_same_heart
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_turingists_has_the_floor
+		}
+		
+		relative_position_id = ENG_turingists_has_the_floor
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_review_the_old_rules
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_secure_the_same_heart
+		}
+		
+		relative_position_id = ENG_secure_the_same_heart
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_revise_our_goals
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_review_the_old_rules
+		}
+		
+		relative_position_id = ENG_review_the_old_rules
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_old_faces_new_approaches
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_revise_our_goals
+		}
+		
+		relative_position_id = ENG_revise_our_goals
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_adopt_a_new_foreign_policies
+		icon = GFX_goal_generic_build_tank
+		x = 2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_turingists_has_the_floor
+		}
+		
+		relative_position_id = ENG_turingists_has_the_floor
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_the_enemy_of_my_enemy
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_adopt_a_new_foreign_policies
+		}
+		
+		relative_position_id = ENG_adopt_a_new_foreign_policies
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_is_my_friend
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_the_enemy_of_my_enemy
+		}
+		
+		relative_position_id = ENG_the_enemy_of_my_enemy
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_idealistic_realpolitik
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_is_my_friend
+		}
+		
+		relative_position_id = ENG_is_my_friend
+
+		mutually_exclusive = {
+		
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+}

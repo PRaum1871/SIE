@@ -1,0 +1,15 @@
+characters={
+	BIA_chinua_achebe={
+		name="Chinua Achebe"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Chinua_Achebe
+			}
+		}
+		country_leader={
+			ideology=liberal_socialism
+			expire="2013.1.1.1"
+			id=-1
+		}
+	}
+}

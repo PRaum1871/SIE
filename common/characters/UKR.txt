@@ -1,0 +1,21 @@
+characters={
+	UKR_yaroslav_halan={
+		name= "Yaroslav Halan"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Portrait_Yaroslav_Halan
+			}
+			
+		}
+		country_leader={
+			ideology=national_communism 
+			expire="1989.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=leninism 
+			expire="1989.1.1.1"
+			id=-1
+		}
+	}
+}

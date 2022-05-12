@@ -1,0 +1,17 @@
+characters={
+	NEW_rupert_maccullough={
+		name= "Rupert MacCullough"
+		portraits={
+			civilian={
+				large = GFX_portrait_rupert_maccullough
+			}
+			
+		}
+		country_leader={
+			ideology=sameism_ideology  
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

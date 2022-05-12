@@ -1,0 +1,54 @@
+ideas = {
+
+	country = {
+		FRA_the_untouched_crown = {
+			
+			picture = "GFX_idea_FRA_untouched_crown"
+			
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				stability_weekly = -0.05
+			}
+		}
+	}
+	
+	country = {
+		FRA_internal_infightings = {
+			
+			picture = "GFX_idea_FRA_internal_infightings"
+			
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				stability_factor = 0.10
+				political_power_cost = 0.9
+			}
+		}
+	}
+	
+	country = {
+		FRA_algerian_crisis = {
+			
+			picture = "GFX_idea_FRA_algerian_crisis"
+			
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				party_popularity_stability_factor = -0.3
+				industrial_capacity_dockyard = -0.25
+				industrial_capacity_factory = -0.25
+				roduction_factory_efficiency_gain_factor = -0.25
+				production_factory_max_efficiency_factor = -0.25 
+			}
+		}
+	}
+	
+	
+}

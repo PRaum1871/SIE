@@ -1,0 +1,24 @@
+﻿capital = 37
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 0
+
+set_politics = {
+	ruling_party = ultranationalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	ultranationalism = 38
+	socdem = 23
+	liberalism = 14
+	conservatism = 15
+	authoritarianism = 10
+}
+
+recruit_character = HYP_søren_kam

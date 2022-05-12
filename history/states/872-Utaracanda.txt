@@ -1,0 +1,22 @@
+state={
+	id=872
+	name="STATE_872"
+	provinces={
+		1898 3989 5002 5157 10021 
+	}
+	history={
+		owner = NEP
+		add_core_of = NEP
+		buildings = {
+			infrastructure = 1
+			
+
+		}
+
+
+	}
+	manpower=987203
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=pastoral
+}

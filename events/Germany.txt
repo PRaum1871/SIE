@@ -1,0 +1,89 @@
+#######################################################
+###################### GERMANY ########################
+#######################################################
+
+add_namespace = germany
+
+country_event = {	#Bomb! (strasser hears ticking noises)
+	id = germany.1
+	title = germany.1.t
+	desc = germany.1.d
+	picture = GFX_report_event_bunker_01
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	hidden = no
+	
+	trigger = {
+		
+	}
+
+	option = {
+	name = germany.1.a
+	country_event = {
+    id = germany.3
+	}
+	ai_chance = { factor = 10 }
+	}
+	
+	option = {
+	name = germany.1.b
+	country_event = {
+    id = germany.2
+	}
+	ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {	#Strasser is not senile yet! (strasser lives)
+	id = germany.2
+	title = germany.2.t
+	desc = germany.2.d
+	picture = GFX_report_event_bunker_01
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	hidden = no
+	
+	trigger = {
+		
+	}
+
+	option = {
+	name = germany.2.a
+	ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {	#Strasser is senile (strasser dies)
+	id = germany.3
+	title = germany.3.t
+	desc = germany.3.d
+	picture = GFX_report_event_bunker_01
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	hidden = no
+	
+	trigger = {
+		
+	}
+
+	option = {
+	name = germany.3.a
+	kill_country_leader = yes
+	set_politics = {
+	ruling_party = ultranationalism
+    elections_allowed = no
+    name = "NSDAP(R)"
+	}
+	load_focus_tree = rosenberg_focus
+	ai_chance = { factor = 10 }
+	}
+}

@@ -1,0 +1,21 @@
+characters={
+	AMU_alexander_kazembek={
+		name= "Alexander Kazembek"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Kazembek
+			}
+			
+		}
+		country_leader={
+			ideology=military_junta  
+			expire="1977.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=monarcho_bolshevism
+			expire="1977.1.1.1"
+			id=-1
+		}
+	}
+}

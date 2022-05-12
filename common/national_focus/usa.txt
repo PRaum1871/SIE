@@ -1,0 +1,353 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = america_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = USA
+		}
+	}
+	default = no
+
+	continuous_focus_position = { x = 500	y = 5000 }
+	
+	focus = {
+		id = USA_the_stassen_presidency
+		icon = GFX_
+		x = 12
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_choosing_a_successor
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = USA_the_stassen_presidency
+		}
+		
+		mutually_exclusive = {
+		}
+		
+		relative_position_id = USA_the_stassen_presidency
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_endorse_the_vice_president
+		icon = GFX_
+		x = -2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = USA_choosing_a_successor
+		}
+		
+		mutually_exclusive = {
+		}
+		
+		relative_position_id = USA_choosing_a_successor
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_the_liberal_touch
+		icon = GFX_
+		x = 2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = USA_choosing_a_successor
+		}
+		
+		mutually_exclusive = {
+		}
+		
+		relative_position_id = USA_choosing_a_successor
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_uniting_america_one_last_time
+		icon = GFX_
+		x = -2
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = USA_endorse_the_vice_president
+		focus = USA_the_liberal_touch
+		}
+		
+		mutually_exclusive = {
+		}
+		
+		relative_position_id = USA_the_liberal_touch
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_a_new_minimum_wage_bill
+		icon = GFX_
+		x = 0
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = USA_uniting_america_one_last_time
+		
+		}
+		
+		mutually_exclusive = {
+		}
+		
+		relative_position_id = USA_uniting_america_one_last_time
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_the_bill_passes
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = USA_a_new_minimum_wage_bill
+	
+		}
+		
+		mutually_exclusive = {
+		}
+		
+		relative_position_id = USA_a_new_minimum_wage_bill
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_the_bill_fails
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = USA_a_new_minimum_wage_bill
+	
+		}
+		
+		mutually_exclusive = {
+		}
+		
+		relative_position_id = USA_a_new_minimum_wage_bill
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_a_president_farewell
+		icon = GFX_
+		x = -1
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = USA_the_bill_fails
+		focus = USA_the_bill_passes
+	
+		}
+		
+		mutually_exclusive = {
+		}
+		
+		relative_position_id = USA_the_bill_fails
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_counting_on_the_votes
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = USA_a_president_farewell
+	
+		}
+		
+		mutually_exclusive = {
+		}
+		
+		relative_position_id = USA_a_president_farewell
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+}

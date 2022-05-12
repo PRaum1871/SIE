@@ -1,0 +1,20 @@
+state={
+	id=868
+	name="STATE_868"
+	provinces={
+		7455 10349 
+	}
+	history={
+		owner = BHU
+		add_core_of = BHU
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	manpower=1118200
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

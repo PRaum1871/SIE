@@ -1,0 +1,16 @@
+characters={
+	RCG_marien_ngouabi ={
+		name= "Marien N'Gouabi"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Marien_Ngouabi
+			}
+			
+		}
+		country_leader={
+			ideology=leninism 
+			expire="1999.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,21 @@
+state={
+	id=873
+	name="STATE_873"
+	provinces={
+		1228 4237 4321 7297 7340 
+	}
+	history={
+		owner = CRJ
+		add_core_of = CRJ
+		buildings = {
+			infrastructure = 2
+		
+
+		}
+
+	}
+	state_category=town
+	manpower=7382900
+	buildings_max_level_factor=1.000
+	local_supplies=4.000
+}

@@ -1,0 +1,25 @@
+state={
+	id=857
+	name="STATE_857"
+	provinces={
+		7491 10510 12333 12359 
+	}
+	history={
+		owner = PER
+		victory_points = {
+			12333 2 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = TMS
+		add_core_of = PER
+
+	}
+	manpower=750000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=1.000
+}

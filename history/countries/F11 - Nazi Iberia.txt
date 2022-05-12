@@ -1,0 +1,26 @@
+﻿capital = 41
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 0
+
+set_politics = {
+	ruling_party = ultranationalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	authoritarianism = 10
+	fascism = 15
+	reactionary = 10
+	socdem = 10
+	communism = 15
+	socialism = 5
+	conservatism = 10
+	liberalism = 10
+	ultranationalism = 15
+}

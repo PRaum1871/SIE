@@ -1,0 +1,64 @@
+﻿###########################
+# Polish Events
+###########################
+
+add_namespace = poland
+
+country_event = { # Poland leaves the pact
+	id = poland.1
+	title = poland.1.t
+	desc = poland.1.d
+	picture = GFX_report_event_polish_tanks_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = poland.1.a
+		leave_faction = yes
+		set_politics = {
+		ruling_party = authoritarianism
+		elections_allowed = no
+		election_frequency = 48
+		}
+		set_popularities = {
+		conservatism = 25
+		liberalism = 25
+		authortarianism = 15
+		fascism = 10
+		socdem = 10
+		communism = 10
+		nazism = 5
+		}
+		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = { #Western Ukraine Rebels
+	id = poland.2
+	title = poland.2.t
+	desc = poland.2.d
+	picture = GFX_report_event_polish_tanks_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = poland.1.a
+		leave_faction = yes
+		set_politics = {
+		ruling_party = authoritarianism
+		elections_allowed = no
+		election_frequency = 48
+		}
+		set_popularities = {
+		conservatism = 25
+		liberalism = 25
+		authortarianism = 15
+		fascism = 10
+		socdem = 10
+		communism = 10
+		nazism = 5
+		}
+		ai_chance = { factor = 10 }
+	}
+}
+

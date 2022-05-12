@@ -1,0 +1,1940 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = french_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	default = no
+
+	continuous_focus_position = { x = 500	y = 5000 }
+	
+	focus = {
+		id = FRA_resolving_the_mediterranean_crisis
+		icon = GFX_FRA_resolving_the_mediterranean_crisis
+		x = 12
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_not_the_only_crisis
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_resolving_the_mediterranean_crisis
+		}
+		relative_position_id = FRA_resolving_the_mediterranean_crisis
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_algeria_bleeds
+		icon = GFX_
+		x = -7
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_not_the_only_crisis
+		}
+		relative_position_id = FRA_not_the_only_crisis
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_send_in_the_military
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_algeria_bleeds
+		}
+		relative_position_id = FRA_algeria_bleeds
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_negotiate_for_the_hostages
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_send_in_the_military
+		}
+		relative_position_id = FRA_send_in_the_military
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+		focus = FRA_risks_must_be_taken
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_risks_must_be_taken
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_send_in_the_military
+		}
+		relative_position_id = FRA_send_in_the_military
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+		focus = FRA_negotiate_for_the_hostages
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_hostage_killed
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_risks_must_be_taken
+		focus = FRA_negotiate_for_the_hostages
+		}
+		relative_position_id = FRA_negotiate_for_the_hostages
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+		focus = FRA_hostage_freed
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_well_burn_algiers_to_the_ground
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_hostage_killed
+		}
+		relative_position_id = FRA_hostage_killed	
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+		
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_out_of_the_cities
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_well_burn_algiers_to_the_ground
+		}
+		relative_position_id = FRA_well_burn_algiers_to_the_ground
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+		
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_crisis_averted
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_out_of_the_cities
+		}
+		relative_position_id = FRA_out_of_the_cities
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+		
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_hostage_freed
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_risks_must_be_taken
+		focus = FRA_negotiate_for_the_hostages
+		}
+		relative_position_id = FRA_risks_must_be_taken
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+		focus = FRA_hostage_killed
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_status_of_algeria
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_hostage_freed
+		}
+		relative_position_id = FRA_hostage_freed
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+		
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_a_reluctant_compromise
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_status_of_algeria
+		}
+		relative_position_id = FRA_status_of_algeria
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_crisis_worsens
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_a_reluctant_compromise
+		}
+		relative_position_id = FRA_a_reluctant_compromise
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_prepare_for_the_apocalypse
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_crisis_averted
+		focus = FRA_crisis_worsens
+		}
+		relative_position_id = FRA_crisis_averted
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_the_monarchy_question
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_not_the_only_crisis
+		}
+		relative_position_id = FRA_not_the_only_crisis
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_appeal_to_the_legitimists
+		icon = GFX_
+		x = -2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_the_monarchy_question
+		}
+		relative_position_id = FRA_the_monarchy_question
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}	
+	
+	focus = {
+		id = FRA_uphold_tradition
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_appeal_to_the_legitimists
+		}
+		relative_position_id = FRA_appeal_to_the_legitimists
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_propose_a_new_ancien_regime
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_uphold_tradition
+		}
+		relative_position_id = FRA_uphold_tradition
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_learn_our_mistakes
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_propose_a_new_ancien_regime
+		}
+		relative_position_id = FRA_propose_a_new_ancien_regime
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_pay_lip_service
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_the_monarchy_question
+		}
+		relative_position_id = FRA_the_monarchy_question
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_allow_local_rule
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_pay_lip_service
+		}
+		relative_position_id = FRA_pay_lip_service
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_italian_stalyle_regime
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_allow_local_rule
+		}
+		relative_position_id = FRA_allow_local_rule
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_maurras_wouldve_liked_this
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_italian_stalyle_regime
+		}
+		relative_position_id = FRA_italian_stalyle_regime
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_tell_bonapartes_their_place
+		icon = GFX_
+		x = 2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_the_monarchy_question
+		}
+		relative_position_id = FRA_the_monarchy_question
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_remember_our_mistakes
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_tell_bonapartes_their_place
+		}
+		relative_position_id = FRA_tell_bonapartes_their_place
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_rule_by_proxy
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_remember_our_mistakes
+		}
+		relative_position_id = FRA_remember_our_mistakes
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_a_neo_continental_system
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_rule_by_proxy
+		}
+		relative_position_id = FRA_rule_by_proxy
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_power_to_the_princes
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_maurras_wouldve_liked_this
+		focus = FRA_learn_our_mistakes
+		focus = FRA_a_neo_continental_system
+		}
+		relative_position_id = FRA_maurras_wouldve_liked_this
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+		focus = FRA_power_to_the_party
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_god_save_the_kings_and_emperor
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_power_to_the_princes
+	
+		}
+		relative_position_id = FRA_power_to_the_princes
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+		
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_power_to_the_party
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_maurras_wouldve_liked_this
+		focus = FRA_learn_our_mistakes
+		focus = FRA_a_neo_continental_system
+		}
+		relative_position_id = FRA_maurras_wouldve_liked_this
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+		focus = FRA_power_to_the_princes
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_boutang_nous_voila
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_power_to_the_party
+	
+		}
+		relative_position_id = FRA_power_to_the_party
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+		
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_unsatisfying_answers
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_boutang_nous_voila
+		focus = FRA_god_save_the_kings_and_emperor
+	
+		}
+		relative_position_id = FRA_boutang_nous_voila
+		bypass = {
+			
+		}
+		mutually_exclusive = {
+		
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_indochina_bleeds
+		icon = GFX_
+		x = 7
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_not_the_only_crisis
+		}
+		relative_position_id = FRA_not_the_only_crisis
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_send_in_more_troops
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_indochina_bleeds
+		}
+		relative_position_id = FRA_indochina_bleeds
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_negotiate_to_the_monarchs
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_send_in_more_troops
+		}
+		relative_position_id = FRA_send_in_more_troops
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_vietnamization
+		icon = GFX_
+		x = -2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_negotiate_to_the_monarchs
+		}
+		relative_position_id = FRA_negotiate_to_the_monarchs
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_restore_the_nguyen_dynasty
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_vietnamization
+		}
+		relative_position_id = FRA_vietnamization
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_cambodization
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_negotiate_to_the_monarchs
+		}
+		relative_position_id = FRA_negotiate_to_the_monarchs
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_restore_the_norodom_dynasty
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_cambodization
+		}
+		relative_position_id = FRA_cambodization
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_laotization
+		icon = GFX_
+		x = 2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_negotiate_to_the_monarchs
+		}
+		relative_position_id = FRA_negotiate_to_the_monarchs
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_restore_the_khun_lo_dynasty
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_laotization
+		}
+		relative_position_id = FRA_laotization
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_dictated_independence
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_restore_the_khun_lo_dynasty
+		}
+		prerequisite = {
+		focus = FRA_restore_the_nguyen_dynasty
+		}
+		prerequisite = {
+		focus = FRA_restore_the_norodom_dynasty
+		}
+		
+		relative_position_id = FRA_restore_the_norodom_dynasty
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_unfinished_duties
+		icon = GFX_
+		x = 0
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_dictated_independence
+		}
+		
+		
+		relative_position_id = FRA_dictated_independence
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_fate_of_the_integral_state
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_unfinished_duties
+		}
+		prerequisite = {
+		focus = FRA_unsatisfying_answers
+		}
+		prerequisite = {
+		focus = FRA_prepare_for_the_apocalypse
+		}
+		
+		relative_position_id = FRA_unsatisfying_answers
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_begone_boutang
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_fate_of_the_integral_state
+		}
+		
+		mutually_exclusive = {
+		focus = FRA_boutang_is_here_to_stay
+		}
+		
+		relative_position_id = FRA_fate_of_the_integral_state
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_new_party_regime
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_begone_boutang
+		}
+		
+		mutually_exclusive = {
+		focus = FRA_let_the_princes_take_over
+		focus = FRA_get_the_military
+		}
+		
+		relative_position_id = FRA_begone_boutang
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_adopt_a_new_way_of_thinking
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_new_party_regime
+		}
+		
+		mutually_exclusive = {
+		}
+		
+		relative_position_id = FRA_new_party_regime
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_let_the_princes_take_over
+		icon = GFX_
+		x = 2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_begone_boutang
+		}
+		
+		mutually_exclusive = {
+		focus = FRA_new_party_regime
+		focus = FRA_get_the_military
+		}
+		
+		relative_position_id = FRA_begone_boutang
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_lets_end_this_debate
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_let_the_princes_take_over
+		}
+		
+		mutually_exclusive = {
+		
+		}
+		
+		relative_position_id = FRA_let_the_princes_take_over
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_get_the_military
+		icon = GFX_
+		x = 6
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_begone_boutang
+		}
+		
+		mutually_exclusive = {
+		focus = FRA_let_the_princes_take_over
+		focus = FRA_new_party_regime
+		}
+		
+		relative_position_id = FRA_begone_boutang
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_pleasing_no_one
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_get_the_military
+		}
+		
+		mutually_exclusive = {
+		}
+		
+		relative_position_id = FRA_get_the_military
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_restore_the_old_monarchy
+		icon = GFX_
+		x = -2
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_lets_end_this_debate
+		}
+		
+		mutually_exclusive = {
+		}
+		
+		relative_position_id = FRA_lets_end_this_debate
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_take_a_liberal_approach
+		icon = GFX_
+		x = 0
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_lets_end_this_debate
+		}
+		
+		mutually_exclusive = {
+		}
+		
+		relative_position_id = FRA_lets_end_this_debate
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_restore_the_french_glory
+		icon = GFX_
+		x = 2
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_lets_end_this_debate
+		}
+		
+		mutually_exclusive = {
+		}
+		
+		relative_position_id = FRA_lets_end_this_debate
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_france_bleeds
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_pleasing_no_one
+		}
+		
+		mutually_exclusive = {
+		}
+		
+		relative_position_id = FRA_pleasing_no_one 
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_boutang_is_here_to_stay
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_fate_of_the_integral_state
+		}
+		
+		mutually_exclusive = {
+		focus = FRA_begone_boutang
+		}
+		
+		relative_position_id = FRA_fate_of_the_integral_state
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_solidify_the_party
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_boutang_is_here_to_stay
+		}
+		
+		relative_position_id = FRA_boutang_is_here_to_stay
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_a_new_france
+		icon = GFX_
+		x = 0
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_solidify_the_party
+		focus = FRA_adopt_a_new_way_of_thinking
+		}
+		
+		relative_position_id = FRA_solidify_the_party
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_the_throne_has_been_filled
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_restore_the_french_glory
+		focus = FRA_restore_the_old_monarchy
+		focus = FRA_take_a_liberal_approach
+		}
+		
+		relative_position_id = FRA_take_a_liberal_approach
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_moving_foward
+		icon = GFX_
+		x = -2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = FRA_the_throne_has_been_filled
+		focus = FRA_a_new_france
+		
+		}
+		
+		relative_position_id = FRA_the_throne_has_been_filled
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+			every_state = {
+				}
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+}

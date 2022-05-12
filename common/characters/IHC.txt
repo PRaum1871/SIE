@@ -1,0 +1,16 @@
+characters={
+	IHC_bronislav_kaminsky={
+		name= "Bronislav Kaminski"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Kaminsky
+			}
+			
+		}
+		country_leader={
+			ideology=clerical_fascism 
+			expire="1989.1.1.1"
+			id=-1
+		}
+	}
+}

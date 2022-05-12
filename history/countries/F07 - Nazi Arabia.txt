@@ -1,0 +1,25 @@
+﻿capital = 658
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 0
+
+set_politics = {
+	ruling_party = ultranationalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	despotism = 10
+	authoritarianism = 15
+	fascism = 15
+	ultranationalism = 20
+ 	liberalism = 10
+	conservatism = 20
+}
+
+recruit_character = F07_henk_feldmeijer

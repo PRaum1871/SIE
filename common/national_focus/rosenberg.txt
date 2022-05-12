@@ -1,0 +1,2680 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = rosenberg_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = CAM
+		}
+	}
+	default = no
+
+	continuous_focus_position = { x = 0	y = 25000 }
+	
+	focus = {
+		id = GER_volksfuhrer_rosenberg
+		icon = GFX_
+		x = 12
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		country_event = {
+		id = rosenberg.1
+		}
+		}
+	}
+	
+	focus = {
+		id = GER_hunt_down_the_traitors
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_volksfuhrer_rosenberg
+		}
+		relative_position_id = GER_volksfuhrer_rosenberg
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_reinventing_national_socialism
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_hunt_down_the_traitors
+		}
+		relative_position_id = GER_hunt_down_the_traitors
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		country_event = {
+		id = rosenberg.2
+		}
+		}
+	}
+	
+	focus = {
+		id = GER_reinvent_the_reich
+		icon = GFX_
+		x = -3
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_reinventing_national_socialism
+		}
+		relative_position_id = GER_reinventing_national_socialism
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_embrace_germanic_supremacy
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_reinvent_the_reich
+		}
+		relative_position_id = GER_reinvent_the_reich
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_brush_the_workers_off
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_reinvent_the_reich
+		}
+		relative_position_id = GER_reinvent_the_reich
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_purge_the_sa
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_brush_the_workers_off
+		}
+		relative_position_id = GER_brush_the_workers_off
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_second_night_of_the_long_knifes
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_purge_the_sa
+		}
+		relative_position_id = GER_purge_the_sa
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+		focus = {
+		id = GER_end_strasser_influence
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_second_night_of_the_long_knifes
+		}
+		relative_position_id = GER_second_night_of_the_long_knifes
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_empower_the_ss
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_embrace_germanic_supremacy
+		}
+		relative_position_id = GER_embrace_germanic_supremacy
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_honoring_hitlers_wishes
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_empower_the_ss
+		}
+		relative_position_id = GER_empower_the_ss
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_a_pagan_germania
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_honoring_hitlers_wishes
+		}
+		relative_position_id = GER_honoring_hitlers_wishes
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_strasser_had_failed
+		icon = GFX_
+		x = 3
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_reinventing_national_socialism
+		}
+		relative_position_id = GER_reinventing_national_socialism
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		country_event = {
+		id = rosenberg.2
+		}
+		}
+	}
+	
+	focus = {
+		id = GER_pardon_prussian_nobles
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_strasser_had_failed
+		}
+		relative_position_id = GER_strasser_had_failed
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_promise_them_land
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_pardon_prussian_nobles
+		}
+		relative_position_id = GER_pardon_prussian_nobles
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_prepare_for_war
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_promise_them_land
+		}
+		relative_position_id = GER_promise_them_land
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_germanic_autarky
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_prepare_for_war
+		}
+		relative_position_id = GER_prepare_for_war
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_show_the_failures_of_socialism
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_strasser_had_failed
+		}
+		relative_position_id = GER_strasser_had_failed
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_empower_the_technocrats
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_show_the_failures_of_socialism
+		}
+		relative_position_id = GER_show_the_failures_of_socialism
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_create_the_reichwerke
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_empower_the_technocrats
+		}
+		relative_position_id = GER_empower_the_technocrats
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_live_and_die_on_a_factory
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_create_the_reichwerke
+		}
+		relative_position_id = GER_create_the_reichwerke
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_germania_reborn
+		icon = GFX_
+		x = -2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_a_pagan_germania
+		}
+		prerequisite = {
+		focus = GER_end_strasser_influence
+		}
+		prerequisite = {
+		focus = GER_germanic_autarky
+		}
+		prerequisite = {
+		focus = GER_live_and_die_on_a_factory
+		}
+		relative_position_id = GER_germanic_autarky
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_generalplan_ost
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_germania_reborn
+		}
+		relative_position_id = GER_germania_reborn
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}  
+	
+	focus = {
+		id = GER_dealing_with_poles
+		icon = GFX_
+		x = -2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_generalplan_ost
+		}
+		relative_position_id = GER_generalplan_ost
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		declare_war_on = {
+		target = POL
+		type = annex_everything
+		}
+		}
+	}
+	
+	focus = {
+		id = GER_eradicate_the_poles
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_dealing_with_poles
+		}
+		relative_position_id = GER_dealing_with_poles
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		POL = {
+		remove_state_core = 98
+		remove_state_core = 87
+		}
+		GER = {
+		add_state_core = 98
+		add_state_core = 87
+		}
+		}
+	}
+	
+	focus = {
+		id = GER_enforce_harsh_quotas
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_eradicate_the_poles
+		}
+		relative_position_id = GER_eradicate_the_poles
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_establish_the_generalgouvernment
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_enforce_harsh_quotas
+		}
+		relative_position_id = GER_enforce_harsh_quotas
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		hidden_effect = {
+		F10 = {
+		add_state_core = 10
+		add_state_core = 90
+		add_state_core = 92
+		add_state_core = 88	
+		add_state_core = 89
+		add_state_core = 91
+		}
+		}
+		release_autonomy = {
+		target = F10
+		autonomy_state = autonomy_integrated_puppet
+		freedom_level = 0.5
+		}
+		}
+	}
+	
+	focus = {
+		id = GER_dealing_with_ukranians
+		icon = GFX_
+		x = 2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_generalplan_ost
+		}
+		relative_position_id = GER_generalplan_ost
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		declare_war_on = {
+		target = UKR
+		type = annex_everything
+		}
+		}
+	}
+	
+	focus = {
+		id = GER_use_the_fields
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_dealing_with_ukranians
+		}
+		relative_position_id = GER_dealing_with_ukranians
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_germanify_cities
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_use_the_fields
+		}
+		relative_position_id = GER_use_the_fields
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		set_province_name = { id = 525 name = "Hitlerstadt" }
+		set_province_name = { id = 11670 name = "Jodlstadt" }
+		set_province_name = { id = 721 name = "Schwedengebiet" }
+		set_province_name = { id = 11504 name = "Rostshitilovka" }
+		set_province_name = { id = 11437 name = "Ekaterinoslav" }
+		set_province_name = { id = 3230 name = "Schröttersburg" }
+		set_province_name = { id = 9508 name = "Litzmannstadt" }
+		hidden_effect = {
+			87 = { set_state_name = "Litzmannstadt" }
+			98 = { set_state_name = "Schröttersburg" }
+			226 = { set_state_name = "Ekaterinoslav" }
+			259 = { set_state_name = "Rostshitilovka" }  	 
+			196 = { set_state_name = "Schwedengebiet" } 
+			192 = { set_state_name = "Jodlstadt" } 
+			202 = { set_state_name = "Hitlerstadt" } 
+		}
+			}
+	}
+	
+	focus = {
+		id = GER_reichskommisariat_ukraine
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_germanify_cities
+		}
+		relative_position_id = GER_germanify_cities
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		hidden_effect = {
+		F20 = {
+		add_state_core = 93
+		add_state_core = 201
+		add_state_core = 199
+		add_state_core = 198
+		add_state_core = 202
+		add_state_core = 834
+		add_state_core = 192
+		add_state_core = 203
+		add_state_core = 197
+		add_state_core = 196
+		add_state_core = 226
+		add_state_core = 200
+		add_state_core = 221
+		add_state_core = 259
+		add_state_core = 193
+		add_state_core = 225
+		}
+		}
+		release_autonomy = {
+		target = F20
+		autonomy_state = autonomy_puppet
+		freedom_level = 0.5
+		}
+		}
+	}
+	
+	focus = {
+		id = GER_consult_heydrich
+		icon = GFX_
+		x = -2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_reichskommisariat_ukraine
+		}
+		prerequisite = {
+		focus = GER_establish_the_generalgouvernment
+		}
+		relative_position_id = GER_reichskommisariat_ukraine
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_end_bohemian_sovereignty
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_consult_heydrich
+		}
+		relative_position_id = GER_consult_heydrich
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		annex_country = {
+		target = CZE
+		transfer_troops = yes
+		}
+		}
+	}
+	
+	focus = {
+		id = GER_dealing_with_old_friends
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_scrape_the_pinple
+		}
+		relative_position_id = GER_scrape_the_pinple
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		declare_war_on = {
+		target = HUN
+		type = annex_everything
+		}
+		declare_war_on = {
+		target = SLO
+		type = annex_everything
+		}
+		declare_war_on = {
+		target = BUL
+		type = annex_everything
+		}
+		}
+	}
+	
+	focus = {
+		id = GER_ostland
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_end_bohemian_sovereignty
+		}
+		relative_position_id = GER_end_bohemian_sovereignty
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		hidden_effect = {
+		OST = {
+		add_state_core = 11
+		add_state_core = 97
+		add_state_core = 94
+		add_state_core = 95
+		add_state_core = 96
+		add_state_core = 204
+		add_state_core = 206
+		add_state_core = 207
+		add_state_core = 194
+		add_state_core = 784
+		add_state_core = 814
+		add_state_core = 815
+		add_state_core = 189
+		}
+		}
+		release_autonomy = {
+		target = OST
+		autonomy_state = autonomy_puppet
+		freedom_level = 0.5
+		}
+		}
+	}
+	
+	focus = {
+		id = GER_scrape_the_pinple
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_end_bohemian_sovereignty
+		}
+		relative_position_id = GER_end_bohemian_sovereignty
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		declare_war_on = {
+		target = SWI
+		type = annex_everything
+		}
+		}
+	}
+	
+	focus = {
+		id = GER_central_europe_secured
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_dealing_with_old_friends
+		}
+		prerequisite = {
+		focus = GER_ostland
+		}
+		relative_position_id = GER_dealing_with_old_friends
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		hidden_effect = {
+		F08 = {
+		add_state_core = 43
+		add_state_core = 45
+		add_state_core = 46
+		add_state_core = 48
+		add_state_core = 70
+		add_state_core = 71
+		add_state_core = 73
+		add_state_core = 76 
+		add_state_core = 77
+		add_state_core = 78 
+		add_state_core = 79
+		add_state_core = 80
+		add_state_core = 81
+		add_state_core = 82
+		add_state_core = 83
+		add_state_core = 84	
+		add_state_core = 154
+		add_state_core = 155
+		add_state_core = 211
+		add_state_core = 664
+		add_state_core = 764
+		add_state_core = 766
+		add_state_core = 801
+		add_state_core = 838
+		add_state_core = 840
+		}
+		}
+		release_autonomy = {
+		target = F08
+		autonomy_state = autonomy_puppet
+		freedom_level = 0.5
+		}
+		}
+	}
+	
+	focus = {
+		id = GER_tame_the_russian_wilderness
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		mutually_exclusive = { focus = GER_dismantle_the_old_guard }
+		bypass = {
+			
+		}
+		available = {
+		SOV = {  
+				is_in_faction = yes
+				is_faction_leader = yes
+					}
+		}
+		prerequisite = {
+		focus = GER_central_europe_secured
+		}
+		relative_position_id = GER_central_europe_secured
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		declare_war_on = {
+		target = SOV
+		type = annex_everything
+		}
+		}
+	}
+	focus = {
+		id = GER_dismantle_the_old_guard
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		SOV = {  
+				is_in_faction = yes
+				is_in_faction_with = FRA
+			}
+		ITA = {  
+				is_in_faction = yes
+				is_in_faction_with = FRA
+			}
+		}
+		mutually_exclusive = { focus = GER_tame_the_russian_wilderness }
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_central_europe_secured
+		}
+		relative_position_id = GER_central_europe_secured
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		declare_war_on = {
+		target = ITA
+		type = annex_everything
+		}
+		declare_war_on = {
+		target = FRA
+		type = annex_everything
+		}
+		declare_war_on = {
+		target = SOV
+		type = annex_everything
+		}
+		declare_war_on = {
+		target = YUG
+		type = annex_everything
+		}
+		}
+	}
+	
+	focus = {
+		id = GER_der_frankreich
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		has_completed_focus = GER_dismantle_the_old_guard
+		}
+		prerequisite = {
+		focus = GER_tame_the_russian_wilderness
+		focus = GER_dismantle_the_old_guard
+		}
+		relative_position_id = GER_tame_the_russian_wilderness
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		declare_war_on = {
+		target = FRA
+		type = annex_everything
+		}
+		}
+	}
+	focus = {
+		id = GER_end_french_identity
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_der_frankreich
+		}
+		relative_position_id = GER_der_frankreich
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		hidden_effect = {
+		FRA = {
+		remove_state_core = 735
+		remove_state_core = 17
+		remove_state_core = 28
+		remove_state_core = 1
+		}
+		GER = {
+		add_state_core = = 735
+		add_state_core = = 17
+		add_state_core = = 28
+		add_state_core = = 1
+		}
+		F09 = {
+		add_state_core = 36
+		add_state_core = 7
+		add_state_core = 35
+		add_state_core = 6
+		add_state_core = 34
+		add_state_core = 29
+		}
+		}
+		release_autonomy = {
+		target = F09
+		autonomy_state = autonomy_puppet
+		freedom_level = 0.5
+		}
+		}
+	}
+	focus = {
+		id = GER_himmlers_playground
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_end_french_identity
+		}
+		relative_position_id = GER_end_french_identity
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		hidden_effect = {
+		BUR = {
+		add_state_core = 785
+		add_state_core = 14
+		add_state_core = 15
+		add_state_core = 16
+		add_state_core = 18
+		add_state_core = 19
+		add_state_core = 20
+		add_state_core = 21
+		add_state_core = 22
+		add_state_core = 23
+		add_state_core = 24
+		add_state_core = 25
+		add_state_core = 26
+		add_state_core = 27
+		add_state_core = 30
+		add_state_core = 31
+		add_state_core = 32
+		add_state_core = 33
+		add_state_core = 806
+		}
+		}
+		release_autonomy = {
+		target = BUR
+		autonomy_state = autonomy_dominion
+		freedom_level = 0.5
+		}
+		}
+	}
+	focus = {
+		id = GER_france_no_more
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_himmlers_playground
+		}
+		relative_position_id = GER_himmlers_playground
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_toppling_rome
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		has_completed_focus = GER_dismantle_the_old_guard
+		}
+		prerequisite = {
+		focus = GER_dismantle_the_old_guard
+		focus = GER_tame_the_russian_wilderness
+		}
+		relative_position_id = GER_dismantle_the_old_guard
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		declare_war_on = {
+		target = ITA
+		type = annex_everything
+		}
+		}
+	}
+	
+	focus = {
+		id = GER_break_the_feces
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_toppling_rome
+		}
+		relative_position_id = GER_toppling_rome
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		ITA = {
+		remove_state_core = 158
+		remove_state_core = 159
+		remove_state_core = 39
+		remove_state_core = 160
+		remove_state_core = 161
+		remove_state_core = 736
+		}
+		GER = {
+		add_state_core = 158
+		add_state_core = 159
+		add_state_core = 39
+		add_state_core = 161
+		add_state_core = 736
+		}
+		}
+	}
+	
+	focus = {
+		id = GER_some_friends
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_break_the_feces
+		}
+		relative_position_id = GER_break_the_feces
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		VET = {
+		add_state_core = 160
+		}
+		release_autonomy = {
+		target = VET
+		autonomy_state = autonomy_puppet
+		freedom_level = 0.5
+		}
+		release_autonomy = {
+		target = ITA
+		autonomy_state = autonomy_dominion
+		freedom_level = 0.5
+		}
+		}
+	}
+	
+	focus = {
+		id = GER_the_germans_took_rome_again
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+			
+		}
+		prerequisite = {
+		focus = GER_some_friends
+		}
+		relative_position_id = GER_some_friends
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}	
+	
+	focus = {
+		id = GER_operation_barbarossa
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		has_completed_focus = GER_tame_the_russian_wilderness
+		has_completed_focus = GER_dismantle_the_old_guard
+		}
+		prerequisite = {
+		focus = GER_dismantle_the_old_guard
+		focus = GER_tame_the_russian_wilderness
+		}
+		relative_position_id = GER_dismantle_the_old_guard
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		declare_war_on = {
+		target = SOV
+		type = annex_everything
+		}
+		}
+	}
+	
+	focus = {
+		id = GER_begin_settlement_programs
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = GER_operation_barbarossa
+		}
+		relative_position_id = GER_operation_barbarossa
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_purge_the_rot
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = GER_begin_settlement_programs
+		}
+		relative_position_id = GER_begin_settlement_programs
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		SOV = {
+		remove_state_core = 205
+		remove_state_core = 208
+		remove_state_core = 219
+		remove_state_core = 195
+		remove_state_core = 217
+		remove_state_core = 218
+		remove_state_core = 220
+		remove_state_core = 222
+		remove_state_core = 223
+		remove_state_core = 224
+		remove_state_core = 236
+		remove_state_core = 238
+		remove_state_core = 239
+		remove_state_core = 240
+		remove_state_core = 242
+		remove_state_core = 243
+		remove_state_core = 244
+		remove_state_core = 245
+		remove_state_core = 246
+		remove_state_core = 247
+		remove_state_core = 248
+		remove_state_core = 250
+		remove_state_core = 252
+		remove_state_core = 253
+		remove_state_core = 254
+		remove_state_core = 255
+		remove_state_core = 257
+		remove_state_core = 258
+		remove_state_core = 260
+		remove_state_core = 263
+		remove_state_core = 264
+		remove_state_core = 265
+		remove_state_core = 829
+		remove_state_core = 241
+		remove_state_core = 407
+		remove_state_core = 406
+		remove_state_core = 256
+		remove_state_core = 351
+		remove_state_core = 833
+		remove_state_core = 237
+		remove_state_core = 249
+		remove_state_core = 251
+		remove_state_core = 652
+		remove_state_core = 401
+		}
+		OST = {
+		add_state_core = 190
+		add_state_core = 809
+		add_state_core = 808
+		add_state_core = 810
+		add_state_core = 12
+		add_state_core = 13
+		add_state_core = 811
+		add_state_core = 812
+		add_state_core = 813
+		add_state_core = 191
+		add_state_core = 209
+		add_state_core = 210
+		add_state_core = 241
+		}
+		F20 = {
+		add_state_core = 227
+		add_state_core = 228
+		add_state_core = 137
+		}
+		F23 = {
+		add_state_core = 233
+		add_state_core = 232
+		add_state_core = 234
+		add_state_core = 235
+		add_state_core = 821
+		add_state_core = 826
+		add_state_core = 827
+		add_state_core = 828
+		}
+		F14 = {
+		add_state_core = 205
+		add_state_core = 208
+		add_state_core = 219
+		add_state_core = 195
+		add_state_core = 217
+		add_state_core = 218
+		add_state_core = 220
+		add_state_core = 222
+		add_state_core = 223
+		add_state_core = 224
+		add_state_core = 236
+		add_state_core = 238
+		add_state_core = 239
+		add_state_core = 240
+		add_state_core = 242
+		add_state_core = 243
+		add_state_core = 244
+		add_state_core = 245
+		add_state_core = 246
+		add_state_core = 247
+		add_state_core = 248
+		add_state_core = 250
+		add_state_core = 252
+		add_state_core = 253
+		add_state_core = 254
+		add_state_core = 255
+		add_state_core = 257
+		add_state_core = 258
+		add_state_core = 260
+		add_state_core = 263
+		add_state_core = 264
+		add_state_core = 265
+		add_state_core = 829
+		add_state_core = 241
+		add_state_core = 407
+		add_state_core = 406
+		add_state_core = 256
+		add_state_core = 351
+		add_state_core = 833
+		add_state_core = 237
+		add_state_core = 249
+		add_state_core = 251
+		add_state_core = 652
+		add_state_core = 401
+		}
+		}
+	}
+	
+	focus = {
+		id = GER_the_eastern_reichscommisariats
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = GER_purge_the_rot
+		}
+		relative_position_id = GER_purge_the_rot
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		OST = {
+		transfer_state = 190
+		transfer_state = 809
+		transfer_state = 808
+		transfer_state = 810
+		transfer_state = 12
+		transfer_state = 13
+		transfer_state = 811
+		transfer_state = 812
+		transfer_state = 813
+		transfer_state = 191
+		transfer_state = 209
+		transfer_state = 210
+		transfer_state = 241
+		}
+		F20 = {
+		transfer_state = 227
+		transfer_state = 228
+		transfer_state = 137
+		}
+		release_autonomy = {
+		target = F14
+		autonomy_state = autonomy_puppet
+		freedom_level = 0.5
+		}
+		release_autonomy = {
+		target = F23
+		autonomy_state = autonomy_integrated_puppet
+		freedom_level = 0.5
+		}
+		}
+	}
+	
+	focus = {
+		id = GER_end_britannic_degeneracy
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = GER_france_no_more
+		focus = GER_the_eastern_reichscommisariats
+		focus = GER_the_germans_took_rome_again
+		}
+		relative_position_id = GER_france_no_more
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		declare_war_on = {
+		target = ENG
+		type = annex_everything
+		}
+		}
+	}
+	
+	focus = {
+		id = GER_end_the_FFSR
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = GER_end_britannic_degeneracy
+		}
+		relative_position_id = GER_end_britannic_degeneracy
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_irish_collaborators
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = GER_end_the_FFSR
+		}
+		relative_position_id = GER_end_the_FFSR
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		release_autonomy = {
+		target = IRE
+		autonomy_state = autonomy_dominion
+		freedom_level = 0.5
+		}
+		}
+	}
+	
+	focus = {
+		id = GER_dismantle_britannia
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = GER_end_britannic_degeneracy
+		}
+		relative_position_id = GER_end_britannic_degeneracy
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_divide_britain
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = GER_dismantle_britannia
+		}
+		relative_position_id = GER_dismantle_britannia
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_repurposing_their_research
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = GER_irish_collaborators
+		focus = GER_divide_britain
+		}
+		relative_position_id = GER_irish_collaborators
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_the_grey_banner_falls
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = GER_repurposing_their_research
+		}
+		relative_position_id = GER_repurposing_their_research
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_generalpan_norden
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = GER_the_eastern_reichscommisariats
+		}
+		prerequisite = {
+		focus = GER_the_germans_took_rome_again
+		}
+		prerequisite = {
+		focus = GER_france_no_more
+		}
+		relative_position_id = GER_the_eastern_reichscommisariats
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_march_to_the_north
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		mutually_exclusive = { focus = GER_stablish_nordic_connections }
+		prerequisite = {
+		focus = GER_generalpan_norden
+		}
+		relative_position_id = GER_generalpan_norden
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_germanic_apartheid
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		prerequisite = {
+		focus = GER_march_to_the_north
+		}
+		relative_position_id = GER_march_to_the_north
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_stablish_the_reichscommisariat_skandinavia
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		prerequisite = {
+		focus = GER_germanic_apartheid
+		}
+		relative_position_id = GER_germanic_apartheid
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_stablish_nordic_connections
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		prerequisite = {
+		focus = GER_generalpan_norden
+		}
+		relative_position_id = GER_generalpan_norden
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_assimilate_scandinavia
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		prerequisite = {
+		focus = GER_stablish_nordic_connections
+		}
+		relative_position_id = GER_stablish_nordic_connections	
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_the_reichstaat_hyperborea
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		prerequisite = {
+		focus = GER_assimilate_scandinavia
+		}
+		relative_position_id = GER_assimilate_scandinavia	
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_europe_secured
+		icon = GFX_
+		x = 2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		prerequisite = {
+		focus = GER_the_grey_banner_falls
+		}
+		prerequisite = {
+		focus = GER_stablish_the_reichscommisariat_skandinavia
+		focus = GER_the_reichstaat_hyperborea
+		}
+		relative_position_id = GER_the_grey_banner_falls	
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_ploclaim_the_weltreich
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		prerequisite = {
+		focus = GER_europe_secured
+		}
+		relative_position_id = GER_europe_secured	
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_our_mission_is_not_over
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = GER_ploclaim_the_weltreich
+		}
+		relative_position_id = GER_ploclaim_the_weltreich	
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_generalplan_suden
+		icon = GFX_
+		x = -3
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = GER_our_mission_is_not_over
+		}
+		relative_position_id = GER_our_mission_is_not_over	
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_making_preparations
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = GER_generalplan_suden
+		}
+		relative_position_id = GER_generalplan_suden	
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_naval_buildup
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = GER_making_preparations
+		}
+		relative_position_id = GER_making_preparations	
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_the_carrier
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = GER_naval_buildup
+		}
+		relative_position_id = GER_naval_buildup	
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_army_buildup
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = GER_making_preparations
+		}
+		relative_position_id = GER_making_preparations	
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_prepare_to_face_the_african_wild
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = GER_army_buildup
+		}
+		relative_position_id = GER_army_buildup	
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_rules_the_seas_and_skies
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = GER_prepare_to_face_the_african_wild
+		}
+		prerequisite = {
+		focus = GER_the_carrier
+		}
+		relative_position_id = GER_prepare_to_face_the_african_wild	
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_the_second_scramble_for_africa
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = GER_rules_the_seas_and_skies
+		}
+		relative_position_id = GER_rules_the_seas_and_skies	
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_settle_the_land_for_germans
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		mutually_exclusive = { focus = GER_let_the_industrialists_take_over }
+		prerequisite = {
+		focus = GER_the_second_scramble_for_africa
+		}
+		relative_position_id = GER_the_second_scramble_for_africa	
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_cleanse_the_land
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		prerequisite = {
+		focus = GER_settle_the_land_for_germans
+		}
+		relative_position_id = GER_settle_the_land_for_germans	
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_the_african_reichskommisariats
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		prerequisite = {
+		focus = GER_cleanse_the_land
+		}
+		relative_position_id = GER_cleanse_the_land	
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_let_the_industrialists_take_over
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		mutually_exclusive = { focus = GER_settle_the_land_for_germans }
+		prerequisite = {
+		focus = GER_the_second_scramble_for_africa
+		}
+		relative_position_id = GER_the_second_scramble_for_africa	
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_work_till_they_drop
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = GER_let_the_industrialists_take_over
+		}
+		relative_position_id = GER_let_the_industrialists_take_over	
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_the_reichdirektionstelles
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = GER_work_till_they_drop
+		}
+		relative_position_id = GER_work_till_they_drop	
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_the_new_germanic_frontier
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = GER_the_reichdirektionstelles
+		}
+		prerequisite = {
+		focus = GER_the_african_reichskommisariats
+		}
+		relative_position_id = GER_the_reichdirektionstelles	
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_conquering_turan
+		icon = GFX_
+		x = 3
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = GER_our_mission_is_not_over
+		}
+		relative_position_id = GER_our_mission_is_not_over	
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_reorganize_the_region
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = GER_conquering_turan
+		}
+		relative_position_id = GER_conquering_turan		
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_wash_off_slavic_influence
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = GER_reorganize_the_region
+		}
+		relative_position_id = GER_reorganize_the_region		
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_reichskommisariat_centralasia
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		mutually_exclusive = { focus = GER_the_turanian_reichstaat }
+		prerequisite = {
+		focus = GER_wash_off_slavic_influence
+		}
+		relative_position_id = GER_wash_off_slavic_influence		
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_the_turanian_reichstaat
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		mutually_exclusive = { focus = GER_reichskommisariat_centralasia }
+		prerequisite = {
+		focus = GER_wash_off_slavic_influence
+		}
+		relative_position_id = GER_wash_off_slavic_influence		
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_the_slavic_empire_is_dead
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = GER_reichskommisariat_centralasia
+		focus = GER_the_turanian_reichstaat
+		}
+		relative_position_id = GER_reichskommisariat_centralasia		
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_germanic_hegemony
+		icon = GFX_
+		x = 3
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus = GER_the_slavic_empire_is_dead
+		}
+		prerequisite = {
+		focus = GER_the_new_germanic_frontier
+		}
+		relative_position_id = GER_the_new_germanic_frontier		
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		complete_tooltip = {
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+}
+

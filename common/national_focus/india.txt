@@ -1,0 +1,418 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = indian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = RAJ
+		}
+	}
+	
+	default = no
+
+
+
+#	focus = {
+#		id = RAJ_
+#		icon = GFX_
+#		prerequisite = { focus = }
+#		mutually_exclusive = { focus =  }
+#		x = -3
+#		y = 0
+#		relative_position_id = 
+#
+#		cost = 10
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#
+#		available = {
+#
+#		}
+#		
+#		bypass = {
+#
+#		}
+#
+#		cancel_if_invalid = yes
+#		continue_if_invalid = no
+#		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+#
+#		completion_reward = {
+#
+#		}
+#	}
+
+	focus = {
+		id = RAJ_our_little_bit_of_england
+		icon = GFX_
+		x = 12
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = RAJ_the_queen_and_her_admiral
+		icon = GFX_
+		x = 0
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		prerequisite = { focus = RAJ_our_little_bit_of_england }
+		relative_position_id = RAJ_our_little_bit_of_england
+		
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = RAJ_the_cabinet_meets
+		icon = GFX_
+		x = 0
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		prerequisite = { focus = RAJ_the_queen_and_her_admiral }
+		relative_position_id = RAJ_the_queen_and_her_admiral
+		
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = RAJ_chesterton_walks_out
+		icon = GFX_
+		x = 0
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		prerequisite = { focus = RAJ_the_cabinet_meets }
+		relative_position_id = RAJ_the_cabinet_meets
+		
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = RAJ_preparing_the_elections
+		icon = GFX_
+		x = 0
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		prerequisite = { focus = RAJ_chesterton_walks_out }
+		relative_position_id = RAJ_chesterton_walks_out
+		
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = RAJ_the_electoral_debate
+		icon = GFX_
+		x = 0
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		prerequisite = { focus = RAJ_preparing_the_elections }
+		relative_position_id = RAJ_preparing_the_elections
+		
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = RAJ_the_electoral_debate
+		icon = GFX_
+		x = 0
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		prerequisite = { focus = RAJ_preparing_the_elections }
+		relative_position_id = RAJ_preparing_the_elections
+		
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = RAJ_the_votes_are_in
+		icon = GFX_
+		x = 0
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		prerequisite = { focus = RAJ_the_electoral_debate }
+		relative_position_id = RAJ_the_electoral_debate
+		
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = RAJ_god_queen_and_britain_for_all
+		icon = GFX_
+		x = -4
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		prerequisite = { focus = RAJ_the_votes_are_in }
+		relative_position_id = RAJ_the_votes_are_in
+		
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = RAJ_another_five_years
+		icon = GFX_
+		x = 0
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		prerequisite = { focus = RAJ_the_votes_are_in }
+		relative_position_id = RAJ_the_votes_are_in
+		
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = RAJ_jai_hind
+		icon = GFX_
+		x = 4
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		prerequisite = { focus = RAJ_the_votes_are_in }
+		relative_position_id = RAJ_the_votes_are_in
+		
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = RAJ_the_labour_way_is_the_better_way
+		icon = GFX_
+		x = 4
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		prerequisite = { focus = RAJ_the_votes_are_in }
+		relative_position_id = RAJ_the_votes_are_in
+		
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+}		

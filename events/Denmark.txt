@@ -1,0 +1,60 @@
+﻿###########################
+# Denmark Events
+###########################
+
+add_namespace = denmark
+
+# Monarchist Restoration
+country_event = {
+	id = denmark.1
+	title = denmark.1.t
+	desc = denmark.1.d
+	picture = GFX_report_event_polish_tanks_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = denmark.1.a
+		GER = {
+		set_autonomy = {
+		target = DEN
+		autonomy_state = autonomy_free
+		}
+		}
+		leave_faction = yes
+		set_politics = {
+		ruling_party = socdem
+		elections_allowed = yes
+		election_frequency = 48
+		}
+		news_event = { id = news.2 }
+		country_event = { id = denmark.2 days = 70 }
+		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {
+	id = denmark.2
+	title = denmark.2.t
+	desc = denmark.2.d
+	picture = GFX_report_event_polish_tanks_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = denmark.2.a
+		set_politics = {
+		ruling_party = ultranationalism
+		elections_allowed = no
+		election_frequency = 48
+		}
+		news_event = {	id = news.3  }
+		GER = {
+		country_event = {
+		id = rosenberg.4
+		days = 3
+		}
+		}
+		ai_chance = { factor = 10 }
+	}
+}

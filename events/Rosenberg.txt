@@ -1,0 +1,103 @@
+#######################################################
+#################### ROSENBERG ########################
+#######################################################
+
+add_namespace = rosenberg
+
+country_event = {	#Focus Event/Rosenberg takes over
+	id = rosenberg.1
+	title = rosenberg.1.t
+	desc = rosenberg.1.d
+	picture = GFX_report_event_bunker_01
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = no
+	
+	trigger = {
+		
+	}
+
+	option = {
+	name = rosenberg.1.a
+	news_event = {
+    id = news.1
+	}
+	ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {	#Focus Event/Strasser had failed
+	id = rosenberg.2
+	title = rosenberg.2.t
+	desc = rosenberg.2.d
+	picture = GFX_report_event_bunker_01
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = no
+	
+	trigger = {
+		
+	}
+
+	option = {
+	name = rosenberg.2.a
+	ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {	#Puppets begin to leave
+	id = rosenberg.3
+	title = rosenberg.3.t
+	desc = rosenberg.3.d
+	picture = GFX_report_event_bunker_01
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = no
+	
+	trigger = {
+		
+	}
+
+	option = {
+	name = rosenberg.3.a
+	ROM = { country_event = { id = romania.1  days = 60 random_days = 5 } }
+	POL = { country_event = { id = poland.1 days = 75 random_days = 15 } } 
+	HUN = { country_event = { id = hungary.1 days = 45 random_days = 10 } }
+	SLO = { country_event = { id = slovakia.1 days = 70 random_days = 25 } }
+	DEN = { country_event = { id = denmark.1 days = 60 random_days = 25 } }
+	BUL = { country_event = { id = bulgaria.1 days = 90 random_days = 25 } }
+	ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {	#Denmark returns to germany
+	id = rosenberg.4
+	title = rosenberg.4.t
+	desc = rosenberg.4.d
+	picture = GFX_report_event_bunker_01
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = no
+	
+	trigger = {
+		
+	}
+
+	option = {
+	name = rosenberg.4.a
+	ai_chance = { factor = 10 }
+	GER = { puppet = DEN }
+	}
+}

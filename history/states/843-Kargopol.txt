@@ -1,0 +1,22 @@
+state={
+	id=843
+	name="STATE_843"
+	provinces={
+		3 18 26 89 127 138 3086 6034 6075 6109 11071 11178 
+	}
+	history={
+		owner = SIB
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			
+
+		}
+		add_core_of = SIB
+
+	}
+	manpower=329092
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+}

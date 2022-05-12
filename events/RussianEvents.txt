@@ -1,0 +1,74 @@
+#######################################################
+#################### UNIFICATION ######################
+#######################################################
+
+add_namespace = russian
+
+country_event = {	#test
+	id = russian.1
+	title = russian.1.t
+	desc = russian.1.d
+	picture = GFX_report_event_bunker_01
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		
+	}
+
+	option = {
+	name = russian.1.a
+	SIB = { set_cosmetic_tag = SIB_unified }
+	ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {	#test
+	id = russian.2
+	title = russian.2.t
+	desc = russian.2.d
+	picture = GFX_report_event_bunker_02
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		
+	}
+
+	option = {
+	name = russian.2.a
+	RSF = { set_cosmetic_tag = RSF_unified }
+	ai_chance = { factor = 20 }
+	}
+}
+
+country_event = {	#test
+	id = russian.3
+	title = russian.3.t
+	desc = russian.3.d
+	picture = GFX_report_event_bunker_03
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		
+	}
+
+	option = {
+	name = russian.3.a
+	RWS = { set_cosmetic_tag = RWS_unified }
+	ai_chance = { factor = 30 }
+	}
+}

@@ -1,0 +1,102 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1960.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "ENG"
+		default = yes
+		
+		"FRA"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = reactionary
+			
+			ideas = {
+			FRA_the_untouched_crown 
+			FRA_internal_infightings 
+			FRA_algerian_crisis 
+			}
+			focuses = {
+				
+			}
+		}
+		"GER"={
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = nazism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = sameism
+			
+			ideas = {
+			ENG_secessionist_infighting 
+			ENG_leader_of_the_homosexual_world 
+			ENG_internationally_isolated 
+			}
+			focuses = {
+			
+			}
+		}
+		"USA"={
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = conservatism
+			
+			ideas = {
+				
+			}
+			focuses = {
+			
+			}
+		}
+		"SOV"={
+			history = "ITA_GATHERING_STORM_DESC"
+			ideology = despotism
+			ideas = {
+			
+			}	
+			focuses = {
+			
+			}		
+		}
+		"ITA"={
+			history = "JAP_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+			
+			}	
+			focuses = {
+				
+			}			
+		}
+	
+		"CAN"={
+			history = "CAN_GATHERING_STORM_DESC" 
+			ideology = socdem
+			
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}	
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+
+		# minors from DLC ####
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

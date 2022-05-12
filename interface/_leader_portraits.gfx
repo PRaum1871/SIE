@@ -1,0 +1,364 @@
+spriteTypes = {
+
+	### ENG
+
+	spriteType = {
+		name = "GFX_portrait_calvin_mallard"
+		texturefile = "gfx/leaders/ENG/portrait_calvin_mallard.dds"
+	}
+	
+	### SWE
+	
+	spriteType = {
+		name = "GFX_portrait_SWE_thord_blonde"
+		texturefile = "gfx/leaders/SWE/Portrait_Thord_Blonde.dds"
+	}
+	
+	### NOR
+	
+	spriteType = {
+		name = "GFX_portrait_FIN_lauri_torni"
+		texturefile = "gfx/leaders/SWE/Portrait_Thord_Blonde.dds"
+	}
+	
+	### FIN
+	
+	spriteType = {
+		name = "GFX_portrait_FIN_lauri_torni"
+		texturefile = "gfx/leaders/FIN/Portrait_albert.dds"
+	
+	}
+	
+	### NEW
+	
+	spriteType = {
+		name = "GFX_portrait_rupert_maccullough"
+		texturefile = "gfx/leaders/NEW/Portrait_rupert_maccullough.dds"
+	
+	}
+	### GER
+	
+	spriteType = {
+		name = "GFX_Portrait_germany_gregor_strasser"
+		texturefile = "gfx/leaders/GER/Portrait_germany_gregor_strasser.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_germany_alfred_rosenberg"
+		texturefile = "gfx/leaders/GER/Portrait_germany_alfred_rosenberg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_germany_alf_rose"
+		texturefile = "gfx/leaders/GER/Portrait_germany_alf_rose.dds"
+	}
+	
+	### Reichskommissariat
+	
+	spriteType = {
+		name = "GFX_Portrait_Adolf_Eichmann"
+		texturefile = "gfx/leaders/Reichskommissariat/Portrait_Adolf_Eichmann.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Hans-Ulrich_Rudel"
+		texturefile = "gfx/leaders/Reichskommissariat/Portrait_Hans-Ulrich_Rudel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Franz_Stangl"
+		texturefile = "gfx/leaders/Reichskommissariat/Portrait_Franz_Stangl.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Friedhelm_Busse"
+		texturefile = "gfx/leaders/Reichskommissariat/Portrait_Friedhelm_Busse.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Friedrich_Thielen"
+		texturefile = "gfx/leaders/Reichskommissariat/Portrait_Friedrich_Thielen.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Otto_Remer"
+		texturefile = "gfx/leaders/Reichskommissariat/Portrait_Otto_Remer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Otto_Remer"
+		texturefile = "gfx/leaders/Reichskommissariat/Portrait_Otto_Remer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Søren_Kam"
+		texturefile = "gfx/leaders/Reichskommissariat/Portrait_Søren_Kam.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Portrait_Grober_Chungus"
+		texturefile = "gfx/leaders/Reichskommissariat/Portrait_Grober_Chungus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Joseph_Menguele"
+		texturefile = "gfx/leaders/Reichskommissariat/Portrait_Joseph_Menguele.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Henk_Feldmeijer"
+		texturefile = "gfx/leaders/Reichskommissariat/Portrait_Henk_Feldmeijer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Baymirza_Hayit"
+		texturefile = "gfx/leaders/Reichskommissariat/Portrait_Portrait_Baymirza_Hayit.dds"
+	}
+	
+	### ROM
+	
+	spriteType = {
+		name = "GFX_Portrait_romania_nicolae_ceausescu"
+		texturefile = "gfx/leaders/ROM/Portrait_Ceausescu.dds"
+	}
+	
+	### UKR
+	
+	spriteType = {
+		name = "GFX_Portrait_Portrait_Yaroslav_Halan"
+		texturefile = "gfx/leaders/UKR/Portrait_Portrait_Yaroslav_Halan.dds"
+	}
+	
+	### CZE
+	
+	spriteType = {
+		name = "GFX_Portrait_Franz_Karmasin"
+		texturefile = "gfx/leaders/CZE/Portrait_Franz_Karmasin.dds"
+	}
+	
+	### HUN
+	
+	spriteType = {
+		name = "GFX_Portrait_Imre_Nagy"
+		texturefile = "gfx/leaders/HUN/Portrait_Imre_Nagy.dds"
+	}
+	
+	### SLO
+	
+	spriteType = {
+		name = "GFX_Portrait_Alexander_Mach"
+		texturefile = "gfx/leaders/SLO/Portrait_Alexander_Mach.dds"
+	}
+	
+	### BUL
+	
+	spriteType = {
+		name = "GFX_Portrait_Boris_3"
+		texturefile = "gfx/leaders/BUL/Portrait_Boris_3.dds"
+	}
+	
+	### POL
+	
+	spriteType = {
+		name = "GFX_Portrait_Kazimierz_Sosnkowski"
+		texturefile = "gfx/leaders/POL/Portrait_Kazimierz_Sosnkowski.dds"
+	}
+	
+	### DEN
+	
+	spriteType = {
+		name = "GFX_Portrait_denmark_Max_Arildskov"
+		texturefile = "gfx/leaders/DEN/Portrait_denmark_Max_Arildskov.dds"
+	}
+	
+	### CHI
+	
+	spriteType = {
+		name = "GFX_Portrait_china_wang_jingwei"
+		texturefile = "gfx/leaders/CHI/Portrait_china_wang_jingwei.dds"
+	}
+	### JAP
+
+	spriteType = {
+		name = "GFX_Portrait_Japan_Shygeyoshi_Matsumae"
+		texturefile = "gfx/leaders/JAP/Portrait_Japan_Shygeyoshi_Matsumae.dds"
+	}
+	
+	### ITA
+
+	spriteType = {
+		name = "GFX_Portrait_Italy_Benito_Mussolini"
+		texturefile = "gfx/leaders/ITA/Portrait_Italy_Benito_Mussolini.dds"
+	}
+	
+	### FRA
+
+	spriteType = {
+		name = "GFX_Portrait_france_boutang"
+		texturefile = "gfx/leaders/FRA/Portrait_france_boutang.dds"
+	}
+	
+	### NOR
+	
+	spriteType = {
+		name = "GFX_Portrait_Olav_fifth"
+		texturefile = "gfx/leaders/NOR/Portrait_Olav_fifth.dds"
+	}
+	
+	### SPR
+	
+	spriteType = {
+		name = "GFX_spain_francisco_franco"
+		texturefile = "gfx/leaders/SPR/Portrait_Spain_Francisco_Franco.dds"
+	}
+	
+	### IRE
+	
+	spriteType = {
+		name = "GFX_Portrait_Ireland_Charles_Bewley"
+		texturefile = "gfx/leaders/PER/Portrait_Ireland_Charles_Bewley.dds"
+	}
+	
+	### SAF
+	
+	spriteType = {
+		name = "GFX_boer_verwoerd"
+		texturefile = "gfx/leaders/SAF/Portrait_SAF_Verwoerd.dds"
+	}
+	
+	### SOV
+
+	spriteType = {
+		name = "GFX_Portrait_russia_alexei"
+		texturefile = "gfx/leaders/SOV/Portrait_russia_alexei.dds"
+	}
+	
+	### CAN
+
+	spriteType = {
+		name = "GFX_Portrait_Canada_Diefenbaker"
+		texturefile = "gfx/leaders/CAN/Portrait_Canada_Diefenbaker.dds"
+	}
+	
+	### USA
+
+	spriteType = {
+		name = "GFX_Portrait_harold_stassen"
+		texturefile = "gfx/leaders/USA/Portrait_america_harold_stassen.dds"
+	}
+	
+	### PER
+	
+	spriteType = {
+		name = "GFX_Portrait_Iran_Fazlollah_Zahedi"
+		texturefile = "gfx/leaders/PER/Portrait_Iran_Fazlollah_Zahedi.dds"
+	}
+	
+	### MAN
+	
+	spriteType = {
+		name = "GFX_portrait_MAN_aisin_gioro_puyi"
+		texturefile = "gfx/leaders/MAN/Portrait_drip_puyi.dds"
+	}
+	
+	### FAR EAST
+	
+	spriteType = {
+		name = "GFX_Portrait_Kaminsky"
+		texturefile = "gfx/leaders/FER/Portrait_Kaminsky.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Kaminsky"
+		texturefile = "gfx/leaders/FER/Portrait_Kaminsky.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Kiriko_Hinagata"
+		texturefile = "gfx/leaders/FER/Portrait_Kiriko_Hinagata.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Kenzo_Hinagata"
+		texturefile = "gfx/leaders/FER/Portrait_Kenzo_Hinagata.dds"
+	}
+	
+	### SIE
+	
+	spriteType = {
+		name = "GFX_Portrait_Siaka_Stevens"
+		texturefile = "gfx/leaders/SIE/Portrait_Siaka_Stevens.dds"
+	}
+	
+	### LIB
+	
+	spriteType = {
+		name = "GFX_Portrait_William_Tubman"
+		texturefile = "gfx/leaders/LIB/Portrait_William_Tubman.dds"
+	}
+	
+	### SUD
+	
+	spriteType = {
+		name = "GFX_Portrait_sudan_Siricio_Iro_Wani"
+		texturefile = "gfx/leaders/SUD/Portrait_sudan_Siricio_Iro_Wani.dds"
+	}
+	
+	### TZN
+	
+	spriteType = {
+		name = "GFX_Portrait_Julius_Nyerere"
+		texturefile = "gfx/leaders/TZN/Portrait_Julius_Nyerere.dds"
+	}
+	
+	### TZN
+	
+	spriteType = {
+		name = "GFX_Portrait_Chinua_Achebe"
+		texturefile = "gfx/leaders/BIA/Portrait_Chinua_Achebe.dds"
+	}
+	
+	### GHA
+	
+	spriteType = {
+		name = "GFX_Portrait_Ghana_Ahmadou_Ahidjo"
+		texturefile = "gfx/leaders/GHA/Portrait_Ghana_Ahmadou_Ahidjo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Ghana_Papa_Houphouët"
+		texturefile = "gfx/leaders/GHA/Portrait_Ghana_Papa_Houphouët.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Ghana_Arthur_Ankrah"
+		texturefile = "gfx/leaders/GHA/Portrait_Ghana_Arthur_Ankrah.dds"
+	}
+	
+	### Congo
+	
+	spriteType = {
+		name = "GFX_Portrait_Mobuto1"
+		texturefile = "gfx/leaders/COG/Portrait_Mobuto1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Mobuto2"
+		texturefile = "gfx/leaders/COG/Portrait_Mobuto2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Kaza_Vobu"
+		texturefile = "gfx/leaders/COG/portrait_congo_kasa_vobu.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Marien_Ngouabi"
+		texturefile = "gfx/leaders/COG/portrait_congo_marien_ngoaubi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Moise_Tshombe"
+		texturefile = "gfx/leaders/COG/portrait_congo_moise_tsombe.dds"
+	}
+}

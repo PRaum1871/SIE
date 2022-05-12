@@ -1,0 +1,32 @@
+state={
+	id=849
+	name="STATE_849"
+	provinces={
+		4196 
+	}
+	history={
+		owner = JAP
+		add_core_of = CHI
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			
+			4196 = {
+				naval_base = 3
+				coastal_bunker = 1
+				bunker = 1
+
+			}
+		
+		}
+		victory_points = {
+			4196 3 
+		}
+	}
+	
+	manpower=7764302
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=large_city
+}

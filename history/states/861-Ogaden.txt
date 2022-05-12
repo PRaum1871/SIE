@@ -1,0 +1,22 @@
+state={
+	id=861
+	name="STATE_861"
+	provinces={
+		4995 10775 
+	}
+	history={
+		owner = ETH
+	
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = SOM
+
+	}
+	manpower=1289200
+	buildings_max_level_factor=1.000
+	local_supplies=4.000
+	state_category=town
+}

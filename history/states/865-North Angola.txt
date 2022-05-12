@@ -1,0 +1,29 @@
+state={
+	id=865
+	name="STATE_865"
+	provinces={
+		7548 8219 8248 12981 
+	}
+	history={
+		owner = RCG
+		buildings = {
+			infrastructure = 1
+			8248 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			8248 1 
+		}
+		
+		add_core_of = ANG
+		add_core_of = RCG
+
+	}
+	manpower=1700000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=rural
+}

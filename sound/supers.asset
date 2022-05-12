@@ -1,0 +1,6 @@
+sound = {
+	name = "super_sco"
+	file = "menu/scot.wav"
+	volume = 1
+	always_load = yes
+}

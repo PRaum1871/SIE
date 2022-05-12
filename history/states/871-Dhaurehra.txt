@@ -1,0 +1,23 @@
+state={
+	id=871
+	name="STATE_871"
+	provinces={
+		1541 1983 7064 7334 8082 
+	}
+
+	history={
+		owner = NEP
+		add_core_of = NEP
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+	manpower=9728300
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=rural
+}

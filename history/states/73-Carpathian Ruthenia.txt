@@ -1,0 +1,28 @@
+
+state={
+	id=73
+	name="STATE_73"
+
+	history={
+		victory_points = {
+			3548 1 
+		}
+		owner = HUN
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = HUN
+		add_claim_by = SLO
+		add_claim_by = ROM
+
+	}
+
+	provinces={
+		746 3548 6571 9563 9704 11536 11691 
+	}
+	manpower=854300
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

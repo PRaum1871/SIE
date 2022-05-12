@@ -1,0 +1,41 @@
+﻿###########################
+# Hungarian Events
+###########################
+
+add_namespace = hungary
+
+# Hungary declares a new contitution
+country_event = {
+	id = hungary.1
+	title = hungary.1.t
+	desc = hungary.1.d
+	picture = GFX_report_event_finnish_letter
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hungary.1.a
+		GER = {
+		set_autonomy = {
+		target = HUN
+		autonomy_state = autonomy_free
+		}
+		}
+		leave_faction = yes
+		set_politics = {
+		ruling_party = socialism
+		elections_allowed = no
+		election_frequency = 48
+		}
+		set_popularities = {
+		socialism = 30
+		liberalism = 25
+		fascism = 5
+		socdem = 25
+		communism = 10
+		nazism = 5
+		}
+		ai_chance = { factor = 10 }
+	}
+	}
+}

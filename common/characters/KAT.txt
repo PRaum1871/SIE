@@ -1,0 +1,16 @@
+characters={
+	KAT_moise_tshombe={
+		name= "Moïse Tshombe"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Moise_Tshombe
+			}
+			
+		}
+		country_leader={
+			ideology=corporatism 
+			expire="1977.1.1.1"
+			id=-1
+		}
+	}
+}

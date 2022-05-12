@@ -1,0 +1,27 @@
+state={
+	id=864
+	name="STATE_864"
+	provinces={
+		191 1516 1817 1929 1968 4515 9986 12795 12907 
+	}
+	history={
+		owner = KAT
+		add_core_of = KAT
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			10968 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			191 1 
+		}
+	}
+	manpower=14567800
+	buildings_max_level_factor=1.000
+	local_supplies=4.000
+	state_category=town
+}

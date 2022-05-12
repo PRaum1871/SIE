@@ -1,0 +1,21 @@
+﻿###########################
+# Bulgarian Events
+###########################
+
+add_namespace = bulgaria
+
+# Bulgaria leaves the pact
+country_event = {
+	id = bulgaria.1
+	title = bulgaria.1.t
+	desc = bulgaria.1.d
+	picture = GFX_report_event_finnish_letter
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = bulgaria.1.a
+		leave_faction = yes
+		ai_chance = { factor = 10 }
+	}
+}

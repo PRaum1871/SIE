@@ -1,0 +1,40 @@
+﻿capital = 461
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_cosmetic_tag = MOR_FRA
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	conservatism = 10
+	fascism = 10
+	communism = 5
+	despotism = 15
+	sameism = 20
+	authoritarianism = 10
+	socialism = 10
+	liberalism = 10
+	reactionary = 5
+	ultranationalism = 5
+}
+
+create_country_leader = {
+	name = "Mohammed V"
+	desc = ""
+	picture = GFX_portrait_Mohammed_V
+	ideology = monarchism 
+	traits = {
+		#
+	}
+}

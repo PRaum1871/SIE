@@ -1,0 +1,22 @@
+state={
+	id=847
+	name="STATE_847"
+	provinces={
+		7997 10834 10865 12890 
+	}
+	history={
+		owner = SIK
+		add_core_of = SIK
+		buildings = {
+			infrastructure = 1
+			
+
+
+		}
+
+	}
+	manpower=657200
+	buildings_max_level_factor=1.000
+	local_supplies=1.000
+	state_category=rural
+}

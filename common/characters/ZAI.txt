@@ -1,0 +1,31 @@
+characters={
+	ZAI_mobuto1={
+		name= "Joseph-Desiré Mobutu"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Mobuto1
+			}
+			
+		}
+		country_leader={
+			ideology=military_junta  
+			expire="1997.1.1.1"
+			id=-1
+		}
+	}
+	
+	ZAI_mobuto2={
+		name= "Mobutu Sese Seko"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Mobuto2
+			}
+			
+		}
+		country_leader={
+			ideology=kleptocracy 
+			expire="1997.1.1.1"
+			id=-1
+		}
+	}
+}

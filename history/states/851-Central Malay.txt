@@ -1,0 +1,23 @@
+state={
+	id=851
+	name="STATE_851"
+	provinces={
+		1279 4297 4371 7236 10156 12131 
+	}
+	history={
+		owner = MAL
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			7236 1 
+		}
+		add_core_of = MAL
+
+	}
+	manpower=987300
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=rural
+}

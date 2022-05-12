@@ -1,0 +1,32 @@
+
+state={
+	id=214
+	name="STATE_214"
+
+	history={
+		owner = SIB
+		victory_points = {
+			3338 5 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 3
+			3338 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = SIB
+
+	}
+
+	provinces={
+		72 87 140 180 183 312 2356 3031 3064 3065 3075 3080 3081 3092 3130 3166 3168 3338 6051 6088 6100 6102 6105 6166 6193 6199 9041 9101 9124 9130 9187 9213 9248 11038 11042 11061 11074 11089 11137 11171 13194 13198 
+	}
+	manpower=850883
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

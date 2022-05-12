@@ -1,0 +1,25 @@
+
+state={
+	id=561
+	name="STATE_561"
+
+	history={
+		owner = AMU
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+
+		}
+		add_core_of = AMU
+		
+
+	}
+
+	provinces={
+		1730 1739 1845 4731 4821 4847 7691 7754 7785 7844 7851 10598 10608 10667 10678 12543 12591 12650 12657 12660 
+	}
+	manpower=454281
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=6.000
+}

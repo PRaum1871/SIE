@@ -1,0 +1,71 @@
+ideas = {
+
+	country = {
+		ENG_secessionist_infighting = {
+			
+			picture = "GFX_idea_ENG_secessionist_infighting"
+			
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				stability_weekly = -0.13
+				political_power_cost = +0.09
+				
+			}
+		}
+	}
+	
+	country = {
+		ENG_leader_of_the_homosexual_world = {
+			
+			picture = "GFX_idea_ENG_leader_of_the_homosexual_world"
+			
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				war_support_weekly = +0.05
+				conscription = 0.02
+				conscription_factor = 0.10
+				
+			}
+		}
+	}
+	
+	country = {
+		ENG_internationally_isolated = {
+			
+			picture = "GFX_idea_ENG_internationally_isolated"
+			
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				stability_factor = -0.10
+			}
+		}
+	}
+	
+	country = {
+		ENG_the_hierarchy = {
+			
+			picture = "GFX_idea_ENG_the_hierarchy"
+			
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				stability_factor = -0.20
+				political_power_cost = -0.20
+			}
+		}
+	}
+	
+	
+	
+}

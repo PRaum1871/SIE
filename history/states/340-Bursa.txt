@@ -1,0 +1,31 @@
+
+state={
+	id=340
+	name="STATE_340"
+	resources={
+		chromium=39.000
+	}
+
+	history={
+		owner = BIZ
+		add_core_of = BIZ
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
+
+		}
+		victory_points = {
+			947 10 
+		}
+
+	}
+
+	provinces={
+		785 856 947 981 3786 3851 11831 11867 
+	}
+	manpower=777853
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
