@@ -1,14 +1,14 @@
 characters={
-	F15_søren_kam={
-		name="Søren Kam"
+	F16_eugene_terreblanche={
+		name="Eugène Terre'Blanche"
 		portraits={
 			civilian={
-				large=GFX_Portrait_Søren_Kam
+				large=GFX_Portrait_Eugène_Terre
 			}
 		}
 		country_leader={
 			ideology=rosenberg_tought
-			expire="2015.1.1.1"
+			expire="2003.1.1.1"
 			id=-1
 		}
 	}

@@ -7,6 +7,8 @@ set_technology = {
 
 set_convoys = 0
 
+recruit_character = F08_friedrich_thielen
+
 set_politics = {
 	ruling_party = ultranationalism
 	last_election = "1936.1.1"
@@ -24,4 +26,3 @@ set_popularities = {
 	conservatism = 5
 }
 
-recruit_character = F08_friedrich_thielen

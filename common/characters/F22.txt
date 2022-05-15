@@ -1,14 +1,14 @@
 characters={
-	F13_vidkun_quisling={
-		name="Vidkun Quisling"
+	F22_walther_wenck={
+		name="Walther Wenck"
 		portraits={
 			civilian={
-				large=GFX_Portrait_Vidkun_Quisling
+				large=GFX_Portrait_Walther_Wenck
 			}
 		}
 		country_leader={
 			ideology=rosenberg_tought
-			expire="1985.1.1.1"
+			expire="1990.1.1.1"
 			id=-1
 		}
 	}

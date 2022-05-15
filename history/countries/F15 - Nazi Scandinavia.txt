@@ -7,6 +7,8 @@ set_technology = {
 
 set_convoys = 0
 
+recruit_character = F15_søren_kam
+
 set_politics = {
 	ruling_party = ultranationalism
 	last_election = "1936.1.1"
@@ -25,4 +27,3 @@ set_popularities = {
 	ultranationalism = 20
 }
 
-recruit_character = F15_søren_kam

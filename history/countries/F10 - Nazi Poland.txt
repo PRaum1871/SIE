@@ -7,6 +7,8 @@ set_technology = {
 
 set_convoys = 0
 
+recruit_character = F10_hans_rudel
+
 set_politics = {
 	ruling_party = ultranationalism
 	last_election = "1936.1.1"
@@ -19,4 +21,3 @@ set_popularities = {
 	ultranationalism = 50
 }
 
-recruit_character = F10_hans_rudel

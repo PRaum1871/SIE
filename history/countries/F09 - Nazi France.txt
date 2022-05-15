@@ -7,6 +7,9 @@ set_technology = {
 
 set_convoys = 0
 
+
+recruit_character = F09_friedhelm_busse
+
 set_politics = {
 	ruling_party = ultranationalism
 	last_election = "1936.1.1"
@@ -22,5 +25,3 @@ set_popularities = {
  	liberalism = 10
 	conservatism = 10
 }
-
-recruit_character = F09_friedhelm_busse

@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 0
 
-recruit_character = F13_werner_best
+recruit_character = F13_vidkun_quisling
 
 set_politics = {
 	ruling_party = ultranationalism

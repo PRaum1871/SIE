@@ -17,10 +17,10 @@ set_politics = {
 }
 set_popularities = {
 	authoritarianism = 25
-	despotism = 15
-	fascism = 15
+	despotism = 10
+	fascism = 10
 	socdem = 5
-	socialism = 15
+	socialism = 10
 	conservatism = 10
 	liberalism = 5
 	ultranationalism = 25

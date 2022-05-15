@@ -1,14 +1,14 @@
 characters={
-	F15_søren_kam={
-		name="Søren Kam"
+	F17_michael_wittmann={
+		name="Michael Wittmann"
 		portraits={
 			civilian={
-				large=GFX_Portrait_Søren_Kam
+				large=GFX_Portrait_Michael_Wittmann
 			}
 		}
 		country_leader={
 			ideology=rosenberg_tought
-			expire="2015.1.1.1"
+			expire="2000.1.1.1"
 			id=-1
 		}
 	}

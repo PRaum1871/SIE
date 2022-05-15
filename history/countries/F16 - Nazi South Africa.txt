@@ -7,6 +7,8 @@ set_technology = {
 
 set_convoys = 0
 
+recruit_character = F16_eugene_terreblanche
+
 set_politics = {
 	ruling_party = ultranationalism
 	last_election = "1936.1.1"

@@ -12,6 +12,21 @@ characters={
 			id=-1
 		}
 	}
+	
+	ITA_pio_filippani_ronconi={
+		name="Pio Filippani Ronconi"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Pio_Filippani_Ronconi
+			}
+		}
+		country_leader={
+			ideology=italian_fascism
+			expire="2005.1.1.1"
+			id=-1
+		}
+	}
+	
 
 	ITA_ferruccio_parri={
 		name=ITA_ferruccio_parri

@@ -7,6 +7,8 @@ set_technology = {
 
 set_convoys = 0
 
+recruit_character = F19_baymirza_hayit
+
 set_politics = {
 	ruling_party = fascism
 	last_election = "1936.1.1"
@@ -26,4 +28,3 @@ set_popularities = {
 	liberalism = 10
 }
 
-recruit_character = F19_baymirza_hayit

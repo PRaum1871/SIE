@@ -167,6 +167,7 @@ set_popularities = {
 	communism = 3
 }
 
+recruit_character = ITA_pio_filippani_ronconi
 recruit_character = ITA_palmiro_togliatti
 recruit_character = ITA_victor_emmanuel_iii
 recruit_character = ITA_ferruccio_parri

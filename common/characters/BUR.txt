@@ -1,14 +1,14 @@
 characters={
-	F13_vidkun_quisling={
-		name="Vidkun Quisling"
+	BUR_henrich_himmler={
+		name="Heinrich Himmler"
 		portraits={
 			civilian={
-				large=GFX_Portrait_Vidkun_Quisling
+				large=GFX_Portrait_Henrich_Himmler
 			}
 		}
 		country_leader={
 			ideology=rosenberg_tought
-			expire="1985.1.1.1"
+			expire="1976.1.1.1"
 			id=-1
 		}
 	}

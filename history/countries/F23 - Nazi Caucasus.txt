@@ -7,6 +7,8 @@ set_technology = {
 
 set_convoys = 0
 
+recruit_character = F23_joseph_menguele
+
 set_politics = {
 	ruling_party = ultranationalism
 	last_election = "1936.1.1"
@@ -25,4 +27,3 @@ set_popularities = {
 	conservatism = 15
 }
 
-recruit_character = F23_joseph_menguele

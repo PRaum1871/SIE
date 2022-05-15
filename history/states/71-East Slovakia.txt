@@ -13,11 +13,12 @@ state={
 			industrial_complex = 1
 
 		}
+		set_demilitarized_zone = yes
 		add_core_of = SLO
 		add_claim_by = HUN
 
 	}
-
+	
 	provinces={
 		3581 6586 6604 
 	}

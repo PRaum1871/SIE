@@ -7,6 +7,8 @@ set_technology = {
 
 set_convoys = 0
 
+recruit_character = F07_henk_feldmeijer
+
 set_politics = {
 	ruling_party = ultranationalism
 	last_election = "1936.1.1"
@@ -22,4 +24,3 @@ set_popularities = {
 	conservatism = 20
 }
 
-recruit_character = F07_henk_feldmeijer

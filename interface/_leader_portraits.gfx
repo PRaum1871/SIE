@@ -140,6 +140,31 @@ spriteTypes = {
 		texturefile = "gfx/leaders/Reichskommissariat/Portrait_Portrait_Baymirza_Hayit.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_Portrait_Rudolf_Rahn"
+		texturefile = "gfx/leaders/Reichskommissariat/Portrait_Rudolf_Rahn.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Walther_Wenck"
+		texturefile = "gfx/leaders/Reichskommissariat/Portrait_Walther_Wenck.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Henrich_Himmler"
+		texturefile = "gfx/leaders/Reichskommissariat/Portrait_Henrich_Himmler.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Eugène_Terre"
+		texturefile = "gfx/leaders/Reichskommissariat/Portrait_Eugène_Terre.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Michael_Wittmann"
+		texturefile = "gfx/leaders/Reichskommissariat/Portrait_Michael_Wittmann.dds"
+	}
+	
 	### ROM
 	
 	spriteType = {
@@ -214,6 +239,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_Italy_Benito_Mussolini"
 		texturefile = "gfx/leaders/ITA/Portrait_Italy_Benito_Mussolini.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Pio_Filippani_Ronconi"
+		texturefile = "gfx/leaders/ITA/Portrait_Pio_Filippani_Ronconi.dds"
 	}
 	
 	### FRA
