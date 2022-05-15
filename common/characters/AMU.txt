@@ -3,7 +3,7 @@ characters={
 		name= "Alexander Kazembek"
 		portraits={
 			civilian={
-				large = GFX_Portrait_Kazembek
+				large = GFX_Portrait_Alexander_Kazembek
 			}
 			
 		}

@@ -1,0 +1,15 @@
+characters={
+	F11_henrik_rogstad={
+		name="Henrik Rogstad"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Henrik_Rogstad
+			}
+		}
+		country_leader={
+			ideology=rosenberg_tought
+			expire="1990.1.1.1"
+			id=-1
+		}
+	}
+}

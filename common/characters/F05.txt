@@ -1,0 +1,15 @@
+characters={
+	F05_john_amery={
+		name="John Amery"
+		portraits={
+			civilian={
+				large=GFX_Portrait_John_Amery
+			}
+		}
+		country_leader={
+			ideology=rosenberg_tought
+			expire="1978.1.1.1"
+			id=-1
+		}
+	}
+}

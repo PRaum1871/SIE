@@ -1,0 +1,15 @@
+characters={
+	F12_werner_best={
+		name="Werner Best"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Werner_Best
+			}
+		}
+		country_leader={
+			ideology=rosenberg_tought
+			expire="1985.1.1.1"
+			id=-1
+		}
+	}
+}

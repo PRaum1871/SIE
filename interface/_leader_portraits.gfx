@@ -106,12 +106,37 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_Portrait_Henrik_Rogstad"
+		texturefile = "gfx/leaders/Reichskommissariat/Portrait_Henrik_Rogstad.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Werner_Best"
+		texturefile = "gfx/leaders/Reichskommissariat/Portrait_Werner_Best.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Vidkun_Quisling"
+		texturefile = "gfx/leaders/Reichskommissariat/Portrait_Vidkun_Quisling.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Edmund_Veesenmayer"
+		texturefile = "gfx/leaders/Reichskommissariat/Portrait_Edmund_Veesenmayer.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_Portrait_Henk_Feldmeijer"
 		texturefile = "gfx/leaders/Reichskommissariat/Portrait_Henk_Feldmeijer.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_Portrait_Baymirza_Hayit"
+		texturefile = "gfx/leaders/Reichskommissariat/Portrait_Portrait_Baymirza_Hayit.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_John_Amery"
 		texturefile = "gfx/leaders/Reichskommissariat/Portrait_Portrait_Baymirza_Hayit.dds"
 	}
 	
@@ -269,8 +294,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_Portrait_Kaminsky"
-		texturefile = "gfx/leaders/FER/Portrait_Kaminsky.dds"
+		name = "GFX_Portrait_Alexander_Kazembek"
+		texturefile = "gfx/leaders/FER/Portrait_Alexander_Kazembek.dds"
 	}
 	
 	spriteType = {
