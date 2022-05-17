@@ -389,6 +389,20 @@ spriteTypes = {
 		texturefile = "gfx/leaders/GHA/Portrait_Ghana_Arthur_Ankrah.dds"
 	}
 	
+	### MEN
+	
+	spriteType = {
+		name = "GFX_portrait_men_demchugdongrub"
+		texturefile = "gfx/leaders/MEN/Portrait_Demchugdongrub.dds"
+	}
+	
+	### INS
+	
+	spriteType = {
+		name = "GFX_portrait_INS_sukarno"
+		texturefile = "gfx/leaders/INS/Portrait_Sukarno.dds"
+	}
+	
 	### Congo
 	
 	spriteType = {
