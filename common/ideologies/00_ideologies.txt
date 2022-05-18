@@ -220,9 +220,6 @@ ideologies = {
 			syndicalism = {
 			}
 			
-			anti_revisionism = {
-			}
-			
 			anarcho_communism = {
 			}
 			

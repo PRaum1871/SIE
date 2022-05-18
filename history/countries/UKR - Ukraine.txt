@@ -74,6 +74,10 @@ if = {
 	}
 }
 
+set_convoys = 20
+
+recruit_character = UKR_yaroslav_halan
+
 set_popularities = {
 	nazism = 25
 	fascism = 30
@@ -86,5 +90,5 @@ set_politics = {
 	elections_allowed = no
 }
 
-recruit_character = UKR_yaroslav_halan
+
 

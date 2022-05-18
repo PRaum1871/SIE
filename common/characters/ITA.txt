@@ -21,7 +21,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=italian_fascism
+			ideology=rosenberg_tought
 			expire="2005.1.1.1"
 			id=-1
 		}

@@ -1,6 +1,8 @@
 ﻿#Springtime in Europe: Eternal Hemoclysm
 
+#LEAD DEVELOPER
 
+McDuckington
 
 #ARTISTS
 
@@ -16,10 +18,13 @@ Dripalorian
 
 
 #PROGRAMMING
+
 Chinaposting
 
+Additional thanks to CMCMC404 for his scripts!
 
 #WRITERS
+
 A.D.A.M
 
 Floody

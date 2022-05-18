@@ -9,4 +9,4 @@ tags={
 }
 replace_path="gfx/loadingscreens"
 name="Springtime in Europe: Eternal Hemoclysm"
-supported_version="1.11.10"
+supported_version="1.11.11"

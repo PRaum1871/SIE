@@ -3,10 +3,10 @@ state={
 	name="STATE_661"
 	manpower = 17617
 	
-	state_category = wasteland
+	state_category = rural
 	
 	history={
-		owner = ITA
+		owner = LBA
 		buildings = {
 			infrastructure = 1
 		}
