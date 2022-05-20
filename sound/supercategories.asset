@@ -1,7 +1,0 @@
-category = {
-	name = "Super Events"
-	soundeffects = {
-		superev_sco
-	}
-	compressor = master_compressor
-}

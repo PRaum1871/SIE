@@ -29,6 +29,22 @@ spriteTypes = {
 	
 	}
 	
+	### HOL
+	
+	spriteType = {
+		name = "GFX_Portrait_Holland_Hendrik_Koekoek"
+		texturefile = "gfx/leaders/HOL/Portrait_Holland_Hendrik_Koekoek.dds"
+	
+	}
+	
+	### TUR
+	
+	spriteType = {
+		name = "GFX_Portrait_Turkey_Cemal_Gürsel"
+		texturefile = "gfx/leaders/TUR/Portrait_Turkey_Cemal_Gürsel.dds"
+	
+	}
+	
 	### NEW
 	
 	spriteType = {
@@ -227,11 +243,54 @@ spriteTypes = {
 		name = "GFX_Portrait_china_wang_jingwei"
 		texturefile = "gfx/leaders/CHI/Portrait_china_wang_jingwei.dds"
 	}
+	
+	### SIC
+	
+	spriteType = {
+		name = "GFX_Portrait_Li_Zongren"
+		texturefile = "gfx/leaders/SIC/Portrait_Li_Zongren.dds"
+	}
+	
+	### PRC
+	
+	spriteType = {
+		name = "GFX_Portrait_Kang_Sheng"
+		texturefile = "gfx/leaders/PRC/Portrait_Kang_Sheng.dds"
+	}
+	
+	### TIB
+	
+	spriteType = {
+		name = "GFX_Portrait_Dalai_Lama"
+		texturefile = "gfx/leaders/TIB/Portrait_Dalai_Lama.dds"
+	}
+	
 	### JAP
 
 	spriteType = {
 		name = "GFX_Portrait_Japan_Shygeyoshi_Matsumae"
 		texturefile = "gfx/leaders/JAP/Portrait_Japan_Shygeyoshi_Matsumae.dds"
+	}
+	
+	### MAL
+	
+	spriteType = {
+		name = "GFX_Portrait_Ibrahim_Yaacob"
+		texturefile = "gfx/leaders/MAL/Portrait_Ibrahim_Yaacob.dds"
+	}
+	
+	### PHI
+	
+	spriteType = {
+		name = "GFX_Portrait_Camilo_Osías"
+		texturefile = "gfx/leaders/PHI/Portrait_Camilo_Osías.dds"
+	}
+	
+	### BRM
+	
+	spriteType = {
+		name = "GFX_Portrait_U_Saw"
+		texturefile = "gfx/leaders/BRM/Portrait_U_Saw.dds"
 	}
 	
 	### ITA
@@ -389,6 +448,18 @@ spriteTypes = {
 		texturefile = "gfx/leaders/GHA/Portrait_Ghana_Arthur_Ankrah.dds"
 	}
 	
+	### SIA
+	
+	spriteType = {
+		name = "GFX_Portrait_Thanom_Kittikachorn"
+		texturefile = "gfx/leaders/SIA/Portrait_Thanom_Kittikachorn.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Sarit_Thanarat"
+		texturefile = "gfx/leaders/SIA/Portrait_Sarit_Thanarat.dds"
+	}
+	
 	### MEN
 	
 	spriteType = {
@@ -396,11 +467,46 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MEN/Portrait_Demchugdongrub.dds"
 	}
 	
+	### SIK
+	
+	spriteType = {
+		name = "GFX_portrait_SIK_sheng_shicai"
+		texturefile = "gfx/leaders/SIK/Portrait_Sheng_Shikai.dds"
+	}
+	
+	### EAS
+	
+	spriteType = {
+		name = "GFX_Portrait_Ehmetjan_Qasimi"
+		texturefile = "gfx/leaders/EAS/Portrait_Ehmetjan_Qasimi.dds"
+	}
+	
+	### VIN
+	
+	spriteType = {
+		name = "GFX_portrait_Ho_Chi_Minh"
+		texturefile = "gfx/leaders/VIN/Portrait_Ho_Chi_Minh.dds"
+	}
+	
+	### CAM
+	
+	spriteType = {
+		name = "GFX_portrait_Pol_Pot"
+		texturefile = "gfx/leaders/CAM/Portrait_Pol_Pot.dds"
+	}
+	
 	### INS
 	
 	spriteType = {
 		name = "GFX_portrait_INS_sukarno"
 		texturefile = "gfx/leaders/INS/Portrait_Sukarno.dds"
+	}
+	
+	### Colonies
+	
+	spriteType = {
+		name = "GFX_Portrait_Henri_Romuald"
+		texturefile = "gfx/leaders/Colonies/Portrait_Henri_Romuald.dds"
 	}
 	
 	### Congo

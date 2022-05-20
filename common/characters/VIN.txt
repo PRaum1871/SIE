@@ -1,0 +1,54 @@
+characters={
+	VIN_ho_chi_minh={
+		name="Ho Chí Minh" 
+		portraits={
+			civilian={
+				large=GFX_portrait_Ho_Chi_Minh
+			}
+		}
+		country_leader={
+			ideology=ho_chi_minh_tough
+			expire="1970.1.1.1"
+			id=-1
+		}
+	}
+	VIN_ngo_dinh_diem={
+		name="Ngô Đình Diêm" 
+		portraits={
+			civilian={
+				large=GFX_portrait_Ho_Chi_Minh
+			}
+		}
+		country_leader={
+			ideology=right_populism
+			expire="1970.1.1.1"
+			id=-1
+		}
+	}
+	VIN_nguyen_toung_tam={
+		name="Nguyen Tuong Tam" 
+		portraits={
+			civilian={
+				large=GFX_portrait_Ho_Chi_Minh
+			}
+		}
+		country_leader={
+			ideology=progressive_conservative
+			expire="1970.1.1.1"
+			id=-1
+		}
+	}
+	VIN_phan_boi_chau={
+		name="Phan Bôi Châu" 
+		portraits={
+			civilian={
+				large=GFX_portrait_Ho_Chi_Minh
+			}
+		}
+		country_leader={
+			ideology=showa_statism
+			expire="1970.1.1.1"
+			id=-1
+		}
+	}
+}

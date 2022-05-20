@@ -87,7 +87,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = authoritarianism
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -107,7 +107,7 @@ set_stability = 0.5
 set_war_support = 0.3
 
 	recruit_character = TUR_ismet_inonu
-	recruit_character = TUR_mustafa_kemal_ataturk
+	recruit_character = TUR_cemal_gursel
 	recruit_character = TUR_sefik_husnu
 	recruit_character = TUR_celal_bayar
 	recruit_character = TUR_fevzi_cakmak

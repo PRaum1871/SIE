@@ -7,12 +7,18 @@ set_technology = {
 
 set_convoys = 0
 
+recruit_character = F24_paul_ely
+
 set_politics = {
-	ruling_party = despotism
+	ruling_party = reactionary
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	despotism = 100
+	despotism = 10
+	reactionary = 20
+	communism = 30
+	socialism = 20
+	nazism = 20
 }

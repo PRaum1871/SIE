@@ -1,0 +1,15 @@
+characters={
+	F24_paul_ely={
+		name="Paul Ély"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Henri_Romuald
+			}
+		}
+		country_leader={
+			ideology=maurassism
+			expire="1975.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,15 @@
+characters={
+	SIC_li_tsung={
+		name="Li Tsung-jen"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Li_Zongren
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1969.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -304,21 +304,6 @@ characters={
 					factor = 1.000
 				}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Abdolreza Afkhami"
-		portraits={
-			army={
-				small="GFX_idea_generic_army_arab_3"
-			}
-		}
-	}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Fazlollah Zahedi"
-		portraits={
-			army={
-				small="GFX_idea_generic_army_arab_2"
-			}
-		}
 	}
 	PER_mohammed_reza_pahlavi={
 		advisor={

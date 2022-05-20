@@ -7,9 +7,10 @@ set_technology = {
 
 set_convoys = 0
 
+recruit_character = SIC_li_tsung
 
 set_politics = {
-	ruling_party = authoritarianism
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -17,7 +18,8 @@ set_politics = {
 set_popularities = {
 	conservatism = 25
 	liberalism = 25
-	authoritarianism = 25
+	authoritarianism = 15
+	despotism = 10
   	communism = 15
 	ultranationalism = 10
 	

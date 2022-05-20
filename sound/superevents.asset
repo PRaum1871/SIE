@@ -1,8 +1,0 @@
-soundeffect =
-{
-	name = "superev_sco"
-	sounds = {
-		sound = "super_sco"
-	}
-	volume = 0.75
-}
