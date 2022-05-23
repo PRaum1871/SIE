@@ -7,6 +7,45 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ENG/portrait_calvin_mallard.dds"
 	}
 	
+	### BOL
+	
+	spriteType = {
+		name = "GFX_Portrait_Bolivia_Juan_Lechín"
+		texturefile = "gfx/leaders/BOL/Portrait_Bolivia_Juan_Lechín.dds"
+	}
+	
+	### ARG
+	
+	spriteType = {
+		name = "GFX_Portrait_Argentina_Arturo_Frondizi"
+		texturefile = "gfx/leaders/ARG/Portrait_Argentina_Arturo_Frondizi.dds"
+	}
+	
+	### PAR
+	
+	spriteType = {
+		name = "GFX_Portrait_Paraguay_Carlos_Gatti"
+		texturefile = "gfx/leaders/PAR/Portrait_Paraguay_Carlos_Gatti.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Paraguay_Rafael_Franco"
+		texturefile = "gfx/leaders/PAR/Portrait_Paraguay_Rafael_Franco.dds"
+	}
+	
+	### URG
+	
+	spriteType = {
+		name = "GFX_Portrait_Uruguay_Benito_Nardone"
+		texturefile = "gfx/leaders/URG/Portrait_Paraguay_Carlos_Gatti.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Uruguay_Luis_Berres"
+		texturefile = "gfx/leaders/URG/Portrait_Uruguay_Luis_Berres.dds"
+	}
+	
+	
 	### SWE
 	
 	spriteType = {

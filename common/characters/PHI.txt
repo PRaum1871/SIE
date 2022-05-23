@@ -3,7 +3,7 @@ characters={
 		name="Camilo Osías"
 		portraits={
 			civilian={
-				large=GFX_portrait_Manuel_Luis_Quezon
+				large=GFX_Portrait_Camilo_Osías
 			}
 		}
 		country_leader={

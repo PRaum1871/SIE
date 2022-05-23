@@ -3,7 +3,7 @@ characters={
 		name="Pol Pot"
 		portraits={
 			civilian={
-				large=GFX_Portrait_Friedhelm_Busse
+				large=GFX_portrait_Pol_Pot
 			}
 		}
 		country_leader={

@@ -1,0 +1,28 @@
+characters={
+	FER_kenzo_hinagata={
+		name="Kenzo Hinagata"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Kenzo_Hinagata
+			}
+		}
+		country_leader={
+			ideology=warlord_state
+			expire="1985.1.1.1"
+			id=-1
+		}
+	}
+	FER_kiriko_hinagata={
+		name="Kiriko Hinagata"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Kiriko_Hinagata
+			}
+		}
+		country_leader={
+			ideology=esotericism
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

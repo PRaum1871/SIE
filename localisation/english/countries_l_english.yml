@@ -1539,7 +1539,7 @@
  
  F01:0 "French West Africa"
  F01_DEF:0 "French West Africa"
- F02_ADJ:0 "West African"
+ F01_ADJ:0 "West African"
  F02:0 "French Equatorial Africa"
  F02_DEF:0 "French Equatorial Africa"
  F02_ADJ:0 "Equatorial Africa"
@@ -1634,6 +1634,6 @@
  ROI_DEF:0 "the Hindū Mahāsabhā"
  ROI_ADJ:0 "Indians"
     IND:0 "Madras"
- IND:0 "Madras"
- IND_ADJ:0 "Madrassi"
+ IND_ADJ:0 "Madras"
+ IND_DEF:0 "Madrassi"
  

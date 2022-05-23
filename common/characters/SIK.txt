@@ -5,14 +5,9 @@ characters={
 			civilian={
 				large=GFX_portrait_SIK_sheng_shicai
 			}
-			army={
-				large="GFX_portrait_sheng_shicai"
-				small=GFX_portrait_SIK_sheng_shicai_small
-
-			}
 		}
 		country_leader={
-			ideology=authoritarian_democracy
+			ideology=autocracy
 			expire="1970.1.1.1"
 			id=-1
 		}

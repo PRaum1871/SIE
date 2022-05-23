@@ -11,7 +11,7 @@ set_technology = {
 	early_fighter = 1
 	fuel_silos = 1
 }
-
+recruit_character = BOL_juan_lechin
 recruit_character = BOL_josé_luis_tejada_sorzano
 recruit_character = BOL_Óscar_Únzaga_de_la_vega
 recruit_character = BOL_jorge_blanco
@@ -34,7 +34,7 @@ recruit_character = BOL_german_busch_beccera
 recruit_character = BOL_jose_maria_gutierrez
 
 set_politics = {
-	ruling_party = authoritarianism
+	ruling_party = despotism
 	last_election = "1934.11.11"
 	election_frequency = 72
 	elections_allowed = yes

@@ -3,7 +3,7 @@ characters={
 		name="Kang Sheng"
 		portraits={
 			civilian={
-				large=GFX_portrait_PRC_Kang_Sheng
+				large=GFX_Portrait_Kang_Sheng
 			}
 		}
 		country_leader={

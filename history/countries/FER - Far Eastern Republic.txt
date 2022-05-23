@@ -76,6 +76,9 @@ if = {
 
 set_cosmetic_tag = FER_JAP
 
+recruit_character = FER_kenzo_hinagata
+recruit_character = FER_kiriko_hinagata
+
 set_politics = {
 	ruling_party = despotism
 	last_election = "1936.1.1"

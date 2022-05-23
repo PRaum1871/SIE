@@ -1,0 +1,20 @@
+state={
+	id=882
+	name="STATE_882"
+	provinces={
+		5201 5209 5215 8913 11009 
+	}
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ARG
+
+	}
+	manpower=168693
+	buildings_max_level_factor=1.000
+  	state_category=pastoral
+	local_supplies=0.000
+}

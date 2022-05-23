@@ -50,6 +50,7 @@ if = {
 	}
 }
 
+recruit_character = ARG_arturo_frondizi
 recruit_character = ARG_agustín_pedro_justo
 recruit_character = ARG_nimo_de_anquín
 recruit_character = ARG_marcelo_t_de_alvear
@@ -84,12 +85,15 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	liberalism = 40
+	liberalism = 15
+	ultranationalism = 5
 	fascism = 5
 	communism = 5
 	socialism = 15
 	socdem = 15
 	authoritarianism = 15
+	despotism = 10
+	nazism = 10
 	reactionary = 5
 }
 
