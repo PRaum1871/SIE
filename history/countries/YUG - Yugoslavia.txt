@@ -24,7 +24,7 @@ if = {
 
 set_research_slots = 3
 
-recruit_character = YUG_prince_paul
+recruit_character = YUG_peter_ii
 recruit_character = YUG_milan_stojadinovic
 recruit_character = YUG_milan_grol
 recruit_character = YUG_josip_broz_tito
@@ -49,13 +49,6 @@ recruit_character = YUG_milan_nedic
 recruit_character = YUG_ivan_ribar
 recruit_character = YUG_dimitrije_ljotic
 recruit_character = YUG_ivo_lola_ribar
-recruit_character = YUG_peter_ii
-
-	
-add_ideas = {
-		YUG_idea_croatian_opposition
-		YUG_idea_serbian_general_staff
-}
 
 set_technology = {
 	tech_support = 1		
@@ -122,9 +115,11 @@ set_politics = {
 }
 set_popularities = {
 	conservatism = 15
+	liberalism = 3
+	reactionary = 2
 	fascism = 25
 	communism = 35
-	despotism = 25
+	despotism = 20
 }
 
 

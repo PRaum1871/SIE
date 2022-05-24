@@ -1,0 +1,20 @@
+characters={
+	BIZ_justinian_III={
+		name="Justinian III
+		portraits={
+			civilian={
+				large=GFX_Portrait_Justinian_III
+			}
+		}
+		country_leader={
+			ideology=oligarchy
+			expire="1981.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=monarchism
+			expire="1981.1.1.1"
+			id=-1
+		}
+	}
+}

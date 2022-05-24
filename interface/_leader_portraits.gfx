@@ -45,7 +45,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/URG/Portrait_Uruguay_Luis_Berres.dds"
 	}
 	
-	
 	### SWE
 	
 	spriteType = {
@@ -276,6 +275,39 @@ spriteTypes = {
 		texturefile = "gfx/leaders/DEN/Portrait_denmark_Max_Arildskov.dds"
 	}
 	
+	### GRE
+	
+	spriteType = {
+		name = "GFX_Portrait_Aimione_of_Aosta"
+		texturefile = "gfx/leaders/GRE/Portrait_Aimione_of_Aosta.dds"
+	}
+
+	### BIZ
+	
+	spriteType = {
+		name = "GFX_Portrait_Justinian_III"
+		texturefile = "gfx/leaders/BIZ/Portrait_Justinian_III.dds"
+	}
+	
+	### YUG
+	
+	spriteType = {
+		name = "GFX_Portrait_Peter_2"
+		texturefile = "gfx/leaders/YUG/Portrait_Peter_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Yugoslavia_Tito"
+		texturefile = "gfx/leaders/YUG/Portrait_Yugoslavia_Tito.dds"
+	}
+	
+	### SAU
+	
+	spriteType = {
+		name = "GFX_Portrait_Ibn_Saud"
+		texturefile = "gfx/leaders/SAU/Portrait_Ibn_Saud.dds"
+	}
+
 	### CHI
 	
 	spriteType = {
@@ -297,11 +329,32 @@ spriteTypes = {
 		texturefile = "gfx/leaders/PRC/Portrait_Kang_Sheng.dds"
 	}
 	
+	### XSM
+	
+	spriteType = {
+		name = "GFX_Portrait_Ma_Hongkui"
+		texturefile = "gfx/leaders/XSM/Portrait_Ma_Hongkui.dds"
+	}
+	
 	### TIB
 	
 	spriteType = {
 		name = "GFX_Portrait_Dalai_Lama"
 		texturefile = "gfx/leaders/TIB/Portrait_Dalai_Lama.dds"
+	}
+	
+	### NEP
+	
+	spriteType = {
+		name = "GFX_Portrait_Mahendra_Bir_Bikram"
+		texturefile = "gfx/leaders/NEP/Portrait_Mahendra_Bir_Bikram.dds"
+	}
+	
+	### BHU
+	
+	spriteType = {
+		name = "GFX_Portrait_Jigme_Dorji_Wangchuck"
+		texturefile = "gfx/leaders/BHU/Portrait_Jigme_Dorji_Wangchuck.dds"
 	}
 	
 	### JAP

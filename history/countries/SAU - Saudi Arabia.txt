@@ -17,7 +17,7 @@ if = {
 
 set_convoys = 5
 
-recruit_character = SAU_abdulaziz_ibn_saud
+recruit_character = SAU_abdulaziz_bin_saud
 recruit_character = SAU_philip_gordon_lee
 recruit_character = SAU_youssef_al_bishi
 recruit_character = SAU_hamadan_al_odha
@@ -39,7 +39,9 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	despotism = 90
+	despotism = 50
+	socialism = 30
+	authoritarianism = 10
 	liberalism = 9
 	ultranationalism = 1
 }

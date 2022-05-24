@@ -10,12 +10,11 @@ set_technology = {
 set_war_support = 0.1
 set_stability = 0.4
 
-recruit_character = BHU_jigme_wangchuck
+recruit_character = BHU_jigme_dorji_wangchuck
 recruit_character = BHU_tsarong_wangyal
 recruit_character = BHU_gendün_rinpoche
 recruit_character = BHU_andruk_tashi
 recruit_character = BHU_reginald_b_stevens
-recruit_character = BHU_jigme_dorji_wangchuck
 recruit_character = BHU_chamba_wangyal
 recruit_character = BHU_namgyal_bahadur
 recruit_character = BHU_ugyen_tenzin
