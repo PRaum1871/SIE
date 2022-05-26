@@ -1,4 +1,30 @@
 characters={
+	PER_fereydoun_mirza_qajar={
+		name="Fereydoun Mirza Qajar"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Fereydoun_Mirza_Qajar
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy
+			expire="1975.1.1.1"
+			id=-1
+		}
+	}
+	PER_hamid_mirza_qajar={
+		name="Hamid Mirza Qajar"
+		portraits={
+			civilian={
+				large=Portrait_Hamid_Mirza_Qajar
+			}
+		}
+		country_leader={
+			ideology=monarchism
+			expire="1988.1.1.1"
+			id=-1
+		}
+	}
 	PER_fazlollah_zahedi={
 		name="Fazlollah Zahedi"
 		portraits={

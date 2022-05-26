@@ -1,0 +1,29 @@
+characters = {
+	BUK_Qasem_khan = {
+		name = "Qasem Khan" 
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Qasem_Khan
+			}
+		}
+		country_leader = {
+			ideology = monarchism
+			expire = "1981.1.1.1"
+			id = -1
+		}
+	}
+	BUK_polat_usmon = {
+		name = "Polat Usmon Khodzhayev" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Polat_Usmon_Khodzhayev
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "1980.1.1.1"
+			id = -1
+		}
+	}
+}
+	

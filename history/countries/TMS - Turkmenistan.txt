@@ -11,6 +11,8 @@ set_convoys = 0
 
 set_cosmetic_tag = TMS_PER
 
+recruit_character = PER_hamid_mirza_qajar
+
 set_politics = {
 	ruling_party = despotism
 	last_election = "1936.1.1"

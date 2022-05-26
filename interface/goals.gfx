@@ -3025,6 +3025,25 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/ENG_a_visit_to_washington.dds"
 	}
 	
+	SpriteType = { 
+		name = "GFX_ENG_draft_a_new_contitution"
+		texturefile = "gfx/interface/goals/ENG_draft_a_new_contitution.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ENG_ffsr_supremacy"
+		texturefile = "gfx/interface/goals/ENG_ffsr_supremacy.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ENG_council_of_trusted_supremacy"
+		texturefile = "gfx/interface/goals/ENG_council_of_trusted_supremacy.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ENG_same_commitee_supremacy"
+		texturefile = "gfx/interface/goals/ENG_same_commitee_supremacy.dds"
+	}
 	#FRA
 	
 	SpriteType = { 
