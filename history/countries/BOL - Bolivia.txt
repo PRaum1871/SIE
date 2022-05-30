@@ -33,6 +33,9 @@ recruit_character = BOL_enrique_finot
 recruit_character = BOL_german_busch_beccera
 recruit_character = BOL_jose_maria_gutierrez
 
+
+
+
 set_politics = {
 	ruling_party = despotism
 	last_election = "1934.11.11"

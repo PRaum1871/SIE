@@ -78,6 +78,18 @@ recruit_character = ARG_senor_hitler
 
 set_convoys = 120
 
+# DIPLOMACY / BOLIVIAN INDEPENDENCE
+if = {
+	limit = {
+		has_start_date < 1960.01.12
+	}
+
+	declare_war_on = {
+		target = BOL
+		type = annex_everything
+	}
+}
+
 set_politics = {
 	ruling_party = liberalism
 	last_election = "1931.11.8"

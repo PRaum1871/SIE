@@ -753,7 +753,7 @@ focus_tree = {
 	
 	focus = {
 		id = ENG_state_of_the_government
-		icon = GFX_goal_generic_build_tank
+		icon = GFX_ENG_state_of_the_government
 		x = -7
 		y = 5
 		cost = 1
@@ -1289,7 +1289,7 @@ focus_tree = {
 	
 	focus = {
 		id = ENG_state_of_the_economy
-		icon = GFX_goal_generic_build_tank
+		icon = GFX_ENG_state_of_the_economy
 		x = 0
 		y = 1
 		cost = 1

@@ -1,0 +1,84 @@
+﻿focus_tree = {
+	id = italian_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1100 }
+
+	focus = {
+		id = ITA_resolving_the_mediterranean_crisis
+		icon = GFX_goal_generic_position_armies
+		x = 12
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+		search_filters = { }
+
+		bypass = {
+		}
+
+		completion_reward = {
+		
+		}
+	}
+
+	focus = {
+		id = ITA_focusing_on_our_sphere
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = ITA_resolving_the_mediterranean_crisis }
+		x = -7
+		y = 1
+		relative_position_id = ITA_resolving_the_mediterranean_crisis
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		bypass = {
+		}
+		search_filters = { }
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = ITA_focusing_on_ourselves
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = ITA_resolving_the_mediterranean_crisis }
+		x = 7
+		y = 1
+		relative_position_id = ITA_resolving_the_mediterranean_crisis
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		bypass = {
+		}
+		search_filters = { }
+
+		completion_reward = {
+		
+		}
+	}
+
+}

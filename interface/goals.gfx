@@ -3044,6 +3044,16 @@ spriteTypes = {
 		name = "GFX_ENG_same_commitee_supremacy"
 		texturefile = "gfx/interface/goals/ENG_same_commitee_supremacy.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_ENG_state_of_the_government"
+		texturefile = "gfx/interface/goals/ENG_state_of_the_government.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ENG_state_of_the_economy"
+		texturefile = "gfx/interface/goals/ENG_state_of_the_economy.dds"
+	}
 	#FRA
 	
 	SpriteType = { 
