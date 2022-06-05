@@ -23,11 +23,22 @@ country_event = {
 		release = URG
 		BOL = {
 		set_state_owner = 688
+		set_state_owner = 884
 		}
-		country_event = {
-		id = argentina.2
-		days = 10
+		PAR = {
+		set_state_owner = 883
 		}
+		hidden_effect = {
+			country_event = {
+			id = argentina.2
+			days = 10
+			}
+		883 = { remove_core_of = ARG }
+		884 = { remove_core_of = ARG }
+		883 = { add_core_of = PAR }
+		884 = { add_core_of = BOL }
+		}
+		
 		ai_chance = { factor = 10 }
 	}
 }
