@@ -1,0 +1,48 @@
+﻿###########################
+# Argentina Events
+###########################
+
+add_namespace = Argentina
+
+# Collapse
+country_event = {
+	id = argentina.1
+	title = argentina.1.t
+	desc = argentina.1.d
+	picture = GFX_report_event_polish_tanks_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = argentina.1.a
+		white_peace = {
+		tag = BOL
+		message = "Now, the real war starts..."
+		}
+		release = PAR
+		release = URG
+		BOL = {
+		set_state_owner = 688
+		}
+		country_event = {
+		id = argentina.2
+		days = 10
+		}
+		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {
+	id = argentina.2
+	title = argentina.2.t
+	desc = argentina.2.d
+	picture = GFX_report_event_polish_tanks_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = argentina.2.a
+		ai_chance = { factor = 10 }
+	}
+}
+

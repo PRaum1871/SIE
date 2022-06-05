@@ -986,6 +986,31 @@ NEW = {
  	color_ui = rgb { 105  105  105 }
 }
 
+ERP = {
+	color = rgb { 255  0  0 }
+ 	color_ui = rgb { 255  0  0 }
+}
+
+FLH = {
+	color = rgb { 128  128  128 }
+ 	color_ui = rgb { 128  128  128 }
+}
+
+SLP = {
+	color = rgb { 0  0  0 }
+ 	color_ui = rgb { 0  0  0 }
+}
+
+CBA = {
+	color = rgb { 218  165  32 }
+ 	color_ui = rgb { 218  165  32 }
+}
+
+MAP = {
+	color = rgb { 160  82  45 }
+ 	color_ui = rgb { 160  82  45 }
+}
+
 ############# 				COLONIES			########################
 #############       							########################
 

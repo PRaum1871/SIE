@@ -265,6 +265,12 @@ BUR = "countries/Burgundy.txt"
 HYP = "countries/Hyperborea.txt"
 OST = "countries/Ostland.txt"
 VET = "countries/Venetia.txt"
+ERP = "countries/Ejercito Revolucionario del Pueblo.txt"
+FLH = "countries/Frente de Liberacion Homosexual.txt"
+SLP = "countries/Estado de La Plata.txt"
+CBA = "countries/Comuna de Buenos Aires.txt"
+MAP = "countries/Mapuche.txt"
+
 ##################
 #####COLONIES#####
 ##################

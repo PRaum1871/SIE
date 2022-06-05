@@ -11,6 +11,11 @@ characters={
 			expire="1991.1.1.1"
 			id=-1
 		}
+		country_leader={
+			ideology=progressivism 
+			expire="1991.1.1.1"
+			id=-1
+		}
 	}
 	NOR_johan_nygaardsvold={
 		name="Johan Nygaardsvold"
