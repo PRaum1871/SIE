@@ -37,6 +37,9 @@ country_event = {
 		884 = { remove_core_of = ARG }
 		883 = { add_core_of = PAR }
 		884 = { add_core_of = BOL }
+		BOL = {
+		drop_cosmetic_tag = yes
+		}
 		}
 		
 		ai_chance = { factor = 10 }
