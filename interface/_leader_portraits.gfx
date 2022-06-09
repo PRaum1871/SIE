@@ -1,5 +1,23 @@
-﻿spriteTypes = {
+spriteTypes = {
 
+	# leaders we need to override in DLC go in this file
+
+	spriteType = {
+		name = "GFX_portrait_operative_unknown"
+		texturefile = "gfx/leaders/operative_unknown.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_unknown"
+		texturefile = "gfx/leaders/leader_unknown.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_unknown_female"
+		texturefile = "gfx/leaders/leader_unknown_female.dds"
+	}
+
+	
 	### ENG
 
 	spriteType = {
@@ -14,11 +32,55 @@
 		texturefile = "gfx/leaders/BOL/Portrait_Bolivia_Juan_Lechín.dds"
 	}
 	
+	### CUB
+	
+	spriteType = {
+		name = "GFX_Portrait_Fidel_Castro"
+		texturefile = "gfx/leaders/CUB/Portrait_Fidel_Castro.dds"
+	}
+	
 	### ARG
 	
 	spriteType = {
 		name = "GFX_Portrait_Argentina_Arturo_Frondizi"
 		texturefile = "gfx/leaders/ARG/Portrait_Argentina_Arturo_Frondizi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Juan_Sebreli"
+		texturefile = "gfx/leaders/ARG/Portrait_Juan_Sebreli.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Juan_Peron"
+		texturefile = "gfx/leaders/ARG/Portrait_Juan_Peron.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Mario_Roberto_Santucho"
+		texturefile = "gfx/leaders/ARG/Portrait_Mario_Roberto_Santucho.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Guillermo_Patricio_Kelly"
+		texturefile = "gfx/leaders/ARG/Portrait_Guillermo_Patricio_Kelly.dds"
+	}
+	
+	### BRA
+	
+	spriteType = {
+		name = "GFX_Portrait_Eduardo_Gomes"
+		texturefile = "gfx/leaders/BRA/Portrait_Eduardo Gomes.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Arlindo_Veiga_Santos"
+		texturefile = "gfx/leaders/BRA/Portrait_Arlindo_Veiga_Santos.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Peter_III"
+		texturefile = "gfx/leaders/BRA/Portrait_Peter_III.dds"
 	}
 	
 	### PAR
@@ -78,8 +140,8 @@
 	### TUR
 	
 	spriteType = {
-		name = "GFX_Portrait_Turkey_Cemal_Gürsel"
-		texturefile = "gfx/leaders/TUR/Portrait_Turkey_Cemal_Gürsel.dds"
+		name = "GFX_Portrait_Turkey_Cemal_Gursel"
+		texturefile = "gfx/leaders/TUR/Portrait_Turkey_Cemal_Gursel.dds"
 	
 	}
 	
@@ -444,6 +506,21 @@
 	spriteType = {
 		name = "GFX_Portrait_russia_alexei"
 		texturefile = "gfx/leaders/SOV/Portrait_russia_alexei.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_the_regent"
+		texturefile = "gfx/leaders/SOV/Portrait_the_regent.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Leon_Trotsky"
+		texturefile = "gfx/leaders/SOV/Portrait_Leon_Trotsky.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Dmitry_Svyatopolk_Mirsky"
+		texturefile = "gfx/leaders/SOV/Portrait_Dmitry_Svyatopolk_Mirsky.dds"
 	}
 	
 	### CAN

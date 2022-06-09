@@ -3,7 +3,7 @@ characters={
 		name="Josef Mengele"
 		portraits={
 			civilian={
-				large=Portrait_Joseph_Menguele
+				large=GFX_Portrait_Joseph_Menguele
 			}
 		}
 		country_leader={

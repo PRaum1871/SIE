@@ -1,6 +1,6 @@
 characters={
 	BIZ_justinian_III={
-		name="Justinian III
+		name="Justinian III"
 		portraits={
 			civilian={
 				large=GFX_Portrait_Justinian_III

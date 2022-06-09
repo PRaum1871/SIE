@@ -7,8 +7,8 @@
  socialism_noun:0 "Socialism"
  socialism_desc:0 ""
 
- socdem:0 "Social Democractic"
- socdem_noun:0 "Social Democracy"
+ socdem:0 "Progressivism"
+ socdem_noun:0 "Progressivism"
  socdem_desc:0 ""
  
  fascism:0 "Fascist"
@@ -105,6 +105,8 @@
  democratic_socialism_desc:0 ""
  left_populism:0 "Left Populism"
  left_populism_desc:0 ""
+ socdem_ideology:0 "Social Democracy"
+ socdem_ideology_desc:0 ""
  progressivism:0 "Progressivism"
  progressivism_desc:0 ""
  popular_front:0 "Popular Front"

@@ -9,6 +9,8 @@ set_technology = {
 
 set_cosmetic_tag = CBA_WAR
 
+recruit_character = CBA_juan_peron
+
 set_politics = {
 	ruling_party = despotism
 	last_election = "1936.1.1"

@@ -1,0 +1,16 @@
+characters={
+	RSF_leon_trotsky={
+		name= "Leon Trotsky"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Leon_Trotsky
+			}
+			
+		}
+		country_leader={
+			ideology=trotskyism
+			expire="1961.1.1.1"
+			id=-1
+		}
+	}
+}

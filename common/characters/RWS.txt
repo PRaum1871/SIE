@@ -1,0 +1,16 @@
+characters={
+	RWS_dmitry_svyatopolk_mirsky={
+		name= "Dmitry Svyatopolk Mirsky"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Dmitry_Svyatopolk_Mirsky
+			}
+			
+		}
+		country_leader={
+			ideology=nazbol
+			expire="1970.1.1.1"
+			id=-1
+		}
+	}
+}

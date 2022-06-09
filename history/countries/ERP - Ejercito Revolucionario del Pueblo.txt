@@ -9,6 +9,8 @@ set_technology = {
 
 set_cosmetic_tag = ERP_WAR
 
+recruit_character = ERP_mario_roberto_santucho
+
 set_politics = {
 	ruling_party = communism
 	last_election = "1936.1.1"

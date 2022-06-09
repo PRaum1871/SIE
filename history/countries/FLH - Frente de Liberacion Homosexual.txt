@@ -9,6 +9,8 @@ set_technology = {
 
 set_cosmetic_tag = FLH_WAR
 
+recruit_character = FLH_juan_sebreli
+
 set_politics = {
 	ruling_party = sameism
 	last_election = "1936.1.1"

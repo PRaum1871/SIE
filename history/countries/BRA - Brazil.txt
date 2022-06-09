@@ -61,9 +61,8 @@ if = {
 	}
 	set_naval_oob = "BRA_1936_naval"	
 }
-set_country_flag = monroe_doctrine
 
-recruit_character = BRA_getulio_vargas
+recruit_character = BRA_eduardo_gomes
 recruit_character = BRA_plinio_salgado
 recruit_character = BRA_luis_carlos_prestes
 recruit_character = BRA_armando_sales
@@ -91,9 +90,9 @@ recruit_character = BRA_arlindo_veiga_dos_santos
 
 set_politics = {
 	ruling_party = liberalism
-	last_election = "1934.7.17"
+	last_election = "1960.7.17"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {

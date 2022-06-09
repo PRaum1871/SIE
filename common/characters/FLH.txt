@@ -1,0 +1,16 @@
+characters={
+	FLH_juan_sebreli={
+		name= "Juan Sebreli"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Juan_Sebreli
+			}
+			
+		}
+		country_leader={
+			ideology=queer_populism
+			expire="2025.1.1.1"
+			id=-1
+		}
+	}
+}

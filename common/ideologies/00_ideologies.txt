@@ -285,9 +285,6 @@ ideologies = {
 			popular_front = {
 			}
 			
-			multiparty_democracy = {
-			}
-			
 			third_way = {
 			}
 			
@@ -295,6 +292,9 @@ ideologies = {
 			}
 			
 			liberal_socialism = {
+			}
+			
+			socdem_ideology = {
 			}
 			
 			

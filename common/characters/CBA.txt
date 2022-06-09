@@ -1,0 +1,16 @@
+characters={
+	CBA_juan_peron={
+		name= "Juan Domingo Perón"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Juan_Peron
+			}
+			
+		}
+		country_leader={
+			ideology=peronism
+			expire="1974.1.1.1"
+			id=-1
+		}
+	}
+}

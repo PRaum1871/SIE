@@ -1,0 +1,16 @@
+characters={
+	ERP_mario_roberto_santucho={
+		name= "Mario Roberto Santucho"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Mario_Roberto_Santucho
+			}
+			
+		}
+		country_leader={
+			ideology=trotskyism
+			expire="2010.1.1.1"
+			id=-1
+		}
+	}
+}

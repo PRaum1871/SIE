@@ -7,9 +7,10 @@ set_technology = {
 
 set_convoys = 0
 
+recruit_character = RWS_dmitry_svyatopolk_mirsky
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = nazism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

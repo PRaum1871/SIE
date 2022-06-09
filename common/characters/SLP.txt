@@ -1,0 +1,16 @@
+characters={
+	SLP_guillermo_patricio_kelly={
+		name= "Guillermo Patricio Kelly"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Guillermo_Patricio_Kelly
+			}
+			
+		}
+		country_leader={
+			ideology=ultranationalism_ideology
+			expire="2005.1.1.1"
+			id=-1
+		}
+	}
+}

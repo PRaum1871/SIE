@@ -13,9 +13,7 @@ country_event = {	#Bomb! (strasser hears ticking noises)
 	is_triggered_only = yes
 	
 	fire_only_once = yes
-	
-	hidden = no
-	
+
 	trigger = {
 		
 	}

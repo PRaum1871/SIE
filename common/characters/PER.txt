@@ -16,7 +16,7 @@ characters={
 		name="Hamid Mirza Qajar"
 		portraits={
 			civilian={
-				large=Portrait_Hamid_Mirza_Qajar
+				large=GFX_Portrait_Hamid_Mirza_Qajar
 			}
 		}
 		country_leader={

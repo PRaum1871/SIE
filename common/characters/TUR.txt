@@ -3,7 +3,7 @@ characters={
 			name="Cemal Gürsel"
 			portraits={
 				civilian={
-					large=GFX_Portrait_Turkey_Cemal_Gürsel
+					large=GFX_Portrait_Turkey_Cemal_Gursel
 				}
 
 			}
