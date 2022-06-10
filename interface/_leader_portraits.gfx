@@ -141,7 +141,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_Portrait_Turkey_Cemal_Gursel"
-		texturefile = "gfx/leaders/TUR/Portrait_Turkey_Cemal_Gursel.dds"
+		texturefile = "gfx/leaders/TUR/Portrait_Cemal_Gursel.dds"
 	
 	}
 	

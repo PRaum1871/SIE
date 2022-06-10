@@ -81,6 +81,7 @@ set_popularities = {
 	authoritarianism = 10
 }
 
+recruit_character = SAF_boer_verwoerd
 recruit_character = SAF_j_b_m_hertzog
 recruit_character = SAF_d_f_malan
 recruit_character = SAF_moses_kotane
