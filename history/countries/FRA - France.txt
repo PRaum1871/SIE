@@ -154,6 +154,7 @@ add_to_faction = GRE
 add_to_faction = HOL
 add_to_faction = SAF
 add_to_faction = EGY
+add_to_faction = POR
 
 if = {
 	limit = {

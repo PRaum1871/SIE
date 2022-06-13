@@ -584,9 +584,9 @@
  NGA:0 "Nigeria"
  NGA_DEF:0 "Nigeria"
  NGA_ADJ:0 "Nigerian"
- DAH:0 "Benin"
- DAH_DEF:0 "Benin"
- DAH_ADJ:0 "Beninese"
+ DAH:0 "Dahomey"
+ DAH_DEF:0 "Dahomey"
+ DAH_ADJ:0 "Dahomean"
  TOG:0 "Togo"
  TOG_DEF:0 "Togo"
  TOG_ADJ:0 "Togolese"
@@ -1558,6 +1558,15 @@
  MAP:0 "Mapu"
  MAP_DEF:0 "the State of Mapu"
  MAP_ADJ:0 "Mapuche"
+ ASH:0 "Ashanti"
+ ASH_DEF:0 "Ashanti"
+ ASH_ADJ:0 "Ashanti"
+ YOR:0 "Yorubaland"
+ YOR_DEF:0 "Yorubaland"
+ YOR_ADJ:0 "Yorubaland"
+ SOK:0 "Sokoto"
+ SOK_DEF:0 "Sokoto"
+ SOK_ADJ:0 "Sokoto"
  
  ############# COLONIES ############
  

@@ -270,6 +270,9 @@ FLH = "countries/Frente de Liberacion Homosexual.txt"
 SLP = "countries/Estado de La Plata.txt"
 CBA = "countries/Comuna de Buenos Aires.txt"
 MAP = "countries/Mapuche.txt"
+ASH = "countries/Ashanti.txt"
+YOR = "countries/Yorubaland.txt"
+SOK = "countries/Sokoto.txt"
 
 ##################
 #####COLONIES#####

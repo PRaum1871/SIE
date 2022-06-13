@@ -88,6 +88,7 @@ set_popularities = {
 
 set_convoys = 80
 
+	recruit_character = GRE_konstantinos_plevris
 	recruit_character = GRE_prince_aimone
 	recruit_character = GRE_markos_vafiadis
 	recruit_character = GRE_konstantinos_tsaldaris

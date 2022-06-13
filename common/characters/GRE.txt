@@ -1,4 +1,18 @@
 characters={
+	GRE_konstantinos_plevris={
+		name="Konstantinos Plevris"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Konstantinos_Plevris
+			}
+		}
+		country_leader={
+			ideology=italian_fascism 
+			traits={ }
+			expire="1999.1.1.1"
+			id=-1
+		}
+	}
 	GRE_prince_aimone={
 		name="Prince Aimone"
 		portraits={

@@ -133,7 +133,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_Portrait_Holland_Hendrik_Koekoek"
-		texturefile = "gfx/leaders/HOL/Portrait_Holland_Hendrik_Koekoek.dds"
+		texturefile = "gfx/leaders/HOL/Portrait_Hendrik_Koekoek.dds"
 	
 	}
 	
@@ -345,7 +345,19 @@ spriteTypes = {
 		texturefile = "gfx/leaders/DEN/Portrait_denmark_Max_Arildskov.dds"
 	}
 	
+	### POR
+	
+	spriteType = {
+		name = "GFX_Portrait_Antonio_Salazar"
+		texturefile = "gfx/leaders/POR/Portrait_Antonio_Salazar.dds"
+	}
+	
 	### GRE
+	
+	spriteType = {
+		name = "GFX_Portrait_Konstantinos_Plevris"
+		texturefile = "gfx/leaders/GRE/Portrait_Konstantinos_Plevris.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_Portrait_Aimione_of_Aosta"

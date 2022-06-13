@@ -29,6 +29,18 @@ recruit_character = SIK_zhang_xiliang
 recruit_character = SIK_habibullah_huseinov
 recruit_character = SIK_isa_yusuf_alptekin
 
+# DIPLOMACY / TURKSTAN INDEPENDENCE
+if = {
+	limit = {
+		has_start_date < 1960.01.12
+	}
+
+	declare_war_on = {
+		target = EAS
+		type = annex_everything
+	}
+}
+
 set_politics = {
 	ruling_party = despotism
 	last_election = "1936.1.1"

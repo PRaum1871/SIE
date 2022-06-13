@@ -477,6 +477,10 @@ CSA = {
 	color = rgb { 145 163 176  }
 	color_ui = rgb { 186 205 219 }
 }
+NGA = {
+	color = rgb { 107 142 35 }
+	color_ui = rgb { 107 142 35 }
+}
 D01 = {
 	color = rgb { 122 179 97 }
 	color_ui = rgb { 159 233 126 }
@@ -1009,6 +1013,21 @@ CBA = {
 MAP = {
 	color = rgb { 160  82  45 }
  	color_ui = rgb { 160  82  45 }
+}
+
+ASH = {
+	color = rgb { 0  255  0 }
+ 	color_ui = rgb { 0  255  0 }
+}
+
+YOR = {
+	color = rgb { 128  0  0 }
+ 	color_ui = rgb { 128  0  0 }
+}
+
+SOK = {
+	color = rgb { 200 180 90 }
+ 	color_ui = rgb { 200 180 90 }
 }
 
 ############# 				COLONIES			########################

@@ -1,0 +1,19 @@
+state={
+	id=885
+	name="STATE_885"
+	provinces={
+		2050 4952 12731 12817 12900
+	}
+	history={
+		owner = GHA
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = YOR
+
+	}
+	manpower=8241462
+	buildings_max_level_factor=1.000
+	local_supplies=8.000
+	state_category=city
+}

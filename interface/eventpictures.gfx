@@ -1,0 +1,23 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_report_event_german_politician_speech"
+		texturefile = "gfx/event_pictures/report_event_german_politician_speech.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_city"
+		texturefile = "gfx/event_pictures/report_event_city.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_argentina"
+		texturefile = "gfx/event_pictures/news_event_argentina.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_strasser"
+		texturefile = "gfx/event_pictures/news_event_strasser.dds"
+	}
+	
+}
