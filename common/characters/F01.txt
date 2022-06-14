@@ -1,0 +1,15 @@
+characters={
+	F01_yvon_bourges={
+		name="Yvon Bourges"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Yvon_Bourges
+			}
+		}
+		country_leader={
+			ideology=aristocratic_conservatism
+			expire="1975.1.1.1"
+			id=-1
+		}
+	}
+}

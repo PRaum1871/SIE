@@ -10,7 +10,7 @@ country_event = {	#Focus Event/Rosenberg takes over
 	desc = rosenberg.1.d
 	picture = GFX_report_event_bunker_01
 
-	is_triggered_only = no
+	is_triggered_only = yes
 	
 	fire_only_once = yes
 	
@@ -35,7 +35,7 @@ country_event = {	#Focus Event/Strasser had failed
 	desc = rosenberg.2.d
 	picture = GFX_report_event_bunker_01
 
-	is_triggered_only = no
+	is_triggered_only = yes
 	
 	fire_only_once = yes
 	
@@ -57,7 +57,7 @@ country_event = {	#Puppets begin to leave
 	desc = rosenberg.3.d
 	picture = GFX_report_event_bunker_01
 
-	is_triggered_only = no
+	is_triggered_only = yes
 	
 	fire_only_once = yes
 	
@@ -85,7 +85,7 @@ country_event = {	#Denmark returns to germany
 	desc = rosenberg.4.d
 	picture = GFX_report_event_bunker_01
 
-	is_triggered_only = no
+	is_triggered_only = yes
 	
 	fire_only_once = yes
 	

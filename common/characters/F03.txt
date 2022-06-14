@@ -1,0 +1,15 @@
+characters={
+	F03_raoul_salan={
+		name="Raoul Salan"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Raoul_Salan
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1994.1.1.1"
+			id=-1
+		}
+	}
+}

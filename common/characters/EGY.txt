@@ -1,0 +1,29 @@
+characters={
+	EGY_Farouk_I={
+		name="Farouk I"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Faud_I
+			}
+		}
+		country_leader={
+			ideology=monarchism
+			expire="2013.1.1.1"
+			id=-1
+		}
+	}
+
+	EGY_Maurice_Papon={
+		name="Maurice Papon"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Maurice_Papon
+			}
+		}
+		country_leader={
+			ideology=maurassism
+			expire="1997.1.1.1"
+			id=-1
+		}
+	}
+}

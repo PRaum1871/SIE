@@ -1,0 +1,15 @@
+characters={
+	F04_yvon_bourges={
+		name="Yvon Bourges"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Yvon_Bourges
+			}
+		}
+		country_leader={
+			ideology=maurassism
+			expire="1975.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,15 @@
+characters={
+	REB_pierre_lagaillarde={
+		name="Pierre Lagaillarde"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Pierre_Lagaillarde
+			}
+		}
+		country_leader={
+			ideology=ultramilitarism
+			expire="2001.1.1.1"
+			id=-1
+		}
+	}
+}

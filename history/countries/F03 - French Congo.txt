@@ -7,6 +7,8 @@ set_technology = {
 
 set_convoys = 0
 
+recruit_character = F03_raoul_salan
+
 set_politics = {
 	ruling_party = despotism
 	last_election = "1936.1.1"
@@ -14,5 +16,6 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	despotism = 100
+	despotism = 80
+	ultranationalism = 20
 }

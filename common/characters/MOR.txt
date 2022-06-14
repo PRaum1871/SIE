@@ -1,0 +1,29 @@
+characters={
+	MOR_mohammed_v={
+		name="Mohammed V"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Pierre_Messmer
+			}
+		}
+		country_leader={
+			ideology=monarchism
+			expire="1975.1.1.1"
+			id=-1
+		}
+	}
+	
+	MOR_yvon_bourges={
+		name="Yvon Bourges"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Yvon_Bourges
+			}
+		}
+		country_leader={
+			ideology=maurassism
+			expire="1975.1.1.1"
+			id=-1
+		}
+	}
+}
