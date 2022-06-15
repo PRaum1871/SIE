@@ -5,13 +5,13 @@ state={
 		2066 5079 8133 11145 12927 13135 
 	}
 	history={
-		owner = UGA
+		owner = NKE
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 
 		}
-		add_core_of = KEN
+		add_core_of = NKE
 
 	}
 	manpower=1983000

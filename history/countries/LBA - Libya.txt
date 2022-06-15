@@ -8,6 +8,8 @@ set_technology = {
 
 set_cosmetic_tag = LBA_ITA
 
+recruit_character = ITA_galeazzo_ciano
+
 set_convoys = 20
 
 set_politics = {
@@ -25,42 +27,3 @@ set_popularities = {
 	conservatism = 15
 }
 
-create_country_leader = {
-	name = "Bashir es Sadawi"
-	desc = ""
-	picture = GFX_portrait_Bashir_es_Sadawi
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Ettore Bastico"
-	desc = ""
-	picture = GFX_portrait_Ettore_Bastico
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Idris Senussi"
-	desc = ""
-	picture = GFX_portrait_Idris_Senussi
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Hassan as-Senussi"
-	desc = ""
-	picture = GFX_portrait_Hassan_as_Senussi
-	ideology = leninism
-	traits = {
-		#
-	}
-}

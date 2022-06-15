@@ -9,8 +9,8 @@ set_cosmetic_tag = MOR_FRA
 
 set_convoys = 20
 
-recruit_character = MOR_yvon_bourges
-recruit_character = MOR_mohammed_v
+recruit_character = MOR_andre_louis_dubois
+recruit_character = MOR_hassan_ii
 
 set_politics = {
 	ruling_party = reactionary

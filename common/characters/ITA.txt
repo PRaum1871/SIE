@@ -13,6 +13,20 @@ characters={
 		}
 	}
 	
+	ITA_galeazzo_ciano={
+		name="Galeazzo Ciano"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Italy_Ciano
+			}
+		}
+		country_leader={
+			ideology=italian_fascism
+			expire="1980.1.1.1"
+			id=-1
+		}
+	}
+
 	ITA_pio_filippani_ronconi={
 		name="Pio Filippani Ronconi"
 		portraits={

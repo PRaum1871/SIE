@@ -479,12 +479,25 @@ spriteTypes = {
 		texturefile = "gfx/leaders/BRM/Portrait_U_Saw.dds"
 	}
 	
+	### MOR
+	
+	spriteType = {
+		name = "GFX_Portrait_Hassan_II"
+		texturefile = "gfx/leaders/MOR/Portrait_Hassan_II.dds"
+	}
+	
 	### ITA
 
 	spriteType = {
 		name = "GFX_Portrait_Italy_Benito_Mussolini"
 		texturefile = "gfx/leaders/ITA/Portrait_Italy_Benito_Mussolini.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Italy_Ciano"
+		texturefile = "gfx/leaders/ITA/Portrait_Italy_Ciano.dds"
+	}
+	
 	spriteType = {
 		name = "GFX_Portrait_Pio_Filippani_Ronconi"
 		texturefile = "gfx/leaders/ITA/Portrait_Pio_Filippani_Ronconi.dds"
@@ -525,6 +538,32 @@ spriteTypes = {
 		texturefile = "gfx/leaders/SAF/Portrait_SAF_Verwoerd.dds"
 	}
 	
+	### KEN
+	
+	spriteType = {
+		name = "GFX_Portrait_Dedan_Kimathi"
+		texturefile = "gfx/leaders/KEN/Portrait_Dedan_Kimathi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Ronald_Ngala"
+		texturefile = "gfx/leaders/KEN/Portrait_Ronald_Ngala.dds"
+	}
+	
+	### UGA
+	
+	spriteType = {
+		name = "GFX_Portrait_Milton_Obote"
+		texturefile = "gfx/leaders/UGA/Portrait_Milton_Obote.dds"
+	}
+	
+	### ALB
+	
+	spriteType = {
+		name = "GFX_Portrait_Rexhep_Krasniqi"
+		texturefile = "gfx/leaders/ALB/Portrait_Rexhep_Krasniqi.dds"
+	}
+	
 	### SOV
 
 	spriteType = {
@@ -545,6 +584,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_Dmitry_Svyatopolk_Mirsky"
 		texturefile = "gfx/leaders/SOV/Portrait_Dmitry_Svyatopolk_Mirsky.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Alexander_Yakovlev"
+		texturefile = "gfx/leaders/SOV/Portrait_Alexander_Yakovlev.dds"
 	}
 	
 	### CAN
@@ -750,6 +794,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_Yvon_Bourges"
 		texturefile = "gfx/leaders/Colonies/Portrait_Yvon_Bourges.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Giovanni_Messe"
+		texturefile = "gfx/leaders/Colonies/Portrait_Giovanni_Messe.dds"
 	}
 	
 	### Congo

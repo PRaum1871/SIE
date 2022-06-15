@@ -1,15 +1,17 @@
 characters={
-	F04_yvon_bourges={
-		name="Yvon Bourges"
+	F04_giovanni_messe={
+		name= "Giovanni Messe"
 		portraits={
 			civilian={
-				large=GFX_Portrait_Yvon_Bourges
+				large = GFX_Portrait_Giovanni_Messe
 			}
+			
 		}
 		country_leader={
-			ideology=maurassism
-			expire="1975.1.1.1"
+			ideology=military_junta
+			expire="1974.1.1.1"
 			id=-1
 		}
 	}
+
 }

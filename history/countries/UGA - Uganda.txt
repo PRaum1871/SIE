@@ -7,6 +7,7 @@ set_technology = {
 
 set_convoys = 0
 
+recruit_character = UGA_milton_obote
 recruit_character = UGA_aco2
 recruit_character = UGA_nt
 recruit_character = UGA_communist_guy
@@ -29,16 +30,16 @@ recruit_character = UGA_mt
 recruit_character = UGA_nccr
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	conservatism = 25
 	socdem = 15
 	liberalism = 5
 	fascism = 15
-	communism = 25
-	socialism = 15
+	communism = 10
+	socialism = 30
 }

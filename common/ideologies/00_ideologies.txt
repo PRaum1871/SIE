@@ -94,6 +94,9 @@ ideologies = {
 			progressive_conservative = {
 			}
 			
+			majimboism = {
+			}
+			
 		}
 		
 		dynamic_faction_names = {

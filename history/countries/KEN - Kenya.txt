@@ -10,6 +10,7 @@ set_technology = {
 
 set_convoys = 5
 
+recruit_character = KEN_ronald_ngala
 recruit_character = KEN_acas
 recruit_character = KEN_communist_guy
 recruit_character = KEN_ncs
@@ -33,29 +34,18 @@ recruit_character = KEN_acd2
 
 # A colony of Italy in 1939.  However, if independent it would have the same politics as in 1936
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = conservatism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	liberalism = 15
 	socdem = 20
-	conservatism = 10
+	conservatism = 30
 	communism = 5
-	socialism = 35
+	socialism = 15
 	authoritarianism = 15
 }	
 
-create_country_leader = {
-	
-	
-	name = "Dedan Ngwale"
-	picture = GFX_portrait_Dedan_Ngwale
-	expire = "1965.1.1"
-	ideology = national_liberalism 
-	traits = {
-		#
-	}
-}
 

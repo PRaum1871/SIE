@@ -1,9 +1,9 @@
 characters={
-	MOR_mohammed_v={
-		name="Mohammed V"
+	MOR_hassan_ii={
+		name="Hassan II"
 		portraits={
 			civilian={
-				large=GFX_Portrait_Pierre_Messmer
+				large=GFX_Portrait_Hassan_II
 			}
 		}
 		country_leader={
@@ -13,11 +13,11 @@ characters={
 		}
 	}
 	
-	MOR_yvon_bourges={
-		name="Yvon Bourges"
+	MOR_andre_louis_dubois={
+		name="Andre Louis Dubois"
 		portraits={
 			civilian={
-				large=GFX_Portrait_Yvon_Bourges
+				large=GFX_Portrait_Andre_Louis_Dubois
 			}
 		}
 		country_leader={

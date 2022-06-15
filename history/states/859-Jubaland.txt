@@ -5,8 +5,9 @@ state={
 		11014 12941 
 	}
 	history={
-		owner = UGA
+		owner = NKE
 		add_core_of = SOM
+		add_core_of = NKE
 		buildings = {
 			infrastructure = 2
 			air_base = 1

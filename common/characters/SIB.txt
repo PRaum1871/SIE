@@ -1,0 +1,16 @@
+characters={
+	SIB_alexander_yakovlev={
+		name= "Alexander Yakovlev"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Alexander_Yakovlev
+			}
+			
+		}
+		country_leader={
+			ideology=socdem_ideology
+			expire="2005.1.1.1"
+			id=-1
+		}
+	}
+}

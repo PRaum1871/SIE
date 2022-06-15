@@ -273,6 +273,7 @@ MAP = "countries/Mapuche.txt"
 ASH = "countries/Ashanti.txt"
 YOR = "countries/Yorubaland.txt"
 SOK = "countries/Sokoto.txt"
+NKE = "countries/North Kenya.txt"
 
 ##################
 #####COLONIES#####
