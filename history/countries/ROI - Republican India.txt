@@ -7,18 +7,19 @@ set_technology = {
 
 set_convoys = 0
 
+recruit_character = ROI_vinayak_damodar_savarkar
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 10
+	fascism = 50
 	nazism = 10
 	reactionary = 10
   	despotism = 10
  	authoritarianism = 10
-	conservatism = 50
+	conservatism = 10
 }

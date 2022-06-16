@@ -7,9 +7,10 @@ set_technology = {
 
 set_convoys = 78
 
+recruit_character = PIN_jayachamarajendra_wadiyar
 
 set_politics = {
-	ruling_party = authoritarianism
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

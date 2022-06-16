@@ -74,7 +74,7 @@ if = {
 	set_naval_oob = "AST_1936_naval"
 }
 
-recruit_character = AST_john_curtin
+recruit_character = AST_robert_menzies
 recruit_character = AST_eric_campbell
 recruit_character = AST_richard_dixon
 recruit_character = AST_earle_page

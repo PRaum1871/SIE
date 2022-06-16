@@ -9,7 +9,7 @@ set_technology = {
 }
 
 recruit_character = ETH_haile_selassie
-recruit_character = ETH_fitawrari_yeebio_woldai
+recruit_character = ETH_jagama_kello
 recruit_character = ETH_seyoum_mengesha
 recruit_character = ETH_amare_makonnen
 recruit_character = ETH_haile_mariam

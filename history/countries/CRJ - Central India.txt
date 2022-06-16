@@ -7,6 +7,7 @@ set_technology = {
 
 set_convoys = 11
 
+recruit_character = CRJ_achutha_menon
 
 set_politics = {
 	ruling_party = communism
@@ -18,6 +19,4 @@ set_popularities = {
 	socialism = 40
  	communism = 50
 	nazism = 10
-	
-
 }

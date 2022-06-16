@@ -1,0 +1,16 @@
+characters={
+	SRL_wijeyananda_dahanayake={
+		name= "Wijeyananda Dahanayake"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Wijeyananda_Dahanayake
+			}
+			
+		}
+		country_leader={
+			ideology=national_liberalism
+			expire="1994.1.1.1"
+			id=-1
+		}
+	}
+}

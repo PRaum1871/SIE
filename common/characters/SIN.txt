@@ -1,0 +1,16 @@
+characters={
+	SIN_osman_ali_khan={
+		name= "Osman Ali Khan"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Osman_Ali_Khan
+			}
+			
+		}
+		country_leader={
+			ideology=monarchism
+			expire="1980.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -596,6 +596,80 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_Canada_Diefenbaker"
 		texturefile = "gfx/leaders/CAN/Portrait_Canada_Diefenbaker.dds"
+	
+	}
+	
+	### HAW
+
+	spriteType = {
+		name = "GFX_Portrait_Helena_Kalokuokamaile"
+		texturefile = "gfx/leaders/HAW/Portrait_Helena_Kalokuokamaile.dds"
+	}
+	
+	### SRL
+
+	spriteType = {
+		name = "GFX_Portrait_Wijeyananda_Dahanayake"
+		texturefile = "gfx/leaders/SRL/Portrait_Wijeyananda_Dahanayake.dds"
+	}
+	
+	### RAJ
+
+	spriteType = {
+		name = "GFX_Portrait_Lord_Mountbatten"
+		texturefile = "gfx/leaders/RAJ/Portrait_Lord_Mountbatten.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Elizabeth_2"
+		texturefile = "gfx/leaders/RAJ/Portrait_Elizabeth_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Harold_Macmillan"
+		texturefile = "gfx/leaders/RAJ/Portrait_Harold_Macmillan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Chesterton"
+		texturefile = "gfx/leaders/RAJ/Portrait_Chesterton.dds"
+	}
+	
+	### India
+	
+	spriteType = {
+		name = "GFX_Portrait_Achutha_Menon"
+		texturefile = "gfx/leaders/India/Portrait_Achutha_Menon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Chandra_Bose"
+		texturefile = "gfx/leaders/India/Portrait_Chandra_Bose.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Gulzarilal_Nanda"
+		texturefile = "gfx/leaders/India/Portrait_Gulzarilal_Nanda.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Jayachamarajendra_Wadiyar"
+		texturefile = "gfx/leaders/India/Portrait_Jayachamarajendra_Wadiyar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Mansoor_Ali_Khan"
+		texturefile = "gfx/leaders/India/Portrait_Mansoor_Ali_Khan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Osman_Ali_Khan"
+		texturefile = "gfx/leaders/India/Portrait_Osman_Ali_Khan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Vinayak_Damodar_Savarkar"
+		texturefile = "gfx/leaders/India/Portrait_Vinayak_Damodar_Savarkar.dds"
 	}
 	
 	### USA
@@ -683,14 +757,21 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_Portrait_Julius_Nyerere"
-		texturefile = "gfx/leaders/TZN/Portrait_Julius_Nyerere.dds"
+		texturefile = "gfx/leaders/TZN/Portrait_julius_nyerere.dds"
 	}
 	
-	### TZN
+	### BIA
 	
 	spriteType = {
 		name = "GFX_Portrait_Chinua_Achebe"
 		texturefile = "gfx/leaders/BIA/Portrait_Chinua_Achebe.dds"
+	}
+	
+	### ETH
+	
+	spriteType = {
+		name = "GFX_Portrait_Jagama_Kello"
+		texturefile = "gfx/leaders/ETH/Portrait_Jagama_Kello.dds"
 	}
 	
 	### GHA
@@ -799,6 +880,16 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_Giovanni_Messe"
 		texturefile = "gfx/leaders/Colonies/Portrait_Giovanni_Messe.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Sarmento_Rodrigues"
+		texturefile = "gfx/leaders/Colonies/Portrait_Sarmento_Rodrigues.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Silvino_Silverio_Marques"
+		texturefile = "gfx/leaders/Colonies/Portrait_Silvino_Silverio_Marques.dds"
 	}
 	
 	### Congo

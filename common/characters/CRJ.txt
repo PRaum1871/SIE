@@ -1,0 +1,16 @@
+characters={
+	CRJ_achutha_menon={
+		name= "Achutha Menon"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Achutha_Menon
+			}
+			
+		}
+		country_leader={
+			ideology=maoism
+			expire="1974.1.1.1"
+			id=-1
+		}
+	}
+}

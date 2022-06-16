@@ -1,0 +1,16 @@
+characters={
+	PRI_gulzarilal_nanda={
+		name= "Gulzarilal Nanda"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Gulzarilal_Nanda
+			}
+			
+		}
+		country_leader={
+			ideology=left_populism 
+			expire="1974.1.1.1"
+			id=-1
+		}
+	}
+}

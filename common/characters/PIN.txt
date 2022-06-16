@@ -1,0 +1,16 @@
+characters={
+	PIN_jayachamarajendra_wadiyar={
+		name= "Jayachamarajendra Wadiyar"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Jayachamarajendra_Wadiyar
+			}
+			
+		}
+		country_leader={
+			ideology=monarchism
+			expire="2005.1.1.1"
+			id=-1
+		}
+	}
+}

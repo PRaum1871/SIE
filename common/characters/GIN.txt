@@ -1,0 +1,16 @@
+characters={
+	GIN_chandra_bose={
+		name= "Chandra Bose"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Chandra_Bose
+			}
+			
+		}
+		country_leader={
+			ideology=strasserism
+			expire="1989.1.1.1"
+			id=-1
+		}
+	}
+}

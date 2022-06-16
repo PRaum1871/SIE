@@ -7,6 +7,7 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+recruit_character = BAN_mansoor_ali_khan
 recruit_character = BAN_pot
 recruit_character = BAN_aco2
 recruit_character = BAN_mt
@@ -33,28 +34,19 @@ set_convoys = 5
 
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = reactionary
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	fascism = 60
+	reactionary = 40
+	fascism = 20
 	sameism = 20
 	communism = 5
 	conservatism = 15
 }
 
-#create_country_leader = {
-#	
-#	name = "Jonas Lote"
-#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-#	expire = "1965.1.1"
-#	ideology = centrism
-#	traits = {
-#		#
-#	}
-#}
 
 
 
