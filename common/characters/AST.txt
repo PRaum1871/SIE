@@ -3,7 +3,7 @@ characters={
 		name="Robert Menzies"
 		portraits={
 			civilian={
-				large=Portrait_Robert_Menzies
+				large=GFX_Portrait_Robert_Menzies
 			}
 		}
 		country_leader={

@@ -63,8 +63,8 @@ spriteTypes = {
 	### MEX
 	
 	spriteType = {
-		name = "Portrait_Adoldo_lopez_Mateos"
-		texturefile = "gfx/leaders/MEX/Portrait_Adoldo_lopez_Mateos.dds"
+		name = "GFX_Portrait_Adolfo_Lopez_Mateos"
+		texturefile = "gfx/leaders/MEX/Portrait_Adolfo_Lopez_Mateos.dds"
 	}
 	
 	### EGY
@@ -503,6 +503,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_Ibrahim_Yaacob"
 		texturefile = "gfx/leaders/MAL/Portrait_Ibrahim_Yaacob.dds"
+	}
+	
+	### AST
+	
+	spriteType = {
+		name = "GFX_Portrait_Robert_Menzies"
+		texturefile = "gfx/leaders/AST/Portrait_Robert_Menzies.dds"
 	}
 	
 	### PHI

@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=autocracy
+			ideology=warlord_state 
 			expire="1970.1.1.1"
 			id=-1
 		}

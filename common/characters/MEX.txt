@@ -94,7 +94,7 @@ characters={
 		name="Adolfo Lopez Mateos"
 		portraits={
 			civilian={
-				large=GFX_Portrait_Adoldo_lopez_Mateos
+				large=GFX_Portrait_Adolfo_Lopez_Mateos
 			}
 		}
 		country_leader={
