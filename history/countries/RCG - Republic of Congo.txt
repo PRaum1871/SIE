@@ -9,6 +9,26 @@ set_convoys = 35
 
 recruit_character = RCG_marien_ngouabi
 
+# DIPLOMACY / CONGOLESE CIVIL WAR
+if = {
+	limit = {
+		has_start_date < 1960.01.12
+	}
+
+	declare_war_on = {
+		target = COG
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = KAT
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = ZAI
+		type = annex_everything
+	}
+}
+
 set_politics = {
 	ruling_party = communism
 	last_election = "1936.1.1"
