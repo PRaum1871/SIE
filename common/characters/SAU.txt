@@ -1,6 +1,6 @@
 characters={
 	SAU_abdulaziz_bin_saud={
-		name="Saud bin Abdulaziz"
+		name="Saud IV"
 		portraits={
 			civilian={
 				large=GFX_Portrait_Ibn_Saud

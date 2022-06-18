@@ -22,8 +22,8 @@ if = {
 
 set_convoys = 5
 
-recruit_character = IRQ_ghazi_i
-recruit_character = IRQ_rashid_ali_algaylani
+recruit_character = IRQ_faisal_ii
+recruit_character = IRQ_al_karim_qasim
 recruit_character = IRQ_yusuf_salman_yusuf
 recruit_character = IRQ_abd_almalik_ibn_hisham
 recruit_character = IRQ_taha_al_ahmani
@@ -45,12 +45,16 @@ recruit_character = IRQ_nuri_as_said
 
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 20
-	despotism = 80
+	communism = 9
+	despotism = 21
+	socialism = 45
+	liberalism = 5
+	conservatism = 10
+	socdem = 10
 }

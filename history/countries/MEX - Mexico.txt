@@ -58,7 +58,7 @@ if = {
 	}
 }
 
-recruit_character = MEX_lazaro_cardenas
+recruit_character = MEX_adolfo_lopez_mateos
 recruit_character = MEX_salvador_abascal
 recruit_character = MEX_adolfo_de_la_huerta
 recruit_character = MEX_dionisio_encina

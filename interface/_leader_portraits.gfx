@@ -39,6 +39,34 @@ spriteTypes = {
 		texturefile = "gfx/leaders/CUB/Portrait_Fidel_Castro.dds"
 	}
 	
+	### HAI
+	
+	spriteType = {
+		name = "GFX_Portrait_Papa_Doc"
+		texturefile = "gfx/leaders/HAI/Portrait_Papa_Doc.dds"
+	}
+	
+	### DOM
+	
+	spriteType = {
+		name = "GFX_Portrait_Rafael_Trujillo"
+		texturefile = "gfx/leaders/DOM/Portrait_Rafael_Trujillo.dds"
+	}
+	
+	### GDL
+	
+	spriteType = {
+		name = "GFX_Portrait_Grantley_Herbert_Adams"
+		texturefile = "gfx/leaders/GDL/Portrait_Grantley_Herbert_Adams.dds"
+	}
+	
+	### MEX
+	
+	spriteType = {
+		name = "Portrait_Adoldo_lopez_Mateos"
+		texturefile = "gfx/leaders/MEX/Portrait_Adoldo_lopez_Mateos.dds"
+	}
+	
 	### EGY
 	
 	spriteType = {
@@ -49,6 +77,18 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_Maurice_Papon"
 		texturefile = "gfx/leaders/EGY/Portrait_Maurice_Papon.dds"
+	}
+	
+	### IRQ
+	
+	spriteType = {
+		name = "GFX_Portrait_Faisal_II"
+		texturefile = "gfx/leaders/IRQ/Portrait_Faisal_II.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_al_karim_qasim"
+		texturefile = "gfx/leaders/IRQ/Portrait_al_karim_qasim.dds"
 	}
 	
 	### ARG

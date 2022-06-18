@@ -9,15 +9,18 @@ set_technology = {
 
 set_convoys = 5
 
+recruit_character = GDL_grantley_herbert_adams
+
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = socdem
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	liberalism = 45
-	conservatism = 35
+	liberalism = 20
+	socdem = 45
+	conservatism = 15
 	communism = 10
 	socialism = 10
 }

@@ -220,6 +220,9 @@ ideologies = {
 			baathism = {
 			}
 			
+			arab_socialism = {
+			}
+			
 			syndicalism = {
 			}
 			

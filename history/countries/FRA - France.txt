@@ -166,10 +166,14 @@ if = {
 	}
 	set_autonomy = {
 		target = EGY
-		autonomous_state = autonomy_integrated_puppet
+		autonomous_state = autonomy_colony
 	}
 	set_autonomy = {
 		target = SYR
+		autonomous_state = autonomy_dominion
+	}
+	set_autonomy = {
+		target = IRQ
 		autonomous_state = autonomy_dominion
 	}
 	set_autonomy = {
@@ -200,6 +204,7 @@ if = {
 		puppet = HOL
 		puppet = EGY
 		puppet = SYR
+		puppet = IRQ
 		puppet = MOR
 		puppet = GYA
 		puppet = F01
