@@ -1,0 +1,87 @@
+﻿capital = 279
+
+oob = "CHL_1936"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "CHL_1936_naval_mtg"
+	else = {
+		set_naval_oob = "CHL_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	cv_early_fighter = 1
+	early_bomber = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_battery = 1
+		basic_secondary_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		coastal_defense_ships = 1
+		mtg_transport = 1
+	}
+}
+
+recruit_character = CHL_jorge_alessandri
+recruit_character = CHL_salvador_allende
+recruit_character = CHL_carlos_contreras_labarca
+recruit_character = CHL_escudero_oscar_otárola
+recruit_character = CHL_domingo_blanco
+recruit_character = CHL_julio_allard_pinto
+recruit_character = CHL_gustavo_silva
+recruit_character = CHL_jose_luis_sanchez_besa
+recruit_character = CHL_marmaduke_grove
+recruit_character = CHL_e_novoa_fuentes
+recruit_character = CHL_dario_mujica_gamboa
+recruit_character = CHL_c_j_de_la_motte
+recruit_character = CHL_carlos_fuentes_rabe
+recruit_character = CHL_arturo_espinoza_mujica
+recruit_character = CHL_carlos_puga_monsalve
+recruit_character = CHL_francisco_o_ryan_orrego
+recruit_character = CHL_ernesto_m_orlando
+recruit_character = CHL_dario_cellejas_rojas
+recruit_character = CHL_ariosto_herrera
+recruit_character = CHL_luis_alamos_barros
+recruit_character = CHL_miguel_cruchaga_tacomal
+recruit_character = CHL_gustavo_ross_santa_maria
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = liberalism
+	last_election = "1932.10.30"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	liberalism = 20
+	conservatism = 25
+	socdem = 17
+	marxism = 28
+	socialism = 10
+}

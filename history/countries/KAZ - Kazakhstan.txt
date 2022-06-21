@@ -4,6 +4,8 @@ oob = "KAZ_1936"
 
 set_research_slots = 3
 
+recruit_character = KAL_alfredovsky_strosnevsky 
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

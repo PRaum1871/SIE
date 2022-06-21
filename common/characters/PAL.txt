@@ -1,0 +1,16 @@
+characters={
+	PAL_andre_soucadaux={
+		name= "André Soucadaux"
+		portraits={
+			civilian={
+				large = GFX_Portrait_André_Soucadaux
+			}
+			
+		}
+		country_leader={
+			ideology=kleptocracy
+			expire="1999.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -8,9 +8,10 @@ set_technology = {
 
 set_convoys = 5
 
+recruit_character = PAL_andre_soucadaux
 
 set_politics = {
-	ruling_party = authoritarianism
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -22,42 +23,3 @@ set_popularities = {
 	despotism = 20
 }
 
-create_country_leader = {
-	name = "Ahmed Hilmi Pasha"
-	desc = ""
-	picture = GFX_portrait_Ahmed_Hilmi_Pasha
-	ideology = national_libertarianism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Amin al-Husseini"
-	desc = ""
-	picture = GFX_portrait_Amin_al_Husseini
-	ideology = islamofascism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Prince Henry"
-	desc = ""
-	picture = GFX_portrait_Prince_Henry
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Bulus Farah"
-	desc = ""
-	picture = GFX_portrait_Bulus_Farah
-	ideology = social_credit
-	traits = {
-		#
-	}
-}

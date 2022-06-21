@@ -1,0 +1,16 @@
+characters={
+	AZR_Mustafa_Vakilov={
+		name= "Mustafa Vakilov"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Mustafa_Vakilov
+			}
+			
+		}
+		country_leader={
+			ideology=authoritarian_democracy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

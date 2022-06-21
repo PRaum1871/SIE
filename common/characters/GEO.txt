@@ -1,0 +1,16 @@
+characters={
+	GEO_Eduard_Shevardnadze={
+		name= "Eduard Shevardnadze"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Eduard_Shevardnadze
+			}
+			
+		}
+		country_leader={
+			ideology=liberal_socialism
+			expire="1967.1.1.1"
+			id=-1
+		}
+	}
+}

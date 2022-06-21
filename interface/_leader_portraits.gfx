@@ -32,6 +32,58 @@ spriteTypes = {
 		texturefile = "gfx/leaders/BOL/Portrait_Bolivia_Juan_Lechín.dds"
 	}
 	
+	### VEN
+	
+	spriteType = {
+		name = "GFX_Portrait_Rómulo_Betancourt"
+		texturefile = "gfx/leaders/VEN/Portrait_Rómulo_Betancourt.dds"
+	}
+	
+	### PRU
+	
+	spriteType = {
+		name = "GFX_Portrait_Manuel_Prado_Ugarteche"
+		texturefile = "gfx/leaders/PRU/Portrait_Manuel_Prado_Ugarteche.dds"
+	}
+	
+	### CHL
+	
+	spriteType = {
+		name = "GFX_Portrait_Jorge_Alessandri"# ALLENDE ALLENDE ALLENDE ALLENDE ALLENDE ALLENDE ALLENDE ALLENDE ALLENDE ALLENDE ALLENDE ALLENDE ALLENDE ALLENDE 
+		texturefile = "gfx/leaders/CHL/Portrait_Jorge_Alessandri.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Salvador_Allende"# ALLENDE ALLENDE ALLENDE ALLENDE ALLENDE ALLENDE ALLENDE ALLENDE ALLENDE ALLENDE ALLENDE ALLENDE ALLENDE ALLENDE 
+		texturefile = "gfx/leaders/CHL/Portrait_Salvador_Allende.dds"
+	}
+	
+	### ECU
+	
+	spriteType = {
+		name = "GFX_Portrait_Camilo_Ponce_Enriquez"
+		texturefile = "gfx/leaders/ECU/Portrait_Camilo_Ponce_Enriquez.dds"
+	}
+	
+	### COL
+	
+	spriteType = {
+		name = "GFX_Portrait_Alberto_Lleras"
+		texturefile = "gfx/leaders/COL/Portrait_Alberto_Lleras.dds"
+	}
+	
+	### NIC
+	
+	spriteType = {
+		name = "GFX_Portrait_Carlos_Fonseca"
+		texturefile = "gfx/leaders/NIC/Portrait_Carlos_Fonseca.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Enrique_Bermudez"
+		texturefile = "gfx/leaders/NIC/Portrait_Enrique_Bermudez.dds"
+	}
+	
 	### CUB
 	
 	spriteType = {
@@ -89,6 +141,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_al_karim_qasim"
 		texturefile = "gfx/leaders/IRQ/Portrait_al_karim_qasim.dds"
+	}
+	
+	### SYR
+	
+	spriteType = {
+		name = "GFX_Portrait_Hussein_I"
+		texturefile = "gfx/leaders/SYR/Portrait_Hussein_I.dds"
 	}
 	
 	### ARG
@@ -550,6 +609,13 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ITA/Portrait_Pio_Filippani_Ronconi.dds"
 	}
 	
+	### ISR
+
+	spriteType = {
+		name = "GFX_Portrait_Avraham_Stern"
+		texturefile = "gfx/leaders/ISR/Portrait_Avraham_Stern.dds"
+	}
+	
 	### FRA
 
 	spriteType = {
@@ -757,6 +823,27 @@ spriteTypes = {
 		texturefile = "gfx/leaders/BUK/Portrait_Qasem_Khan.dds"
 	}
 	
+	### KAZ
+	
+	spriteType = {
+		name = "GFX_Portrait_Alfredo_Stroessner"
+		texturefile = "gfx/leaders/KAZ/Portrait_Alfredo_Stroessner.dds"
+	}
+	
+	### KHI
+	
+	spriteType = {
+		name = "GFX_Portrait_Said_Abdulla"
+		texturefile = "gfx/leaders/KHI/Portrait_Said_Abdulla.dds"
+	}
+	
+	### KYR
+	
+	spriteType = {
+		name = "GFX_Portrait_Azamat_Girey"
+		texturefile = "gfx/leaders/KYR/Portrait_Azamat_Girey.dds"
+	}
+	
 	### FAR EAST
 	
 	spriteType = {
@@ -892,6 +979,44 @@ spriteTypes = {
 		texturefile = "gfx/leaders/INS/Portrait_Sukarno.dds"
 	}
 	
+	### ARM
+	
+	spriteType = {
+		name = "GFX_Portrait_Aghasi_Khanjian"
+		texturefile = "gfx/leaders/ARM/Portrait_Aghasi_Khanjian.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Karen_Demirchyan"
+		texturefile = "gfx/leaders/ARM/Portrait_Karen_Demirchyan.dds"
+	}
+	
+	### AZR
+	
+	spriteType = {
+		name = "GFX_Portrait_Mustafa_Vakilov"
+		texturefile = "gfx/leaders/AZR/Portrait_Mustafa_Vakilov.dds"
+	}
+	
+	### GEO
+	
+	spriteType = {
+		name = "GFX_Portrait_Eduard_Shevardnadze"
+		texturefile = "gfx/leaders/GEO/Portrait_Eduard_Shevardnadze.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Besarion_Gugushvili"
+		texturefile = "gfx/leaders/GEO/Portrait_Besarion_Gugushvili.dds"
+	}
+	
+	### KUR
+	
+	spriteType = {
+		name = "GFX_Portrait_Sadegh_Sharafkandi"
+		texturefile = "gfx/leaders/KUR/Portrait_Sadegh_Sharafkandi.dds"
+	}
+	
 	### Colonies
 	
 	spriteType = {
@@ -937,6 +1062,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_Silvino_Silverio_Marques"
 		texturefile = "gfx/leaders/Colonies/Portrait_Silvino_Silverio_Marques.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_André_Soucadaux"
+		texturefile = "gfx/leaders/Colonies/Portrait_André_Soucadaux.dds"
 	}
 	
 	### Congo

@@ -1,0 +1,16 @@
+characters={
+	ISR_avraham_stern={
+		name= "Avraham Stern"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Avraham_Stern
+			}
+			
+		}
+		country_leader={
+			ideology=revanchism
+			expire="1980.1.1.1"
+			id=-1
+		}
+	}
+}

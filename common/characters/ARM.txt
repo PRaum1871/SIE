@@ -1,0 +1,16 @@
+characters={
+	ARM_Aghasi_Khanjian={
+		name= "Aghasi Khanjian"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Aghasi_Khanjian
+			}
+			
+		}
+		country_leader={
+			ideology=agrarian_socialism
+			expire="1967.1.1.1"
+			id=-1
+		}
+	}
+}

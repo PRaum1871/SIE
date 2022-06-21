@@ -143,6 +143,8 @@ if = {
 
 set_convoys = 298
 
+give_guarantee = PAL
+
 create_faction = "La Vieille Garde"
 add_to_faction = FRA
 add_to_faction = ITA
@@ -155,6 +157,7 @@ add_to_faction = HOL
 add_to_faction = SAF
 add_to_faction = EGY
 add_to_faction = POR
+add_to_faction = PAL
 
 if = {
 	limit = {

@@ -9,6 +9,7 @@ set_technology = {
 
 set_convoys = 5
 
+recruit_character = KYR_azamat_giry
 recruit_character = KYR_ncs
 recruit_character = KYR_pot
 recruit_character = KYR_nccr
@@ -31,27 +32,16 @@ recruit_character = KYR_ncm
 recruit_character = KYR_communist_guy
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = authoritarianism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
+
 set_popularities = {
-	conservatism = 35
-	fascism = 15
+	authoritarianism = 60
+	conservatism = 10
 	communism = 20
-	reactionary = 5
-	ultranationalism = 20
-	socdem = 5
+	liberalism = 10
 }
 
-#create_country_leader = {
-#	
-#	name = "Jonas Lote"
-#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-#	expire = "1965.1.1"
-#	ideology = centrism
-#	traits = {
-#		#
-#	}
-#}

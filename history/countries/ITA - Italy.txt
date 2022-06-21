@@ -149,6 +149,8 @@ if = {
 	}
 }
 
+give_guarantee = PAL
+
 set_politics = {
 	ruling_party = fascism
 	last_election = "1934.3.26"

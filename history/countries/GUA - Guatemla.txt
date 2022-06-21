@@ -9,7 +9,7 @@ set_technology = {
 	early_fighter = 1
 }
 
-recruit_character = GUA_jorge_ubico
+recruit_character = GUA_enrique_bermudez
 recruit_character = GUA_justo_arbenz
 recruit_character = GUA_máximo_arbenz
 recruit_character = GUA_diego_barahona
@@ -40,8 +40,8 @@ set_politics = {
 }
 set_popularities = {
 	conservatism = 30
-	socialism = 5
+	fascism = 5
 	liberalism = 25
 	authoritarianism = 20
-	socdem = 20
+	reactionary = 20
 }

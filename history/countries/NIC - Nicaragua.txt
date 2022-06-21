@@ -10,7 +10,7 @@ set_technology = {
 	early_bomber = 1
 }
 
-recruit_character = NIC_juan_bautista_sacasa
+recruit_character = NIC_carlos_fonseca
 recruit_character = NIC_anastasio_somoza_garcía
 recruit_character = NIC_francisco_leiva
 recruit_character = NIC_josé_francisco_leiva
@@ -32,17 +32,14 @@ set_war_support = 1.0
 set_convoys = 10
 
 set_politics = {
-	ruling_party = socialism
+	ruling_party = communism
 	last_election = "1934.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	liberalism = 15
-	fascism = 5
-	communism = 10
-	conservatism = 30
-	socialism = 20
-	reactionary = 20
+	communism = 65
+	socialism = 25
+	socdem = 10
 }
 

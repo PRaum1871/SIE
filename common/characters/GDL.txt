@@ -1,0 +1,15 @@
+characters={
+	GDL_grantley_herbert_adams={
+		name="Grantley Herbert Adams"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Grantley_Herbert_Adams
+			}
+		}
+		country_leader={
+			ideology=popular_front
+			expire="1981.1.1.1"
+			id=-1
+		}
+	}
+}

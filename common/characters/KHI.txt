@@ -1,0 +1,15 @@
+characters = {
+	KHI_said_abdulla = {
+		name = "Said Abdulla" 
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Said_Abdulla			}
+		}
+		country_leader = {
+			ideology = agrarianism
+			expire = "1993.1.1.1"
+			id = -1
+		}
+	}
+}
+	

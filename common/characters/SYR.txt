@@ -1,0 +1,16 @@
+characters={
+	SYR_hussein_I={
+		name= "Hussein I"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Hussein_I
+			}
+			
+		}
+		country_leader={
+			ideology=monarchism
+			expire="1999.1.1.1"
+			id=-1
+		}
+	}
+}
