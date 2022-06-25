@@ -206,6 +206,13 @@ spriteTypes = {
 		texturefile = "gfx/leaders/PAR/Portrait_Paraguay_Rafael_Franco.dds"
 	}
 	
+	### PAN
+	
+	spriteType = {
+		name = "GFX_Portrait_Ernesto_de_la_Guardia"
+		texturefile = "gfx/leaders/PAN/Portrait_Ernesto_de_la_Guardia.dds"
+	}
+	
 	### URG
 	
 	spriteType = {
@@ -873,6 +880,13 @@ spriteTypes = {
 		texturefile = "gfx/leaders/SIE/Portrait_Siaka_Stevens.dds"
 	}
 	
+	### SEN
+	
+	spriteType = {
+		name = "GFX_Portrait_Leopold_Senghor"
+		texturefile = "gfx/leaders/SEN/Portrait_Leopold_Senghor.dds"
+	}
+	
 	### LIB
 	
 	spriteType = {
@@ -1067,6 +1081,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_André_Soucadaux"
 		texturefile = "gfx/leaders/Colonies/Portrait_André_Soucadaux.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Claude_Silberzahn"
+		texturefile = "gfx/leaders/Colonies/Portrait_Claude_Silberzahn.dds"
 	}
 	
 	### Congo

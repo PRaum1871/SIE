@@ -1,0 +1,16 @@
+characters={
+	GYA_claude_silberzanh={
+		name= "Claude Silberzahn"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Claude_Silberzahn
+			}
+			
+		}
+		country_leader={
+			ideology=maurassism
+			expire="2005.1.1.1"
+			id=-1
+		}
+	}
+}

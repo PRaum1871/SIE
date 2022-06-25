@@ -12,6 +12,8 @@ set_convoys = 5
 
 set_cosmetic_tag = GYA_FRA
 
+recruit_character = GYA_claude_silberzanh
+
 set_politics = {
 	ruling_party = reactionary
 	last_election = "1936.1.1"
@@ -25,18 +27,4 @@ set_popularities = {
 	conservatism = 15
 	authoritarianism = 10
 }
-
-#create_country_leader = {
-#	
-#	name = "Jonas Lote"
-#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-#	expire = "1965.1.1"
-#	ideology = centrism
-#	traits = {
-#		#
-#	}
-#}
-
-}
-
 

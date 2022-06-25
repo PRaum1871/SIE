@@ -3,7 +3,7 @@ characters={
 		name="Ernesto de la Guardia"
 		portraits={
 			civilian={
-				large=GFX_Portrait_Ernesto_Guardia
+				large=GFX_Portrait_Ernesto_de_la_Guardia
 			}
 		}
 		country_leader={
