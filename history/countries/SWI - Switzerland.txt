@@ -41,7 +41,7 @@ recruit_character = SWI_giuseppe_motta
 recruit_character = SWI_ernst_wetter
 
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = socdem 
 	last_election = "1935.10.27"
 	election_frequency = 48
 	elections_allowed = yes
@@ -49,9 +49,9 @@ set_politics = {
 set_popularities = {
 	liberalism = 35
 	socdem = 30
-	conservatism = 31
-	fascism = 2
-	communism = 2
+	conservatism = 25
+	fascism = 3
+	communism = 5
 }
 
 add_ideas = {

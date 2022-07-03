@@ -470,6 +470,13 @@ spriteTypes = {
 		texturefile = "gfx/leaders/POR/Portrait_Antonio_Salazar.dds"
 	}
 	
+	### SWI
+	
+	spriteType = {
+		name = "GFX_Portrait_Federal_council"
+		texturefile = "gfx/leaders/SWI/Portrait_Federal_council.dds"
+	}
+	
 	### GRE
 	
 	spriteType = {
