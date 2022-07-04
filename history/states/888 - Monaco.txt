@@ -1,0 +1,21 @@
+state={
+	id=888
+	name="STATE_888"
+	provinces={
+		13236
+	}
+	history={
+		owner = MNO
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = MNO
+		victory_points = {
+			13236 1
+		}
+	}
+	manpower=22461
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+}

@@ -1558,6 +1558,21 @@
  SOK:0 "Sokoto"
  SOK_DEF:0 "Sokoto"
  SOK_ADJ:0 "Sokoto"
+ VAT:0 "Vatican"
+ VAT_DEF:0 "Vatican"
+ VAT_ADJ:0 "Papal"
+ SNM:0 "San Marino"
+ SNM_DEF:0 "San Marino"
+ SNM_ADJ:0 "San Marinese"
+ LIE:0 "Liechtenstein"
+ LIE_DEF:0 "Liechtenstein"
+ LIE_ADJ:0 "Liechtensteinese"
+ AND:0 "Andorra"
+ AND_DEF:0 "Andorra"
+ AND_ADJ:0 "Andorran"
+ MNO:0 "Monaco"
+ MNO_DEF:0 "Monaco"
+ MNO_ADJ:0 "Monacan"
  
  ############# COLONIES ############
  

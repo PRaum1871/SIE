@@ -1,0 +1,16 @@
+characters={
+	MNO_emile_pelletier={
+		name= "Émile Pelletier"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Émile_Pelletier
+			}
+			
+		}
+		country_leader={
+			ideology=neoliberalism
+			expire="1983.1.1.1"
+			id=-1
+		}
+	}
+}

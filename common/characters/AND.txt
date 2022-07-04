@@ -1,0 +1,16 @@
+characters={
+	AND_ramon_iglesias={
+		name= "Ramón Iglesias i Navarri"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Ramón_Iglesias_i_Navarri
+			}
+			
+		}
+		country_leader={
+			ideology=monarchism
+			expire="1970.1.1.1"
+			id=-1
+		}
+	}
+}

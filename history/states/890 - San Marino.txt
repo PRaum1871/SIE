@@ -1,0 +1,21 @@
+state={
+	id=890
+	name="STATE_890"
+	provinces={
+		13240
+	}
+	history={
+		owner = SNM
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SNM
+		victory_points = {
+			13240 1
+		}
+	}
+	manpower=15440
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+}

@@ -1,0 +1,22 @@
+state={
+	id=886
+	name="STATE_886"
+	provinces={
+		13238
+	}
+	history={
+		owner = AND
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = AND
+		victory_points = {
+			13238 1
+		}
+
+	}
+	manpower=7800
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=rural
+}

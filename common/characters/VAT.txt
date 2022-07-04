@@ -1,0 +1,16 @@
+characters={
+	VAT_john_xxiii={
+		name= "John XXIII"
+		portraits={
+			civilian={
+				large = GFX_Portrait_John_XXIII
+			}
+			
+		}
+		country_leader={
+			ideology=monarchism 
+			expire="1963.1.1.1"
+			id=-1
+		}
+	}
+}

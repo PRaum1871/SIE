@@ -1,0 +1,16 @@
+characters={
+	LIE_franz_joseph_ii={
+		name= "Franz Joseph II"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Franz_Joseph_II
+			}
+			
+		}
+		country_leader={
+			ideology=christian_democracy
+			expire="1983.1.1.1"
+			id=-1
+		}
+	}
+}

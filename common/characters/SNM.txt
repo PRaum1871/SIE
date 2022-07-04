@@ -1,0 +1,16 @@
+characters={
+	SNM_francesco_balsimelli={
+		name= "Francesco Balsimelli"
+		portraits={
+			civilian={
+				large = GFX_Portrait_Francesco_Balsimelli
+			}
+			
+		}
+		country_leader={
+			ideology=italian_fascism 
+			expire="1974.1.1.1"
+			id=-1
+		}
+	}
+}

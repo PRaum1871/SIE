@@ -25,6 +25,41 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ENG/portrait_calvin_mallard.dds"
 	}
 	
+	### VAT
+
+	spriteType = {
+		name = "GFX_Portrait_John_XXIII"
+		texturefile = "gfx/leaders/VAT/Portrait_John_XXIII.dds"
+	}
+	
+	### SNM
+
+	spriteType = {
+		name = "GFX_Portrait_Francesco_Balsimelli"
+		texturefile = "gfx/leaders/SNM/Portrait_Francesco_Balsimelli.dds"
+	}
+	
+	### LIE
+
+	spriteType = {
+		name = "GFX_Portrait_Franz_Joseph_II"
+		texturefile = "gfx/leaders/LIE/Portrait_Franz_Joseph_II.dds"
+	}
+	
+	### MNO
+
+	spriteType = {
+		name = "GFX_Portrait_Émile_Pelletier"
+		texturefile = "gfx/leaders/MNO/Portrait_Émile_Pelletier.dds"
+	}
+	
+	### AND
+
+	spriteType = {
+		name = "GFX_Portrait_Ramón_Iglesias_i_Navarri"
+		texturefile = "gfx/leaders/AND/Portrait_Ramón_Iglesias_i_Navarri.dds"
+	}
+	
 	### BOL
 	
 	spriteType = {

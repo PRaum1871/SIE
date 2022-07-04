@@ -274,6 +274,11 @@ ASH = "countries/Ashanti.txt"
 YOR = "countries/Yorubaland.txt"
 SOK = "countries/Sokoto.txt"
 NKE = "countries/North Kenya.txt"
+VAT = "countries/Vatican.txt"
+SNM = "countries/San Marino.txt"
+LIE = "countries/Liechtenstein.txt"
+AND = "countries/Andorra.txt"
+MNO = "countries/Monaco.txt"
 
 ##################
 #####COLONIES#####
