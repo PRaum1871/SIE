@@ -9,8 +9,6 @@ recruit_character = IHC_bronislav_kaminsky
 
 set_convoys = 10
 
-set_cosmetic_tag = IHC_JAP
-
 set_politics = {
 	ruling_party = fascism
 	last_election = "1936.1.1"

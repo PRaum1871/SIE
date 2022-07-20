@@ -172,20 +172,14 @@ if = {
 		target = MAN
 		autonomous_state = autonomy_integrated_puppet
 	}
-	set_autonomy = {
-		target = IHC
-		autonomous_state = puppet
-	}
-	set_autonomy = {
-		target = AMU
-		autonomous_state = puppet
-	}
 	else = {
 		puppet = MEN
 		puppet = MAN
-		puppet = IHC
-		puppet = AMU
 		puppet = FER
+		puppet = PHI
+		puppet = BRM
+		puppet = CHI
+		puppet = MAL
 	}
 }
 

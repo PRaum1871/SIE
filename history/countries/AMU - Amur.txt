@@ -7,8 +7,6 @@ set_technology = {
 
 set_convoys = 0
 
-set_cosmetic_tag = AMU_JAP
-
 recruit_character = AMU_alexander_kazembek
 
 set_politics = {
