@@ -1,0 +1,21 @@
+# Part of the culture stuff (Thanks to Vanadium#8665 for teaching me!)
+ideas = {
+	cultural_tokens = {
+		culture_brittanic = {
+			allowed = { always = no }
+		}
+		culture_irish = {
+			allowed = { always = no }
+		}
+		culture_scottish = {
+			allowed = { always = no }
+		}
+		culture_welsh = {
+			allowed = { always = no }
+		}
+		culture_swedish = {
+			allowed = { always = no }
+		}
+		
+	}
+}

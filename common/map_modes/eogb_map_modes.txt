@@ -1,0 +1,51 @@
+scripted_map_modes = {
+	culture_map_mode = {
+		top = {
+			type = state
+			
+			color = {
+				if = {
+					limit = {
+						check_variable = { FROM.state_culture = 0 }
+					}
+					set_temp_variable = { red = 100 }
+					set_temp_variable = { green = 100 }
+					set_temp_variable = { blue = 100 }
+				}
+				else = {
+					set_temp_variable = { culture_token_temp = FROM.state_culture }
+					set_temp_variable = { red = global.red@var:culture_token_temp }
+					set_temp_variable = { green = global.green@var:culture_token_temp }
+					set_temp_variable = { blue = global.blue@var:culture_token_temp }
+				}
+
+				# Adjustments
+				divide_temp_variable = { red = 255 }
+				divide_temp_variable = { green = 255 }
+				divide_temp_variable = { blue = 255 }
+				set_temp_variable = { alpha = 1 }
+
+
+				#set_temp_variable = { thickness = 1 }
+				set_temp_variable = { highlighted = 0 }
+				
+				#always = yes
+			}
+			
+			targets = {
+
+			}
+			
+			thickness = no
+		}
+
+		bottom = {
+			type = none
+		}
+
+		far_text = country
+		near_text = state
+
+		update_daily = no
+	}
+}

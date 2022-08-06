@@ -1,0 +1,7 @@
+scripted_gui = {
+	state_culture_info_gui = {
+		window_name = "state_culture_info_container"
+		parent_window_token = selected_state_view
+		context_type = selected_state_context
+	}
+}

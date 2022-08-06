@@ -1,0 +1,18 @@
+defined_text = {
+	name = GetStateCulture
+	text = {
+		localization_key = "[?THIS.state_cultureGetTokenLocalizedKey]"
+	}
+}
+defined_text = {
+	name = GetStateCultureDesc
+	text = {
+		localization_key = state_culture_desc
+	}
+}
+defined_text = {
+	name = GetStateCultureAdj
+	text = {
+		localization_key = state_culture_adj
+	}
+}

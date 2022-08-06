@@ -1,0 +1,20 @@
+guiTypes = {
+	containerWindowType = {
+		name = "state_culture_info_container"
+		position = { x = 300 y = 440 }
+		size = { width = 200 height = 50 }
+
+		buttonType = {
+			name = "state_culture_info_button"
+			position = { x = 5 y = 15 }
+			quadTextureSprite ="GFX_button_123x34"
+			buttonFont = "Main_14_black"
+			Orientation = "UPPER_LEFT"
+			clicksound = click_close
+			text = "[THIS.GetStateCulture]"
+			font = "hoi_18mbs"
+			pdx_tooltip = culture_map_mode_tooltip
+			pdx_tooltip_delayed = culture_map_mode_tooltip_delayed
+		}
+	}
+}

@@ -1,6 +1,6 @@
 characters={
 	VEN_romulo_betancourt={
-		name="Rómulo_Betancourt"
+		name="Rómulo Betancourt"
 		portraits={
 			civilian={
 				large=GFX_Portrait_Rómulo_Betancourt

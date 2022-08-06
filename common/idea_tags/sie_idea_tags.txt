@@ -1,0 +1,10 @@
+idea_categories = {
+	cultural_tokens = {
+		hidden = yes
+
+		cost = -1
+		removal_cost = -1
+
+		ledger = hidden
+	}
+}

@@ -1,0 +1,103 @@
+# Part of the culture stuff (Thanks to Vanadium#8665 for teaching me!)
+eogp_culture_setup = {
+	set_variable = { var = global.red@token:culture_brittanic value = 139 }
+	set_variable = { var = global.green@token:culture_brittanic value = 0 }
+	set_variable = { var = global.blue@token:culture_brittanic value = 0 }
+
+	set_variable = { var = global.red@token:culture_irish value = 0 }
+	set_variable = { var = global.green@token:culture_irish value = 100 }
+	set_variable = { var = global.blue@token:culture_irish value = 0 }
+	
+	set_variable = { var = global.red@token:culture_scottish value = 0 }
+	set_variable = { var = global.green@token:culture_scottish value = 0 }
+	set_variable = { var = global.blue@token:culture_scottish value = 139 }
+	
+	set_variable = { var = global.red@token:culture_welsh value = 153 }
+	set_variable = { var = global.green@token:culture_welsh value = 153 }
+	set_variable = { var = global.blue@token:culture_welsh value = 0 }
+	
+	set_variable = { var = global.red@token:culture_swedish value = 0 }
+	set_variable = { var = global.green@token:culture_swedish value = 191 }
+	set_variable = { var = global.blue@token:culture_swedish value = 255 }
+
+	113 = {
+		set_variable = { state_culture = token:culture_irish }
+	}
+	
+	119 = {
+		set_variable = { state_culture = token:culture_irish }
+	}
+	
+	120 = {
+		set_variable = { state_culture = token:culture_scottish }
+	}
+	
+	121 = {
+		set_variable = { state_culture = token:culture_scottish }
+	}
+	
+	122 = {
+		set_variable = { state_culture = token:culture_welsh }
+	}
+	
+	123 = {
+		set_variable = { state_culture = token:culture_brittanic }
+	}
+	
+	124 = {
+		set_variable = { state_culture = token:culture_swedish }
+	}
+	
+	125 = {
+		set_variable = { state_culture = token:culture_brittanic }
+	}
+	
+	126 = {
+		set_variable = { state_culture = token:culture_brittanic }
+	}
+	
+	127 = {
+		set_variable = { state_culture = token:culture_brittanic }
+	}
+	
+	128 = {
+		set_variable = { state_culture = token:culture_brittanic }
+	}
+	
+	129 = {
+		set_variable = { state_culture = token:culture_brittanic }
+	}
+	
+	130 = {
+		set_variable = { state_culture = token:culture_brittanic }
+	}
+	
+	131 = {
+		set_variable = { state_culture = token:culture_brittanic }
+	}
+	
+	132 = {
+		set_variable = { state_culture = token:culture_brittanic }
+	}
+	
+	133 = {
+		set_variable = { state_culture = token:culture_scottish }
+	}
+	
+	134 = {
+		set_variable = { state_culture = token:culture_irish }
+	}
+	
+	135 = {
+		set_variable = { state_culture = token:culture_irish }
+	}
+	
+	136 = {
+		set_variable = { state_culture = token:culture_scottish }
+	}
+	
+	338 = {
+		set_variable = { state_culture = token:culture_brittanic }
+	}
+	
+}
