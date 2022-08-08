@@ -277,7 +277,7 @@ NKE = "countries/North Kenya.txt"
 VAT = "countries/Vatican.txt"
 SNM = "countries/San Marino.txt"
 LIE = "countries/Liechtenstein.txt"
-AND = "countries/Andorra.txt"
+ADN = "countries/Andorra.txt"
 MNO = "countries/Monaco.txt"
 
 ##################

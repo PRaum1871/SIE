@@ -1,0 +1,20 @@
+state={
+	id=892
+	name="STATE_892"
+	provinces={
+		7900 
+	}
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SAF
+
+	}
+	state_category=town
+	manpower=336578 
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

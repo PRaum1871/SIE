@@ -5,11 +5,11 @@ state={
 		13238
 	}
 	history={
-		owner = AND
+		owner = ADN
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = AND
+		add_core_of = ADN
 		victory_points = {
 			13238 1
 		}

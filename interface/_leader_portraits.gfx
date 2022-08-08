@@ -53,11 +53,11 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MNO/Portrait_Émile_Pelletier.dds"
 	}
 	
-	### AND
+	### ADN
 
 	spriteType = {
 		name = "GFX_Portrait_Ramón_Iglesias_i_Navarri"
-		texturefile = "gfx/leaders/AND/Portrait_Ramón_Iglesias_i_Navarri.dds"
+		texturefile = "gfx/leaders/ADN/Portrait_Ramón_Iglesias_i_Navarri.dds"
 	}
 	
 	### BOL
