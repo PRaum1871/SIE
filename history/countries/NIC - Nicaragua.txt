@@ -28,6 +28,18 @@ recruit_character = NIC_maximiliano_benito
 recruit_character = NIC_victor_roman_y_reyes
 recruit_character = NIC_manuel_corovel_kirsch
 
+# DIPLOMACY / CENTRAL AMERICAN WAR OF UNIFICATION
+if = {
+	limit = {
+		has_start_date < 1960.01.12
+	}
+
+	declare_war_on = {
+		target = GUA
+		type = annex_everything
+	}
+}
+
 set_war_support = 1.0
 set_convoys = 10
 

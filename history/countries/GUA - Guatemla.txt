@@ -32,6 +32,19 @@ recruit_character = GUA_manuel_arroyo
 set_war_support = 1.0
 set_convoys = 5
 
+
+# DIPLOMACY / CENTRAL AMERICAN WAR OF UNIFICATION
+if = {
+	limit = {
+		has_start_date < 1960.01.12
+	}
+
+	declare_war_on = {
+		target = NIC
+		type = annex_everything
+	}
+}
+
 set_politics = {
 	ruling_party = authoritarianism
 	last_election = "1931.2.8"
@@ -45,3 +58,5 @@ set_popularities = {
 	authoritarianism = 20
 	reactionary = 20
 }
+
+

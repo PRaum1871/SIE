@@ -15,13 +15,22 @@ state={
 			13396 10
 		}
 		victory_points = {
-			13384 10
+			13386 10
 		}
 		victory_points = {
 			7842 3
 		}
 		victory_points = {
 			13408 3
+		}
+		victory_points = {
+			4851 3
+		}
+		victory_points = {
+			13376 3
+		}
+		victory_points = {
+			1874 3
 		}
 		add_core_of = ZIM
 	}
