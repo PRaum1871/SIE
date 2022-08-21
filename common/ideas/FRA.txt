@@ -3,7 +3,7 @@ ideas = {
 	country = {
 		FRA_the_untouched_crown = {
 			
-			picture = "GFX_idea_FRA_untouched_crown"
+			picture = GFX_idea_FRA_untouched_crown
 			
 			allowed = {
 				always = no
@@ -18,7 +18,7 @@ ideas = {
 	country = {
 		FRA_internal_infightings = {
 			
-			picture = "GFX_idea_FRA_internal_infightings"
+			picture = GFX_idea_FRA_internal_infightings
 			
 			allowed = {
 				always = no
@@ -34,7 +34,7 @@ ideas = {
 	country = {
 		FRA_algerian_crisis = {
 			
-			picture = "GFX_idea_FRA_algerian_crisis"
+			picture = GFX_idea_FRA_algerian_crisis
 			
 			allowed = {
 				always = no

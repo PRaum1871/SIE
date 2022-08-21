@@ -31,7 +31,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_FRA_internal_infightings"
+		name = "GFX_idea_FRA_algerian_crisis"
 		texturefile = "gfx/interface/ideas/FRA_algerian_crisis.dds"
 	}
 

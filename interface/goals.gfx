@@ -3054,6 +3054,27 @@ spriteTypes = {
 		name = "GFX_ENG_state_of_the_economy"
 		texturefile = "gfx/interface/goals/ENG_state_of_the_economy.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_ENG_dial_mordell"
+		texturefile = "gfx/interface/goals/ENG_dial_mordell.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ENG_support_the_ALSR"
+		texturefile = "gfx/interface/goals/ENG_support_the_ALSR.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ENG_the_embassy_in_dc"
+		texturefile = "gfx/interface/goals/ENG_the_embassy_in_dc.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ENG_quietly_support_civil_rights_movement"
+		texturefile = "gfx/interface/goals/ENG_quietly_support_civil_rights_movement.dds"
+	}
+	
 	#FRA
 	
 	SpriteType = { 
