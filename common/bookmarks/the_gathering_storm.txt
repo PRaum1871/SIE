@@ -21,7 +21,7 @@ bookmarks = {
 			}
 		}
 		"GER"={
-			history = "USA_GATHERING_STORM_DESC"
+			history = "GER_GATHERING_STORM_DESC"
 			ideology = nazism
 			ideas = {
 				
@@ -44,8 +44,8 @@ bookmarks = {
 			}
 		}
 		"USA"={
-			history = "GER_GATHERING_STORM_DESC"
-			ideology = conservatism
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = liberalism
 			
 			ideas = {
 				
@@ -55,7 +55,7 @@ bookmarks = {
 			}
 		}
 		"SOV"={
-			history = "ITA_GATHERING_STORM_DESC"
+			history = "SOV_GATHERING_STORM_DESC"
 			ideology = despotism
 			ideas = {
 			
@@ -65,7 +65,7 @@ bookmarks = {
 			}		
 		}
 		"ITA"={
-			history = "JAP_GATHERING_STORM_DESC"
+			history = "ITA_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
 			
@@ -91,6 +91,44 @@ bookmarks = {
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
 
+		"SAF"={
+			minor = yes
+			history = "SAF_GATHERING_STORM_DESC"
+			ideology = reactionary
+			ideas = {
+				SAF_ossewabrandwag
+				SAF_history_of_segregation
+			}
+			focuses = {
+				SAF_secure_interests_in_africa
+				SAF_support_the_german_coup
+				SAF_anti_colonialist_crusade
+			}
+		}
+		"RAJ"={
+			minor = yes
+			history = "RAJ_GATHERING_STORM_DESC"
+			ideology = authoritarianism
+			ideas = {
+				RAJ_agrarian_society
+				RAJ_princely_states
+			}
+			focuses = {
+				RAJ_all_india_forward_bloc
+				RAJ_indian_gurkhas
+				RAJ_the_smiling_buddha
+			}
+		}
+		
+		"GHA"={
+			minor = yes
+			history = "GHA_GATHERING_STORM_DESC"
+			ideology = authoritarianism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
 
 		# minors from DLC ####
 		

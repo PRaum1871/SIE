@@ -13427,10 +13427,11 @@
 13426;37;169;132;land;true;jungle;5
 13427;252;10;1;land;false;mountain;5
 13428;180;252;31;land;false;mountain;5
-13429;73;92;56;land;true;jungle;5
-13430;168;179;67;land;true;jungle;5
+13429;73;92;86;land;true;jungle;5
+13430;168;179;67;land;false;jungle;5
 13431;189;239;122;land;true;jungle;5
-13432;49;150;246;land;true;jungle;5
+13432;49;150;246;land;false;jungle;5
 13433;0;250;206;land;true;jungle;5
 13434;106;127;175;land;true;jungle;5
 13435;114;139;249;land;true;jungle;5
+13436;145;136;223;land;false;mountain;5

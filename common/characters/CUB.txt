@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=dominant_party
+			ideology=centrism 
 			expire="2016.1.1.1"
 			id=-1
 		}
