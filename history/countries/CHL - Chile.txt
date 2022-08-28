@@ -82,6 +82,6 @@ set_popularities = {
 	liberalism = 20
 	conservatism = 25
 	socdem = 17
-	marxism = 28
+	communism = 28
 	socialism = 10
 }

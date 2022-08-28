@@ -20,7 +20,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=stalinism
+			ideology=marxism
 			traits={ quartermaster_general tenacious_negotiator }
 			expire="1944.1.1.12"
 			id=-1
@@ -34,7 +34,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=corporatism
 			traits={ captain_of_industry }
 			expire="1951.1.1.12"
 			id=-1
@@ -48,7 +48,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=autocracy
 			traits={ eager_collaborator retired_officer }
 			expire="1942.1.1.12"
 			id=-1
@@ -62,7 +62,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberalism
+			ideology=classical_liberalism
 			expire="1965.1.1"
 			id=-1
 		}
@@ -75,7 +75,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=marxism
+			ideology=leninism
 			traits={ }
 			expire="1965.1.1"
 			id=-1
