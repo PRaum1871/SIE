@@ -1,19 +1,6 @@
 ﻿capital = 16
 
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-	set_oob = "FRA_1936"
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_oob = "FRA_1936_nsb"
-}
+set_oob = "EMPTY_1960"
 
 starting_train_buffer = 2
 

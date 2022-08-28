@@ -1,19 +1,6 @@
 ﻿capital = 64
 
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-	set_oob = "GER_1936"
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_oob = "GER_1936_nsb"
-}
+set_oob = "EMPTY_1960"
 
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
@@ -131,9 +118,7 @@ if = {
 }
 
 set_research_slots = 4
-set_convoys = 200
-set_stability = 0.75 
-set_war_support = 0.3
+set_convoys = 154
 
 set_politics = {
 	ruling_party = nazism
@@ -160,8 +145,9 @@ add_to_faction = HUN
 add_to_faction = CZE
 
 add_ideas = {
-	limited_exports
-	limited_conscription
+	the_volksfuhrer
+	memories_of_the_second_world_war
+	blood_and_soil
 }
 if = {
 	limit = {
