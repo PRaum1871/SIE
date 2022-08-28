@@ -145,9 +145,9 @@ add_to_faction = HUN
 add_to_faction = CZE
 
 add_ideas = {
-	the_volksfuhrer
-	memories_of_the_second_world_war
-	blood_and_soil
+	GER_the_volksfuhrer
+	GER_memories_of_the_second_world_war
+	GER_blood_and_soil
 }
 if = {
 	limit = {

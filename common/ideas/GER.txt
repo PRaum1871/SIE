@@ -1,7 +1,7 @@
 ideas = {
 
 	country = {
-		the_volksfuhrer = {
+		GER_the_volksfuhrer = {
 			
 			allowed = {
 				always = no
@@ -21,7 +21,7 @@ ideas = {
 			}
 		}
 		
-		memories_of_the_second_world_war = {
+		GER_memories_of_the_second_world_war = {
 			
 			allowed = {
 				always = no
@@ -40,7 +40,7 @@ ideas = {
 			}
 		}
 		
-		blood_and_soil = {
+		GER_blood_and_soil = {
 			
 			allowed = {
 				always = no

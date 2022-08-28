@@ -24,7 +24,9 @@ bookmarks = {
 			history = "GER_GATHERING_STORM_DESC"
 			ideology = nazism
 			ideas = {
-				
+			GER_the_volksfuhrer
+			GER_memories_of_the_second_world_war
+			GER_blood_and_soil
 			}
 			focuses = {
 				
