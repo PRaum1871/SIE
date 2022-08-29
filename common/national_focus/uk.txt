@@ -2543,8 +2543,6 @@ focus_tree = {
 		
 		prerequisite = {
 		focus = ENG_test_our_conscripts
-		}
-		prerequisite = {
 		focus = ENG_allow_conscription
 		}
 		
