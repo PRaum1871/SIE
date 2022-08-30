@@ -27,6 +27,10 @@ set_popularities = {
 	socialism = 10
 	communism = 15
 	socdem = 5
-	
+}
 
+add_ideas = {
+	SOV_the_okhrana_tsar
+	SOV_the_militaristic_revival
+	russian_civil_war
 }

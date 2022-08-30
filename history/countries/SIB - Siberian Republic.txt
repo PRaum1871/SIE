@@ -22,3 +22,7 @@ set_popularities = {
 	sameism = 10
  	socialism = 15
 }
+
+add_ideas = {
+	russian_civil_war
+}

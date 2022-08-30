@@ -1,0 +1,20 @@
+ideas = {
+
+	country = {
+		russian_civil_war = {
+			
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				surrender_limit = 0.5
+				stability_factor = -0.5
+				stability_factor = -0.3
+				research_speed_factor = -0.25
+				local_resources_factor = -0.50
+			}
+		}
+	}
+	
+}

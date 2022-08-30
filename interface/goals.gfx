@@ -3075,6 +3075,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/ENG_quietly_support_civil_rights_movement.dds"
 	}
 	
+	SpriteType = { 
+		name = "GFX_ENG_fix_the_opposites_economy"
+		texturefile = "gfx/interface/goals/ENG_fix_the_opposites_economy.dds"
+	}
+	
 	#FRA
 	
 	SpriteType = { 

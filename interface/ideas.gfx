@@ -35,7 +35,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/FRA_algerian_crisis.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_GER_the_volksfuhrer"
+		texturefile = "gfx/interface/ideas/GER_the_volksfuhrer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GER_memories_of_the_second_world_war"
+		texturefile = "gfx/interface/ideas/GER_memories_of_the_second_world_war.dds"
+	}
 
+	spriteType = {
+		name = "GFX_idea_GER_blood_and_soil"
+		texturefile = "gfx/interface/ideas/GER_blood_and_soil.dds"
+	}
 
 
 

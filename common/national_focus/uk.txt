@@ -1502,7 +1502,7 @@ focus_tree = {
 	
 	focus = {
 		id = ENG_fix_the_opposites_economy
-		icon = GFX_goal_generic_build_tank
+		icon = GFX_ENG_fix_the_opposites_economy
 		x = 2
 		y = 1
 		cost = 1

@@ -1962,8 +1962,7 @@ focus_tree = {
 		focus = GER_france_no_more
 		}
 		relative_position_id = GER_the_eastern_reichscommisariats
-		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_RESEARCH}
+		available_if_capitulated = yes}
 		complete_tooltip = {
 		}
 		search_filters = {FOCUS_FILTER_INDUSTRY}
@@ -1981,12 +1980,9 @@ focus_tree = {
 			factor = 1
 		}
 		mutually_exclusive = { focus = GER_stablish_nordic_connections }
-		prerequisite = {
-		focus = GER_generalpan_norden
-		}
+		prerequisite = {  focus = GER_generalpan_norden	}
 		relative_position_id = GER_generalpan_norden
 		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_RESEARCH}
 		complete_tooltip = {
 		}
 		search_filters = {FOCUS_FILTER_INDUSTRY}

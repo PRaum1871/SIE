@@ -2,6 +2,8 @@ ideas = {
 
 	country = {
 		GER_the_volksfuhrer = {
+		
+			picture = "GFX_idea_GER_the_volksfuhrer"
 			
 			allowed = {
 				always = no
@@ -23,6 +25,8 @@ ideas = {
 		
 		GER_memories_of_the_second_world_war = {
 			
+			picture = "GFX_idea_GER_memories_of_the_second_world_war"
+			
 			allowed = {
 				always = no
 			}
@@ -41,6 +45,8 @@ ideas = {
 		}
 		
 		GER_blood_and_soil = {
+		
+			picture = "GFX_idea_GER_blood_and_soil"
 			
 			allowed = {
 				always = no

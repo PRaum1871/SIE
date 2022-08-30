@@ -8,7 +8,7 @@ ENG_internationally_isolated_desc:0 "When Calvin Mallard took over Britain with 
 ENG_the_hierarchy:0 "The Hierarchy"
 ENG_the_hierarchy_desc:0 "When Calvin Mallard took over Britain with the FFSR, Mallard implemented a caste system, putting homosexuals at the top and heterosexuals at the bottom. While this system has worked thus far, it has begun to crack under pressure from revolts, strikes and pro-heterosexual movements. If not improved, this system could break."
 FRA_the_untouched_crown:0 "The Untouched Crown"
-FRA_the_untouched_crown:0 "After the death of Maurass and Petain in the early 1950s, it was expected that the Action française would finally crown a new monarch. This however was proven to be incorrect as instead, The newly empowered Pierre Pujo completely ignored the conflict and instead began to consolidate more power for himself. The three heirs of France have begun to grow annoyed at the division and incompetence of Action française. The prince’s have already sided with the inner factions of Action française, and it only seems to be a matter of time before the princes decide to take the matter of the crown into their own hands."
+FRA_the_untouched_crown_desc:0 "After the death of Maurass and Petain in the early 1950s, it was expected that the Action française would finally crown a new monarch. This however was proven to be incorrect as instead, The newly empowered Pierre Pujo completely ignored the conflict and instead began to consolidate more power for himself. The three heirs of France have begun to grow annoyed at the division and incompetence of Action française. The prince’s have already sided with the inner factions of Action française, and it only seems to be a matter of time before the princes decide to take the matter of the crown into their own hands."
 FRA_internal_infightings:0 "Internal Infightings"
 FRA_internal_infightings_desc:0 "After the death of Maurass and Petain in the early 1950s, The Action Francaise became more divided as the leadership would often get into power plays, and proposals for the future of France ended in deadlock. With the three major monarchist factions fighting over power, demanding the Action Francaise re-establish the monarchy as Maurass wanted upon his death. Pierre Pujo’s government has become more divided and corrupt with it’s lack of action and often making very little concessions to it’s party factions, causing more of the Action Francaise demand the removal of Pujo and re-establish the monarchy."
 FRA_algerian_crisis:0 "Algerian Crisis"
@@ -19,11 +19,12 @@ GER_memories_of_the_second_world_war:0 "Memories of the Second Great War"
 GER_memories_of_the_second_world_war_desc:0 "While the Fatherland expanded her borders and all German people are under the National Socialist flag, many men died still in the conflict, and Alsace-Lorraine still remains in French hands. The people have had enough of war and are content with the current land the Aryan race occupies."
 GER_blood_and_soil:0 "Blood and Soil"
 GER_blood_and_soil_desc:0 "The German people have rightfully expanded outwards, and have claimed the lands rightfully owned by our ancestors… our dream of blood and soil was achieved, as the german family raises its german kids on its own property, away from bolshevik and jewish sabotage."
-
-
-
-
-
+SOV_the_okhrana_tsar:0 "The Okhrana Tsar"
+SOV_the_okhrana_tsar_desc:0 "Though the tsar himself rules absolutely, he seems to have become reliant on the help of Chief Sergey Vladimirovich Taboritsky, of the Okhrana. Though many from high and low standings feel paranoia towards the goals of the so-called “Second Rasputin”."
+SOV_the_militaristic_revival:0 "The Militaristic Revival"
+SOV_the_militaristic_revival_desc:0 "Tsar Alexi II is one of the most militaristic tsars since Alexander the Great. When he was young, he would regularly participate in inspections with the troops, and this is the same today. Alexi has ambitions for Imperial Russia, despite his Haemophilia, and is a true autocrat."
+russian_civil_war:0 "The Civil War"
+russian_civil_war_desc:0 "Ever since the truce between the warring powers of the Russian civil war, the wolves of Russia have begun to circle once more, ready to tear each other’s throats out. For god and tsar, for the republic, for the people and for Russia!"
 
 
 ########################### MOD ENDS HERE ########################################

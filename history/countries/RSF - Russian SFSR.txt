@@ -19,3 +19,7 @@ set_popularities = {
 	communism = 80
 	socialism = 20
 }
+
+add_ideas = {
+	russian_civil_war
+}

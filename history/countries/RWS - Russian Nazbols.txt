@@ -22,3 +22,7 @@ set_popularities = {
   	despotism = 10
  	authoritarianism = 10
 }
+
+add_ideas = {
+	russian_civil_war
+}
