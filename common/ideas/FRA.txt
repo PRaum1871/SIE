@@ -13,9 +13,7 @@ ideas = {
 				stability_weekly = -0.05
 			}
 		}
-	}
 	
-	country = {
 		FRA_internal_infightings = {
 			
 			picture = "GFX_idea_FRA_internal_infightings"
@@ -29,9 +27,7 @@ ideas = {
 				political_power_cost = 0.9
 			}
 		}
-	}
-	
-	country = {
+
 		FRA_algerian_crisis = {
 			
 			picture = GFX_idea_FRA_algerian_crisis
@@ -49,6 +45,4 @@ ideas = {
 			}
 		}
 	}
-	
-	
 }

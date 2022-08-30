@@ -1,0 +1,19 @@
+ideas = {
+
+	country = {
+		GRE_Justinian_III = {
+			
+			picture = GFX_idea_GRE_Justinian_III
+
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				drift_defence_factor = 0.25
+				despotism_drift = 0.05
+			}
+		}
+	}
+	
+}

@@ -1,0 +1,10 @@
+spriteTypes = {
+
+	### GRE
+
+	spriteType = {
+		name = "GFX_idea_GRE_Justinian_III"
+		texturefile = "gfx/interface/ideas/GRE_Justinian_III.dds"
+	}
+
+}

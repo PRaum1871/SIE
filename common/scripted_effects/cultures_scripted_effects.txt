@@ -1,5 +1,5 @@
 # Part of the culture stuff (Thanks to Vanadium#8665 for teaching me!)
-eogp_culture_setup = {
+sie_culture_setup = {
 	set_variable = { var = global.red@token:culture_brittanic value = 139 }
 	set_variable = { var = global.green@token:culture_brittanic value = 0 }
 	set_variable = { var = global.blue@token:culture_brittanic value = 0 }

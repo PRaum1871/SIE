@@ -38,7 +38,9 @@ recruit_character = NOR_trygve_halvdan_lie
 set_research_slots = 3
 
 add_ideas = {
-	limited_conscription
+	NOR_the_northen_prussia
+	NOR_the_king_and_his_subjects
+	NOR_the_legacy_of_the_17_of_may_coup
 }
 
 set_stability = 0.9

@@ -1,0 +1,47 @@
+ideas = {
+
+	country = {
+		NOR_the_northen_prussia= {
+			
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				war_support_factor = 0.15
+				army_morale = 5
+				army_org_regain = 0.15
+				offensive_war_stability_factor = 0.5
+			}
+		}
+			
+		NOR_the_king_and_his_subjects = {
+			
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				socdem_drift = 0.01
+				stability_factor = 0.1
+			}
+		}
+		
+		NOR_the_legacy_of_the_17_of_may_coup = {
+			
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				stability_factor = -0.25
+				resistance_activity = 0.5
+				resistance_decay_on_our_occupied_states = -0.5
+				communism_drift = 0.01
+				fascism_drift = 0.01
+				socialism_drift = 0.01
+			}
+		}
+	}
+	
+}

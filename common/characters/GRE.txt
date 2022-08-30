@@ -16,6 +16,9 @@ characters={
 	GRE_prince_aimone={
 		name="Prince Aimone"
 		portraits={
+			army={
+				small=GFX_idea_GRE_Justinian_III
+				}
 			civilian={
 				large=GFX_Portrait_Aimione_of_Aosta
 			}

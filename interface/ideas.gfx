@@ -49,6 +49,8 @@ spriteTypes = {
 		name = "GFX_idea_GER_blood_and_soil"
 		texturefile = "gfx/interface/ideas/GER_blood_and_soil.dds"
 	}
+	
+	
 
 
 
