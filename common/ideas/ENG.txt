@@ -15,7 +15,6 @@ ideas = {
 				
 			}
 		}
-	}
 	
 		ENG_leader_of_the_homosexual_world = {
 			
@@ -61,3 +60,4 @@ ideas = {
 		}
 		
 	}
+}
