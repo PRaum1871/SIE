@@ -10,7 +10,7 @@ characters={
 		country_leader={
 			ideology=orthodox_mallardism
 			traits = {
-			
+			power_bottom
 			}
 			desc = POLITICS_CALVIN_MALLARD_DESC
 			expire="1990.1.1.1"

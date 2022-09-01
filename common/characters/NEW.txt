@@ -9,6 +9,10 @@ characters={
 		}
 		country_leader={
 			ideology=clerical_sameism
+			desc = POLITICS_RUPERT_MACCULLOUGH_DESC
+			traits = {
+			top
+			}
 			expire="2000.1.1.1"
 			id=-1
 		}

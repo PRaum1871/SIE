@@ -3315,7 +3315,7 @@ focus_tree = {
 	focus = {
 		id = ENG_turingists_has_the_floor
 		icon = GFX_goal_generic_build_tank
-		x =-10
+		x =-12
 		y = 1
 		cost = 5
 		ai_will_do = {
@@ -3776,6 +3776,986 @@ focus_tree = {
 			
 		}
 		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_mallardists_stand_by
+		icon = GFX_goal_generic_build_tank
+		x = -4
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_talks_of_the_new_succesor
+		}
+		
+		relative_position_id = ENG_talks_of_the_new_succesor
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_our_safety
+		icon = GFX_goal_generic_build_tank
+		x = -2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_mallardists_stand_by
+		}
+		
+		relative_position_id = ENG_mallardists_stand_by
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_homophobia_is_inevitable
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_our_safety
+		}
+		
+		relative_position_id = ENG_our_safety
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_sameism_will_save_us
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_homophobia_is_inevitable
+		}
+		
+		relative_position_id = ENG_homophobia_is_inevitable
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_end_the_opposites_brainwashing
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_sameism_will_save_us
+		}
+		
+		relative_position_id = ENG_sameism_will_save_us
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_mallards_visions_will_not_be_dismissed
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_mallardists_stand_by
+		}
+		
+		relative_position_id = ENG_mallardists_stand_by
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_but_they_will_be_revised
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_mallards_visions_will_not_be_dismissed
+		}
+		
+		relative_position_id = ENG_mallards_visions_will_not_be_dismissed
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_concessions_to_turingists
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_but_they_will_be_revised
+		}
+		
+		relative_position_id = ENG_but_they_will_be_revised
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_the_nudges_to_foreign_effairs
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_concessions_to_turingists
+		}
+		
+		relative_position_id = ENG_concessions_to_turingists
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_new_ideas_old_goals
+		icon = GFX_goal_generic_build_tank
+		x = 2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_mallardists_stand_by
+		}
+		
+		relative_position_id = ENG_mallardists_stand_by
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_keep_your_friends_close
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_new_ideas_old_goals
+		}
+		
+		relative_position_id = ENG_new_ideas_old_goals
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_and_your_enemies_closer
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_keep_your_friends_close
+		}
+		
+		relative_position_id = ENG_keep_your_friends_close
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_expanding_our_sphere
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_and_your_enemies_closer
+		}
+		
+		relative_position_id = ENG_and_your_enemies_closer
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_embolden_the_hardliners
+		icon = GFX_goal_generic_build_tank
+		x = 4
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_talks_of_the_new_succesor
+		}
+		
+		relative_position_id = ENG_talks_of_the_new_succesor
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_protect_homosexuals
+		icon = GFX_goal_generic_build_tank
+		x = -2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_embolden_the_hardliners
+		}
+		
+		relative_position_id = ENG_embolden_the_hardliners
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_remember_what_we_are_fighting_for
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_protect_homosexuals
+		}
+		
+		relative_position_id = ENG_protect_homosexuals
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_the_sun_shall_never_set
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_remember_what_we_are_fighting_for
+		}
+		
+		relative_position_id = ENG_remember_what_we_are_fighting_for
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_on_our_new_empire
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_the_sun_shall_never_set
+		}
+		
+		relative_position_id = ENG_the_sun_shall_never_set
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_we_havent_gone_far_enough
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_embolden_the_hardliners
+		}
+		
+		relative_position_id = ENG_embolden_the_hardliners
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_remember_our_heritage
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_we_havent_gone_far_enough
+		}
+		
+		relative_position_id = ENG_we_havent_gone_far_enough
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_new_mallardist_society
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_remember_our_heritage
+		}
+		
+		relative_position_id = ENG_remember_our_heritage
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_proudly_rogue
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_new_mallardist_society
+		}
+		
+		relative_position_id = ENG_new_mallardist_society
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_dismiss_rumours_about_the_bronze_guard
+		icon = GFX_goal_generic_build_tank
+		x = 2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_embolden_the_hardliners
+		}
+		
+		relative_position_id = ENG_embolden_the_hardliners	
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_the_real_vanguard
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_dismiss_rumours_about_the_bronze_guard
+		}
+		
+		relative_position_id = ENG_dismiss_rumours_about_the_bronze_guard	
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_reassure_the_public
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_the_real_vanguard
+		}
+		
+		relative_position_id = ENG_the_real_vanguard	
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_imperial_ambitions
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_reassure_the_public
+		}
+		
+		relative_position_id = ENG_reassure_the_public	
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_evolutionists_speak_out
+		icon = GFX_goal_generic_build_tank
+		x = 12
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_talks_of_the_new_succesor
+		}
+		
+		relative_position_id = ENG_talks_of_the_new_succesor	
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_not_all_homosexuals
+		icon = GFX_goal_generic_build_tank
+		x = -2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_evolutionists_speak_out
+		}
+		
+		relative_position_id = ENG_evolutionists_speak_out	
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_homophobia_is_too_natural
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_not_all_homosexuals
+		}
+		
+		relative_position_id = ENG_not_all_homosexuals	
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_the_solution_to_many_problems
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_homophobia_is_too_natural
+		}
+		
+		relative_position_id = ENG_homophobia_is_too_natural	
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_is_death
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_the_solution_to_many_problems
+		}
+		
+		relative_position_id = ENG_the_solution_to_many_problems	
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_we_must_advance
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_evolutionists_speak_out
+		}
+		
+		relative_position_id = ENG_evolutionists_speak_out
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_envision_the_new_future
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_we_must_advance
+		}
+		
+		relative_position_id = ENG_we_must_advance
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_galvanize_the_turingists
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_envision_the_new_future
+		}
+		
+		relative_position_id = ENG_envision_the_new_future
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_close_the_doors
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_galvanize_the_turingists
+		}
+		
+		relative_position_id = ENG_galvanize_the_turingists
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_this_is_just_the_beggining
+		icon = GFX_goal_generic_build_tank
+		x = 2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_evolutionists_speak_out
+		}
+		
+		relative_position_id = ENG_evolutionists_speak_out
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_look_foward
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_this_is_just_the_beggining
+		}
+		
+		relative_position_id = ENG_this_is_just_the_beggining
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_all_eyes_on_charleston
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_look_foward
+		}
+		
+		relative_position_id = ENG_look_foward
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_push_the_overton_window
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_all_eyes_on_charleston
+		}
+		
+		relative_position_id = ENG_all_eyes_on_charleston
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_a_new_era_arrives
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = {
+		focus = ENG_push_the_overton_window
+		focus = ENG_close_the_doors
+		focus = ENG_is_death
+		}
+		
+		prerequisite = {
+		focus = ENG_imperial_ambitions
+		focus = ENG_proudly_rogue
+		focus = ENG_on_our_new_empire
+		}
+		
+		prerequisite = {
+		focus = ENG_expanding_our_sphere
+		focus = ENG_the_nudges_to_foreign_effairs
+		focus = ENG_end_the_opposites_brainwashing
+		}
+		
+		prerequisite = {
+		focus = ENG_idealistic_realpolitik
+		focus = ENG_old_faces_new_approaches
+		focus = ENG_be_part_of_the_world
+		}
+		
+		relative_position_id = ENG_talks_of_the_new_succesor
+		available_if_capitulated = yes
 		completion_reward = {
 		}
 	}
