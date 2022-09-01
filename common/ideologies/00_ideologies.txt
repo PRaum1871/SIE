@@ -693,9 +693,6 @@ ideologies = {
 			queer_populism = {
 			}
 			
-			turingism = {
-			}
-			
 			homonationalism = {
 			}
 			
@@ -703,6 +700,9 @@ ideologies = {
 			}
 			
 			showa_sameism = {
+			}
+			
+			clerical_sameism = {
 			}
 			
 		}

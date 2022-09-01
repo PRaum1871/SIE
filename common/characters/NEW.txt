@@ -8,7 +8,7 @@ characters={
 			
 		}
 		country_leader={
-			ideology=sameism_ideology  
+			ideology=clerical_sameism
 			expire="2000.1.1.1"
 			id=-1
 		}
