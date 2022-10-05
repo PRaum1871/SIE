@@ -267,11 +267,16 @@ spriteTypes = {
 		texturefile = "gfx/leaders/SWE/Portrait_Thord_Blonde.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_Portrait__SWE_Sven_Lindholm"
+		texturefile = "gfx/leaders/SWE/Portrait_Sven _Lindholm.dds"
+	}
+	
 	### NOR
 	
 	spriteType = {
-		name = "GFX_portrait_FIN_lauri_torni"
-		texturefile = "gfx/leaders/SWE/Portrait_Thord_Blonde.dds"
+		name = "GFX_Portrait_Olav_fifth"
+		texturefile = "gfx/leaders/NOR/Portrait_Olav_fifth.dds"
 	}
 	
 	### FIN
@@ -620,11 +625,11 @@ spriteTypes = {
 		texturefile = "gfx/leaders/AST/Portrait_Robert_Menzies.dds"
 	}
 	
-	### PHI
+	### IBE
 	
 	spriteType = {
 		name = "GFX_Portrait_Camilo_Osías"
-		texturefile = "gfx/leaders/PHI/Portrait_Camilo_Osías.dds"
+		texturefile = "gfx/leaders/IBE/Portrait_Camilo_Osías.dds"
 	}
 	
 	### BRM
@@ -670,13 +675,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_france_boutang"
 		texturefile = "gfx/leaders/FRA/Portrait_france_boutang.dds"
-	}
-	
-	### NOR
-	
-	spriteType = {
-		name = "GFX_Portrait_Olav_fifth"
-		texturefile = "gfx/leaders/NOR/Portrait_Olav_fifth.dds"
 	}
 	
 	### SPR
@@ -738,19 +736,75 @@ spriteTypes = {
 		texturefile = "gfx/leaders/SOV/Portrait_the_regent.dds"
 	}
 	
+	### RSF
+	
 	spriteType = {
 		name = "GFX_Portrait_Leon_Trotsky"
-		texturefile = "gfx/leaders/SOV/Portrait_Leon_Trotsky.dds"
+		texturefile = "gfx/leaders/RSF/Portrait_Leon_Trotsky.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Kaganovich"
+		texturefile = "gfx/leaders/RSF/Portrait_Kaganovich.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Molotov"
+		texturefile = "gfx/leaders/RSF/Portrait_Molotov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Nikita"
+		texturefile = "gfx/leaders/RSF/Portrait_Nikita.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Malenkov"
+		texturefile = "gfx/leaders/RSF/Portrait_Malenkov.dds"
+	}
+	
+	### RWS
 	
 	spriteType = {
 		name = "GFX_Portrait_Dmitry_Svyatopolk_Mirsky"
-		texturefile = "gfx/leaders/SOV/Portrait_Dmitry_Svyatopolk_Mirsky.dds"
+		texturefile = "gfx/leaders/RWS/Portrait_Dmitry_Svyatopolk_Mirsky.dds"
 	}
 	
 	spriteType = {
+		name = "GFX_Portrait_Beria"
+		texturefile = "gfx/leaders/RWS/Portrait_Beria.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Zhdanov"
+		texturefile = "gfx/leaders/RWS/Portrait_Zhdanov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Alexander_Solzhenitsyn"
+		texturefile = "gfx/leaders/RWS/Portrait_Alexander_Solzhenitsyn.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Eduard_Limonov"
+		texturefile = "gfx/leaders/RWS/Portrait_Eduard_Limonov.dds"
+	}
+	
+	# SIB
+	
+	spriteType = {
 		name = "GFX_Portrait_Alexander_Yakovlev"
-		texturefile = "gfx/leaders/SOV/Portrait_Alexander_Yakovlev.dds"
+		texturefile = "gfx/leaders/SIB/Portrait_Alexander_Yakovlev.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Gorby"
+		texturefile = "gfx/leaders/SIB/Portrait_Gorby.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Zukov"
+		texturefile = "gfx/leaders/SIB/Portrait_Zukov.dds"
 	}
 	
 	### CAN
